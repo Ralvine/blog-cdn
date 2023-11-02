@@ -1,0 +1,212 @@
+.home {
+  .home-profile {
+    @include transform(translateY( 16vh));
+    padding: 0 0 5rem;
+    text-align: center;
+    background-position: 50% 90%;
+    background-size: 150%;
+    background-image: url("https://z1.ax1x.com/2023/10/29/pieoGfe.png");
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 -200px 150px 0 rgba(0, 0, 0, 0.19);
+
+    .home-avatar {
+      padding: 2.5rem;
+
+      img {
+        display: inline-block;
+        width: 8rem;
+        height: auto;
+        margin: 0 auto;
+        @include border-radius(100%);
+        @include box-shadow(0 0 0 .3618em rgba(255, 255, 255, .05));
+        @include transition(all 0.4s ease);
+
+        &:hover {
+          position: relative;
+          @include transform(translateY(-.75rem));
+        }
+      }
+    }
+
+    .home-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin: 0;
+      padding: .5rem;
+    }
+
+    .home-subtitle {
+      font-size: 1rem;
+      font-weight: normal;
+      font-family: "LXGW WenKai Screen";
+      color: #FFFFFF;
+      text-shadow: 0 0 3px red, 0 0 3px green, 0 0 3px blue;
+      margin: 0;
+      padding: .5rem;
+    }
+
+    .links {
+      padding: .5rem;
+      font-size: 1.2rem;
+      text-shadow: 0 0 3px red, 0 0 3px green, 0 0 3px blue;
+
+      a * {
+        vertical-align: text-bottom;
+        color: #FFFFFF;
+      }
+
+      img {
+        height: 1.5rem;
+        padding: 0 .25rem;
+      }
+    }
+
+    .home-disclaimer {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: normal;
+      margin: 0;
+      padding: .5rem;
+      color: $global-font-secondary-color;
+
+      [theme=dark] & {
+        color: $global-font-secondary-color-dark;
+      }
+      [theme=black] & {
+        color: $global-font-secondary-color-black;
+      }
+    }
+  }
+}
+
+.home[posts] {
+  .home-profile {
+    @include transform(translateY(0));
+    padding-top: 2rem;
+  }
+
+  .home-avatar img {
+    width: 6rem;
+  }
+
+  .summary {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+    color: $global-font-color;
+    border-bottom: 0px dashed $global-border-color;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 150px 50px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem;
+    border-radius: 25px;
+
+    [theme=dark] & {
+      color: $global-font-color-dark;
+      border-bottom: 0px dashed $global-border-color-dark;
+    }
+    [theme=black] & {
+      color: $global-font-color-black;
+      border-bottom: 0px dashed $global-border-color-black;
+    }
+
+    .featured-image-preview {
+      width: 100%;
+      padding: 30% 0 0;
+      position: relative;
+      margin: 0rem auto;
+      @include transition(transform 0.4s ease);
+
+      img {
+        border-radius: 15px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        object-fit: cover
+      }
+
+
+      &:hover {
+        @include transform(scale(1.01));
+      }
+    }
+
+    .single-title {
+      font-size: 1.25rem;
+      line-height: 140%;
+      font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
+      font-weight: 900;
+      margin: 0.4rem 0;
+    }
+
+    .content {
+      @include box(vertical);
+      -webkit-line-clamp: 3;
+      margin-top: .3rem;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      @include overflow-wrap(break-word);
+      color: $global-font-secondary-color;
+      font-family: "LXGW WenKai Screen";
+      font-weight: 300;
+
+      [theme=dark] & {
+        color: $global-font-secondary-color-dark;
+      }
+      [theme=black] & {
+        color: $global-font-secondary-color-black;
+      }
+
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        display: inline;
+
+        &::after {
+          content: "\A";
+          white-space: pre;
+        }
+      }
+
+      h2 {
+        font-size: 1.125rem;
+      }
+
+      @include link(false, true);
+
+      b, strong {
+        color: $global-font-secondary-color;
+
+        [theme=dark] & {
+          color: $global-font-secondary-color-dark;
+        }
+        [theme=black] & {
+          color: $global-font-secondary-color-black;
+        }
+      }
+    }
+
+    .post-footer {
+      margin-top: .4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: .875rem;
+
+      @include link(false, false);
+
+      .post-tags {
+        padding: 0;
+
+        @include link(true, true);
+      }
+    }
+  }
+}

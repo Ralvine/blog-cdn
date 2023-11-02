@@ -1,0 +1,124 @@
+$showcase-background-color: #ffffff;
+$showcase-background-color-dark: #252627;
+$showcase-background-color-black: #111111;
+
+$showcase-color: #2d96bd;
+$showcase-color-dark: #a9a9b3;
+$showcase-color-black: #d9d9d9;
+
+$showcase-hover-color: #ef3982;
+$showcase-hover-color-dark: #ffffff;
+$showcase-hover-color-black: #ffffff;
+
+.showcase-box {
+    width: 48%;
+    height: 250px;
+    margin: 1.5% 3% 1.5% 0%;
+    border-radius: 25px;
+    display: inline-block !important;
+    background: $showcase-background-color;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    [theme="dark"] & {
+        background: $showcase-background-color-dark;
+    }
+    [theme="black"] & {
+        background: $showcase-background-color-black;
+    }
+}
+
+.column-1 {
+    width: 100%;
+    margin: 1% 0% 0% 0%;
+}
+.column-2 {
+    width: 46%;
+}
+.column-3 {
+    width: 32%;
+}
+
+.showcase-image {
+    @include transition(transform 0.4s ease);
+
+    img {
+        width: 96%;
+        margin: 2% 2% 0% 2%;
+        height: 140px;
+        max-width: none;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    &:hover {
+        @include transform(scale(1.01));
+    }
+}
+
+.showcase-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 140px;
+    width: 96%;
+    margin: 3% 3% 3% 2%;
+    font-size: 1.25rem;
+    line-height: 140%;
+}
+
+.showcase-title a {
+    color: black;
+    &:hover {
+        color: $showcase-hover-color;
+    }
+    [theme="dark"] & {
+        color: $showcase-color-dark;
+        &:hover {
+            color: $showcase-hover-color-dark;
+        }
+    }
+    [theme="black"] & {
+        color: $showcase-color-black;
+        &:hover {
+            color: $showcase-hover-color-black;
+        }
+    }
+}
+
+.showcase-summary {
+    position: absolute;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.8rem;
+    margin: 2%;
+    top: 170px;
+    line-height: 130%;
+    height: 50px;
+    width: 96%;
+}
+
+.showcase-link {
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+.showcase-link-extra {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+@media screen and (max-width: 680px) {
+    .showcase-box {
+        width: 100% !important;
+        margin: 1% 0% 0% 0%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .column-3 {
+        width: 48%;
+    }
+}

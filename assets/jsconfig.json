@@ -1,0 +1,10 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "../themes/DoIt-0.4.0/assets/*"
+   ]
+  }
+ }
+}

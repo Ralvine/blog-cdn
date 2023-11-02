@@ -1,0 +1,78 @@
+.related-container {
+    --related-background-color: #f8f8f8;
+    --related-background-color-dark: #252627;
+    --related-background-color-black: #111111;
+    --related-color: #2d96bd;
+    --related-color-dark: #a9a9b3;
+    --related-color-black: #d9d9d9;
+    --related-hover-color: #ef3982;
+    --related-hover-color-dark: #ffffff;
+    --related-hover-color-black: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 100%;
+    height: 180px;
+
+    .related-item-container {
+        flex-basis: 350px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        height: 160px;
+        min-width: 220px;
+        margin-right: 15px;
+        background: var(--related-background-color);
+        position: relative;
+        [theme="dark"] & {
+            background: var(--related-background-color-dark);
+        }
+        [theme="black"] & {
+            background: var(--related-background-color-black);
+        }
+    }
+    
+    .related-image {
+        @include transition(transform 0.4s ease);
+        img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+        &:hover {
+            @include transform(scale(1.01));
+        }
+    }
+    
+    .related-title {
+        position: absolute;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        top: 120px;
+        width: 90%;
+        margin: 10px;
+        font-size: 0.9rem;
+        line-height: 110%;
+        font-family: "LXGW WenKai Screen";
+        font-weight: 200;
+    }
+    
+    .related-title a {
+        color: black;
+        &:hover {
+            color: var(--related-hover-color);
+        }
+        [theme="dark"] & {
+            color: var(--related-color-dark);
+            &:hover {
+                color: var(--related-hover-color-dark);
+            }
+        }
+        [theme="black"] & {
+            color: var(--related-color-black);
+            &:hover {
+                color: var(--related-hover-color-black);
+            }
+        }
+    }
+}

@@ -31,9 +31,17 @@ password: test
 
 <!--more-->
 
+{{< admonition tip "时下重点" true >}}
+- 明确各个项目的具体要求和DDL
+- 轮流套磁剩余高校的老师
+{{< /admonition >}}
 
 ## 意向与套磁
 
+- 理学院
+- 数据科学学院
+
+**香港**
 1. 香港科技大学 广州[^1]
 2. 香港科技大学[^2]
 - YANGXIANG（不带博士，需要联系新的）
@@ -44,30 +52,52 @@ password: test
 - 王本友（待联系）
 6. 香港理工大学
 - 乔中华（暂无后续）
-7. 香港浸会大学-北师大联合项目
+7. 香港理工大学 深圳
+8. 香港浸会大学-北师大联合项目
 
-新加坡国立大学[^5]
+**新加坡**
+9. 新加坡国立大学[^5]
 - （招生办暂无后续，暂无套磁）
-南洋理工大学
+10. 南洋理工大学
 - 夏克林（等GRE、雅思）
 
-新加坡管理大学
+**备选**
+11. 新加坡管理大学
+- （等GRE）
+12. 奥本大学
 - （等GRE）
 
-奥本大学
-- （等GRE）
+**幻想**
+- UCSD
+- NYU
+- CMU
+- USC
+- UMich 密歇根州立
+- 奥本大学
+- UChicago
+
+## MS [备选]
+
+- NUS
+- NTU
+
+- 数据科学
+- 计算机科学
+- 人工智能
+
+## 材料
+
+- [ ] 护照 东四线下办理 先去纳米楼打印在读证明
+- [ ] GRE & IELTS
+- [x] CV
+- [ ] PS
+- [ ] RP
+- [x] Transcript
+- [ ] Letter（王何宇、毕惟红、赖俊）
 
 
+## 时间线
 
-新二PHD 先投递了
-港五PHD 先套完磁
-护照 东四线下办理 先去纳米楼打印在读证明
-GRE&IELTS
-
-
-只投PHD
-
-**时间线**
 ![[Pasted image 20231021224102.png]]
 港大
 
@@ -86,34 +116,6 @@ GRE&IELTS
 ![[Pasted image 20231021224649.png]]
 南洋理工
 
-10.11 
-- 从科研Doge中检索数学类项目进行套磁
-- 浏览港新院校的数理类ms项目筛选大概7个
-- 小红书
-- 小木虫
-
-- 港五
-    - 港大
-    - 港中文+港中深
-    - 港科+港科广
-    - 港城
-    - 港理+港理深
-    - CUHK
-    - HKU
-- 新二
-    - NUS
-    - NTU
-- America
-    - UCSD
-    - NYU
-    - CMU
-    - USC
-    - UMich 密歇根州立
-    - 奥本大学
-    - UChicago
-
-
-- 统计，数据科学，AI，CS
 
 - 无人驾驶
 - 微软亚洲研究院
@@ -159,16 +161,3 @@ ZJU-NUS-MSRA
 [^3]: https://hkumath.hku.hk/web/about-us/faculty.php
 [^4]: https://sse-mphil-phd.cuhk.edu.cn/teacher-search?class_type=20&keywords=&category=All&alphabet=All&academic=All&page=1
 [^5]: https://www.math.nus.edu.sg/people/regular-faculty/
-
-## 语言
-
-GRE
-IELTS
-
-## 材料
-
-CV
-PS
-RP
-Transcript
-Letter

@@ -1,10 +1,34 @@
 ---
-tags:
-  - 历史
-comments: true
+authors: [Ralvine]
+title: 浙江黄岩撤市设区之争：一个地方人大的十年之痒
+# subtitle: 副标题.
+date: 2022-11-15T20:20:40+08:00
+lastmod: 2021-11-15T20:25:40+08:00
+draft: false
+description: 反腐败不是看人下菜的“势利店”，不是争权夺利的“纸牌屋”，也不是有头无尾的“烂尾楼”。我们不舒服一点、不自在一点，老百姓的舒适度就好一点、满意度就高一点，对我们的感觉就好一点。
+#license: MIT
+images: ["https://z1.ax1x.com/2023/10/23/piANV10.png"]
+#seriesNavigation: 系列导航.
+featuredImage: "https://z1.ax1x.com/2023/10/23/piANV10.png"
+#featuredImagePreview: 用在主页预览的文章特色图片.
+hiddenFromHomePage: false
+hiddenFromSearch: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: true
+enableLastMod: true
+enableWordCount: true
+enableReadingTime: true
+tags: ["王岐山", "反腐", "十八大"]
+categories: ["札录"]
+series: ["历史进程"]
+series_weight: 1
 ---
 
-# 浙江黄岩撤市设区之争：一个地方人大的十年之痒
+<!--more-->
 
 ??? info "朱雨晨 郑焰 《瞭望东方周刊》 2004-04-07"
     在浙江省行政体制改革的背景下，一个区域的最高权力机关通过合法的手段，反抗上级机关不符合他们利益的行政决定。经过8年争取，在一定程度上修正了上级的行政决定。

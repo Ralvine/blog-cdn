@@ -1,14 +1,34 @@
 ---
-tags: 
-  - 前端开发
-hide:
-  - tags
-comments: true
+authors: [Ralvine]
+title: CSS
+# subtitle:
+date: 2023-09-12T20:20:40+08:00
+lastmod: 2023-09-12T20:25:40+08:00
+draft: false
+description: 
+#license: MIT
+images: ["https://z1.ax1x.com/2023/11/01/pinHqnH.png"]
+#seriesNavigation: 系列导航.
+featuredImage: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+#featuredImagePreview: 用在主页预览的文章特色图片.
+hiddenFromHomePage: false
+hiddenFromSearch: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: true
+enableLastMod: true
+enableWordCount: true
+enableReadingTime: true
+tags: ["温铁军", "经济", "政治"]
+categories: ["笔记"]
+series: ["课程-大四"]
+series_weight: 1
 ---
-# HTML&CSS
 
-## HTML
-
+<!--more-->
 
 ## CSS 
 

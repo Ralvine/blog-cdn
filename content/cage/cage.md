@@ -38,28 +38,28 @@ comment:
   <div class="subpage-box-cover">
     <a href="https://blog.ralvines.top/cage/music" data-pjax-state="">
       <p class="image-hyper">🎹</p>
-      <p class="image-caption">音乐 </p>
+      <p class="image-caption">音乐</p>
       <img alt="音乐" data-src="" src="https://z1.ax1x.com/2023/10/23/piA8oI1.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
     <a href="https://blog.ralvines.top/cage/drama" data-pjax-state="">
       <p class="image-hyper">📺</p>
-      <p class="image-caption">剧集 </p>
+      <p class="image-caption">剧集</p>
       <img alt="剧集" data-src="" src="https://z1.ax1x.com/2023/10/30/pimOdl8.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
     <a href="https://blog.ralvines.top/cage/tool" data-pjax-state="">
       <p class="image-hyper">⚙️</p>
-      <p class="image-caption">工具 </p>
+      <p class="image-caption">工具</p>
       <img alt="工具" data-src="" src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
     <a href="https://blog.ralvines.top/cage/document" data-pjax-state="">
       <p class="image-hyper">🎬</p>
-      <p class="image-caption">纪录片 </p>
+      <p class="image-caption">纪录片</p>
       <img alt="纪录片" data-src="" src="https://z1.ax1x.com/2023/10/30/pimOw6S.png" data-loaded="true">
     </a>
   </div>

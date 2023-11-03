@@ -35,6 +35,7 @@ math:
 
 - MacBook Pro 14 [购买]
 - Smart Keyboard Folio [购买]
+- Apple Watch SE [购买]
 - Magsafe 外接电池 [购买]
 - iPad Pro 11 [购买]
 - Moft × Starbucks 联名支架 [购买]
@@ -59,8 +60,6 @@ math:
 - iPhone 5S [购买]
 - iPhone 4S [购买]
 - iPad 2 [购买]
-
-
 
 ---
 

@@ -18,7 +18,7 @@ comment:
     <a href="https://blog.ralvines.top/cage/books" data-pjax-state="">
       <p class="image-hyper">📚</p>
       <p class="image-caption">书籍</p>
-      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/10/24/piEyqgg.png" data-loaded="true">
+      <img alt="书籍" data-src="" src="https://z1.ax1x.com/2023/10/24/piEyqgg.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
@@ -46,14 +46,21 @@ comment:
     <a href="https://blog.ralvines.top/cage/drama" data-pjax-state="">
       <p class="image-hyper">📺</p>
       <p class="image-caption">剧集 </p>
-      <img alt="音乐" data-src="" src="https://z1.ax1x.com/2023/10/30/pimOdl8.png" data-loaded="true">
+      <img alt="剧集" data-src="" src="https://z1.ax1x.com/2023/10/30/pimOdl8.png" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover">
+    <a href="https://blog.ralvines.top/cage/tool" data-pjax-state="">
+      <p class="image-hyper">⚙️</p>
+      <p class="image-caption">工具 </p>
+      <img alt="工具" data-src="" src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
     <a href="https://blog.ralvines.top/cage/document" data-pjax-state="">
       <p class="image-hyper">🎬</p>
       <p class="image-caption">纪录片 </p>
-      <img alt="音乐" data-src="" src="https://z1.ax1x.com/2023/10/30/pimOw6S.png" data-loaded="true">
+      <img alt="纪录片" data-src="" src="https://z1.ax1x.com/2023/10/30/pimOw6S.png" data-loaded="true">
     </a>
   </div>
 </div>

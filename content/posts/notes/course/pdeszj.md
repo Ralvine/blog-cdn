@@ -1,11 +1,41 @@
 ---
-tags:
-  - 大三下
-static: true
-comments: true
+authors: [Ralvine]
+title: 微分方程数值解
+# subtitle: 副标题.
+date: 2023-03-01T20:20:40+08:00
+lastmod: 2023-07-01T20:25:40+08:00
+draft: false
+description: 22-23 春夏学期「面向对象程序设计」课程学习笔记。
+#license: MI
+images: ["https://z1.ax1x.com/2023/10/23/piAWIwd.png"]
+#seriesNavigation: 系列导航.
+featuredImage: "https://z1.ax1x.com/2023/10/23/piAWIwd.png"
+#featuredImagePreview: 用在主页预览的文章特色图片.
+hiddenFromHomePage: false
+hiddenFromSearch: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: true
+enableLastMod: true
+enableWordCount: true
+enableReadingTime: true
+tags: ["C++", "编程语言", "许威威"]
+categories: ["笔记"]
+series: ["课程-大三"]
+series_weight: 1
 ---
 
-# 微分方程数值解
+<!--more-->
+
+{{< admonition quote "课程信息" true >}}
+🎓 计算机科学与技术学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 许威威<br>
+📝 50%作业，50%期末
+{{< /admonition >}}
 
 !!! quote ""
     - 🎓 数学科学学院
@@ -123,9 +153,6 @@ comments: true
     - CFL条件
     - 修正方程
     - 冯诺依曼分析
-
-
-
 
 ## 作业
 

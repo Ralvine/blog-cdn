@@ -1,11 +1,41 @@
 ---
-tags:
-  - 大二下
-static: true
-comments: true
+authors: [Ralvine]
+title: 偏微分方程
+# subtitle: 副标题.
+date: 2023-03-01T20:20:40+08:00
+lastmod: 2023-07-01T20:25:40+08:00
+draft: false
+description: 22-23 春夏学期「面向对象程序设计」课程学习笔记。
+#license: MI
+images: ["https://z1.ax1x.com/2023/10/23/piAWIwd.png"]
+#seriesNavigation: 系列导航.
+featuredImage: "https://z1.ax1x.com/2023/10/23/piAWIwd.png"
+#featuredImagePreview: 用在主页预览的文章特色图片.
+hiddenFromHomePage: false
+hiddenFromSearch: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: true
+enableLastMod: true
+enableWordCount: true
+enableReadingTime: true
+tags: ["C++", "编程语言", "许威威"]
+categories: ["笔记"]
+series: ["课程-大三"]
+series_weight: 1
 ---
 
-# 偏微分方程
+<!--more-->
+
+{{< admonition quote "课程信息" true >}}
+🎓 计算机科学与技术学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 许威威<br>
+📝 50%作业，50%期末
+{{< /admonition >}}
 
 !!! quote ""
     - 🎓 数学科学学院
@@ -187,3 +217,55 @@ u(x,0)=\varphi(x), & x\in\mathbb
 {R}\\
   \end{array}\right.
 $$
+
+
+!!! quote ""
+    - 🎓 数学科学学院
+    - 🕙 2022-2023 秋冬
+    - 🧑‍🏫 孔德兴
+    - 📝 作业，考试
+
+## 参考
+
+- 《偏微分方程》孔德兴
+
+## Ch1. 绪论
+
+## Ch2. 一阶方程
+
+- 线性方程
+- 拟线性方程
+- 偏微分方程组
+
+## Ch3. 双元二阶方程
+
+## Ch4. 波动方程
+
+- 一维
+    - 导出、定解条件
+    - 柯西问题
+    - 初边值问题
+        - 分离变量法
+- 高维
+    - 球平均法
+- 传播
+- 能量不等式
+
+## Ch5. 热传导方程
+
+- 导出、定解条件
+- 柯西问题
+    - 傅立叶变换法
+- 初边值问题
+- 极值原理
+
+## Ch6. Laplace方程
+
+- 导出、定解条件
+- 变分法
+- 调和函数
+    - 格林公式
+    - 极值原理
+- 格林函数
+    -镜像法
+- 强极值原理

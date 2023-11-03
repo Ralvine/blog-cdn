@@ -1,9 +1,34 @@
 ---
-title: Final Cut Pro 笔记
-date: 2022-01-24 0:00:00
-tags: FinalCutPro
-categories: 笔记
+authors: [Ralvine]
+title: Final Cut Pro 使用技巧
+# subtitle: 副标题.
+date: 2023-10-22T20:20:40+08:00
+lastmod: 2023-10-22T20:25:40+08:00
+draft: false
+description: 文章内容的描述。
+#license: MIT
+images: ["https://z1.ax1x.com/2023/11/01/pinHjAI.png"]
+#seriesNavigation: 系列导航.
+featuredImage: "https://z1.ax1x.com/2023/11/01/pinHjAI.png"
+#featuredImagePreview: 用在主页预览的文章特色图片.
+hiddenFromHomePage: false
+hiddenFromSearch: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: true
+enableLastMod: true
+enableWordCount: true
+enableReadingTime: true
+tags: ["口语", "雅思"]
+categories: ["笔记"]
+series: ["自我成长"]
+series_weight: 1
 ---
+
+<!--more-->
 
 {% cq %}[基础教程](https://www.bilibili.com/video/BV15T4y127n4)｜01/24-01/25{% endcq %}
 
@@ -48,7 +73,6 @@ categories: 笔记
 - Log2/Log3/Hlg/Cine/Raw
 
 - 顺序
-
   - 一级调色（校色）：曝光、对比度、色相、饱和度
 
     下载设备对应色彩还原LUT-效果面板
@@ -60,9 +84,7 @@ categories: 笔记
     2. 色轮
 
   - 二级调色：风格化-局部调整/降噪
-
 - 视频观测仪-辅助：Command+7
-
   - 波形图控制：0～100 亮度、色度、RGB
   - 矢量显示器
 

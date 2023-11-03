@@ -832,6 +832,15 @@ series = "series"
   [[menu.main]]
     identifier = ""
     parent = "便笺"
+    pre = "⚙️"
+    post = ""
+    name = "工具"
+    url = "/cage/tool/"
+    title = ""
+    weight = 4
+  [[menu.main]]
+    identifier = ""
+    parent = "便笺"
     pre = "🎬"
     post = ""
     name = "纪录片"
@@ -862,6 +871,15 @@ series = "series"
     post = ""
     name = "摄影"
     url = "/time/photo/"
+    title = ""
+    weight = 6
+  [[menu.main]]
+    identifier = ""
+    parent = "拾迹"
+    pre = "🔦"
+    post = ""
+    name = "技能"
+    url = "/time/skill/"
     title = ""
     weight = 6
   [[menu.main]]

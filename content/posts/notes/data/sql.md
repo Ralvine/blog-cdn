@@ -46,11 +46,6 @@ series_weight: 1
 - `as` 呈现字段名称
 - 
 
-```
-123
-4r5
-```
-
 ## Spark SQL[^3]
 
 

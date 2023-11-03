@@ -26,19 +26,180 @@ tags: ["雅思", "GRE"]
 categories: ["回溯"]
 series: ["自我成长"]
 series_weight: 1
-password: test
 ---
 
 <!--more-->
 
-## 题型
+## 雅思
 
+**总览**
+- [x] Simon
 
-## 笔试经验
+**Speaking**
+- [ ] 题库
+- [ ] 雅思口语900句
 
-### 雅思
+**Listening**
+- [ ] 王陆听力语料库 Unit 3 5 11
+- [ ] 考点词真经179
+- [ ] 听力核心词
+- [ ] 高频场景词800
 
-### GRE
+**Reading**
+- [ ] 真题核心词 1 2 4 5 6
+- [ ] 考点词376
+- [ ] 考点词538
+- [ ] 7000词100句
+
+**Writing**
+- [ ] 顾家北作文
+- [ ] Simon
+- [ ] Simon观点库&范文
+- [ ] 写作真经总纲
+- [ ] 刘洪波写作框架
+
+**模练**
+- [x] 雅思哥 雅剑 C18-C10
+
+### 口语
+
+**Scoring**
+- Fluency
+- Clear
+- Vocabulary
+- Grammar (less fault)
+
+**3 Parts**
+1. 1 brief+2 mini topics(short)
+- Fluency
+2. topic areas
+- person
+    - who, what does, when met, how know, why like
+    - teacher, famous, friend, family, child, helps other, does well
+- place
+    - which, where, what did, why like
+    - city, holiday, historic, river, shop
+- object
+- event
+    - in life, festival, party, celebration
+    - birthday, wedding, sports, concert
+- activity
+    - what, where, who, why
+    - hobby, sport, game, healthy, new, recently
+- favorites
+    - film/TV program, music, book, website, advertisement
+- Vocabulary
+3. long detailed answers
+- opinion+reason+example+(opposite)
+- Structure
+
+**theme words**
+- Person: caring, kind, big-hearted, down-to-earth, easy-going, always there when you need him, someone who cheers me up, a magnetic personality, light up room
+- Place: friendly, welcoming, inviting, warm, approachable, polite, thoughtful, attentive, great atmosphere, make me feel at home, excellent service, nothing was too much to ask, unforgettable evening
+- Wedding: bride, groom, guests, ceremony, marriage vows, speech, reception, flower, cake
+- Festival: what it commemorates, religious significance, gifts, decorations, customs, special meal, public holiday
+- Sports Game: athletes, players, crowd, spectators, stadium, field, pitch, track, commentators, the contest, score, winner
+- Concert: band, group, orchestra, lighting, sound, stage, crowd, audience, instruments, voice, song, piece of music
+- Sports: keep fit, stay in good condition, feel refreshed, build strength and endurance, a low-impact sport, relieve stress, clear my mind
+
+### 听力
+
+- 30 min + 10 min (end)
+- 40 questions
+
+- 4 sections
+1. daily conversation
+2. speech non-academic topic
+3. two or three speakers conversation(education)
+4. one speaker speech(education)
+- 3 types
+1. gap-fill
+2. multiple choice
+3. matching
+
+**breaks**
+- before each section
+- in the middle of section 1,2,3
+- end of each section
+
+**technique**
+- don't check back
+- listen for keywords or synonyms
+
+### 阅读
+
+- 1 hour 40 questions
+
+**Order**
+1. topic
+2. questions & underline keywords
+3. read bodies
+
+**Types**
+1. **gap-fill**
+- words from passage/list/box
+- label a diagram/table
+2. true/false/not given & yes/no/not given
+3. multiple choice
+4. matching
+- **paragraph headings**
+- **paragraph information**
+- sentence endings
+- other features eg **names**
+5. short answer questions
+
+### 作文
+
+#### Task1
+
+- Time
+- Type
+1. Line graph
+2. Bar chart
+3. Pie chart
+4. Table
+5. Diagram - comparing
+6. Diagram - process
+1. Skeleton
+2. Introduction
+3. Overview: 2+2
+4. Details
+5. Details
+
+#### Task2
+
+- 40min
+1. 10min plan
+2. 5min introduction
+3. 20min body
+4. 5min conclusion
+- 250 words
+- Type
+1. discussion
+2. opinion
+3. problem and solution
+4. two-part question
+- Skeleton: 2+5x2+1
+1. introduction
+- 2 sentences
+- 30-40 words
+2. main body
+- 2 paragraphs, each 5 sentences  90-100 words
+    Topic+First+Second+Finally insert some explains
+- firstly secondly finally - dis/advantages probelm/solutions
+- idea explain example - one reason/idea/solution
+3. conclusion
+- never write an anything new
+- 1 sentence review/summary
+- paraphrasing to show variety
+
+**词汇**
+- as opposed to
+- agree scheme
+- become commonplace
+- do outweigh sth
+
+## GRE
 
 本人新大二，报名的是8月25号上午考试院的考试，从8月2号回校开始零基础脱产自学，每天早九晚十但是实际学习时间可能只有一半。虽然考试体验不是很好，但最后瞎猫碰见死耗子取得了出乎意料的成绩，想跟大家分享一下一些乱七八糟的经验（或许有用）
 

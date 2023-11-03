@@ -131,3 +131,20 @@ password: test
 3. **数据类**
 - 数据分析
 
+## 技术栈
+
+### 开发类
+
+- 操作系统
+- Linux
+- C++面向对象
+- 数据结构
+- 算法
+
+### 产品类
+
+
+### 数据类
+
+- 相关习题 [1](https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799) [2](https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629) [3](https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&pid=31369524&testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D产品经理%26selectStatus%3D0&testclass=产品%2F运营)
+

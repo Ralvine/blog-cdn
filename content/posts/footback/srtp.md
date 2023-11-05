@@ -1,13 +1,35 @@
 ---
-tags:
-  - 望薮
-  - 项目
-  - 科研
-  - 数学
-static: true
+authors: [Ralvine]
+title: Matlab曲线拟合工具箱的国产替代产品研发与应用
+# subtitle: 副标题.
+date: 2022-01-23T13:20:40+08:00
+lastmod: 2022-01-23T13:25:40+08:00
+draft: false
+description: 
+#license: MIT
+images: ["https://z1.ax1x.com/2023/11/01/pinHOHA.png"]
+#seriesNavigation: 系列导航.
+featuredImage: "https://z1.ax1x.com/2023/11/01/pinHOHA.png"
+#featuredImagePreview: 用在主页预览的文章特色图片.
+hiddenFromHomePage: false
+hiddenFromSearch: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: true
+enableLastMod: true
+enableWordCount: true
+enableReadingTime: true
+tags: 
+categories: ["回溯"]
+series: ["自我成长"]
+series_weight: 1
+password: test
 ---
 
-# Matlab曲线拟合工具箱的国产替代产品研发与应用
+<!--more-->
 
 ## 个人开发日志
 

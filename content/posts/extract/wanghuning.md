@@ -9,8 +9,8 @@ description: 高明的人站在矛盾之上，不高明的人站在矛盾的一�
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piA3TgS.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piA3TgS.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piA3TgS.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["王沪宁", "政治", "复旦大学"]
 categories: ["札录"]
-series: ["人物志", "读书记录", "⭐️5"]
+series: ["人物志", "读书记录", "历史进程", "⭐️5"]
 series_weight: 1
 ---
 

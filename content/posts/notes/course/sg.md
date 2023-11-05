@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["经济", "政治", "金一南"]
 categories: ["笔记"]
-series: ["课程-大一"]
+series: ["本科课程"]
 series_weight: 1
 ---
 

@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["温铁军", "经济", "政治"]
 categories: ["笔记"]
-series: ["课程-大四"]
+series: ["本科课程"]
 series_weight: 1
 ---
 

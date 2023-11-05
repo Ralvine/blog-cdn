@@ -9,8 +9,8 @@ description: 2024秋招各企业岗位投递实况和经验复盘。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/24/piEGcUs.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/24/piEGcUs.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/24/piEGcUs.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -90,6 +90,8 @@ password: test
 - 美团
 - 网易
 - 百度
+- 京东
+- 滴滴
 
 ### 终端与智能制造
 
@@ -107,13 +109,11 @@ password: test
 2. BI产品
 - 帆软
 
-4. **国企/银行**
-
+3. **国企/银行**
 - 工商银行
 - 国开行
 
-5. **新能源/汽车**
-
+4. **新能源/汽车**
 - 比亚迪
 
 ## 择岗

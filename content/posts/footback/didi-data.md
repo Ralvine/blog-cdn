@@ -5,12 +5,12 @@ title: 滴滴大数据研发实习进程实录
 date: 2023-10-24T13:20:40+08:00
 lastmod: 2023-10-24T13:25:40+08:00
 draft: false
-description: 消费互联网领域平台企业数据类岗位的经验与复盘。
+description: 数据策略中心-数据研发岗，从入门到入职。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piAGdW6.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAGdW6.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAGdW6.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

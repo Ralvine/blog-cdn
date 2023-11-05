@@ -84,6 +84,7 @@ blockquote.quote-center {
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         font-family: "LXGW WenKai Screen";
+        // font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
     }
     &::before {
         position: absolute;
@@ -92,6 +93,7 @@ blockquote.quote-center {
         color: $blockquote-color;
         font-size: 3em;
         font-weight: bold;
+        font-family: serif;
         margin-top: 0em;
     }
     &::after {
@@ -102,6 +104,7 @@ blockquote.quote-center {
         font-size: 3em;
         font-weight: bold;
         margin-top: 0em;
+        font-family: serif;
     }
 }
 
@@ -115,13 +118,14 @@ blockquote.quote {
     border: none;
     p {
         font-family: "LXGW WenKai Screen";
+        // font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
     }
     &::before {
         position: absolute;
         left: 0;
         content: '“';
         color: $blockquote-color;
-        font-family: 'JetBrains Mono', 'Amstelvar', 'Noto Serif SC', serif;
+        font-family: serif;
         font-size: 3em;
         font-weight: bold;
         line-height: 1;

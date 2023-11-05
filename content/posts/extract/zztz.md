@@ -9,8 +9,8 @@ description: 俞正声抬头缓缓说道：“党的未来取决于党本身，�
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piAN2DS.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAN2DS.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAN2DS.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["汪洋", "政治", "俞正声", "韩正", "蔡奇"]
 categories: ["札录"]
-series: ["人物", "历史进程"]
+series: ["人物志", "历史进程"]
 series_weight: 1
 ---
 

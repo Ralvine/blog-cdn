@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["C++", "编程语言", "许威威"]
 categories: ["笔记"]
-series: ["课程-大三"]
+series: ["本科课程"]
 series_weight: 1
 ---
 

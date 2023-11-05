@@ -15,6 +15,8 @@ math:
 
 ## ⏰ 2023
 
+- MacBook Pro 13 (M1)
+- MacBook Pro 16 (2019)
 - 问界 M5 智驾版
 - Huawei Mate X5
 - iPhone 15 Pro Max
@@ -33,7 +35,7 @@ math:
 
 ## ⏰ 2021
 
-- MacBook Pro 14 [购买]
+- MacBook Pro 14 (2021) [购买]
 - Smart Keyboard Folio [购买]
 - Apple Watch SE [购买]
 - Magsafe 外接电池 [购买]

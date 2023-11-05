@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: PHD申请实录
+title: PHD 申请实录
 # subtitle: 副标题.
 date: 2023-09-29T13:20:40+08:00
 lastmod: 2023-09-29T13:25:40+08:00

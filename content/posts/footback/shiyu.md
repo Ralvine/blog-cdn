@@ -1,7 +1,37 @@
 ---
+authors: [Ralvine]
+title: 2023 寒假社会实践：食育护未来
+# subtitle: 副标题.
+date: 2022-01-23T13:20:40+08:00
+lastmod: 2022-01-23T13:25:40+08:00
+draft: false
+description: 
+#license: MIT
+images: ["https://z1.ax1x.com/2023/11/01/pinHOHA.png"]
+#seriesNavigation: 系列导航.
+featuredImage: "https://z1.ax1x.com/2023/11/01/pinHOHA.png"
+#featuredImagePreview: 用在主页预览的文章特色图片.
+hiddenFromHomePage: false
+hiddenFromSearch: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: true
+enableLastMod: true
+enableWordCount: true
+enableReadingTime: true
 tags: 
-  - 社会实践
+categories: ["回溯"]
+series: ["自我成长"]
+series_weight: 1
+password: test
 ---
+
+<!--more-->
+
+
 # “食育护未来—小学生饮食健康调研”寒假社会实践
 
 

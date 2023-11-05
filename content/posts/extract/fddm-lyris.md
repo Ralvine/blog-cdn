@@ -9,8 +9,8 @@ description: “我是那迟迟不肯启航的一江水，以为明日扣门而�
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piA8oI1.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piA8oI1.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piA8oI1.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

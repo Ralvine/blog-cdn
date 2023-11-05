@@ -29,6 +29,10 @@
         font-weight: 800;
     }
 
+    .related-text::before {
+        content: "| ";
+    }
+
     .related-item-container {
         top: 40px;
         flex-basis: 350px;

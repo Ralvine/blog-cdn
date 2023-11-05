@@ -2,8 +2,8 @@
 authors: [Ralvine]
 title: 数据结构与算法
 # subtitle: 副标题.
-date: 2022-09-01T20:20:40+08:00
-lastmod: 2023-01-01T20:25:40+08:00
+date: 2021-09-01T20:20:40+08:00
+lastmod: 2021-09-01T20:25:40+08:00
 draft: false
 description: 21-22 秋冬学期「数据结构与算法」课程学习笔记。
 #license: MI
@@ -85,7 +85,7 @@ Array<T>::FunctionName(const Array<T>& _obj) {}
 
 `void copyMemory(const T* _s,T* _d,int _n);`
 
-#### Static
+#### static
 
 静态变量，延长生命周期又相较全局变量保留了一定的访问范围。需要一个数据对象为整个类而非某个对象服务,同时又力求不破坏类的封装性,即要求此成员隐藏在类的内部时使用。
 
@@ -93,9 +93,9 @@ Array<T>::FunctionName(const Array<T>& _obj) {}
 
 指向obj自身的指针
 
-#### Explicit 显式转换
+#### explicit 显式转换
 
-explicit 对单参数构造函数限制隐式转换
+`explicit` 对单参数构造函数限制隐式转换
 防止编译器进行类型等方式的强制转换。
 
 ### 宏定义
@@ -115,14 +115,16 @@ explicit 对单参数构造函数限制隐式转换
 
 #### 形参的值传递 指针传递 引用传递
 
-默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；*&obj适用于struct对象，对其属性变量进行修改
+默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；
 
-（1）T* a： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据
-（2）T& a：左值引用，实参的别名
+`*&obj` 适用于struct对象，对其属性变量进行修改
+
+1. `T* a` ： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据
+2. `T& a` ：左值引用，实参的别名
 
 #### 左值 右值引用
 
-右值引用&&：防止传递给形参T& a的是常量（此时函数无法修改a）
+右值引用 `&&` ：防止传递给形参 `T& a` 的是常量（此时函数无法修改a）
 
 **看能不能对表达式取地址，如果能，则为左值，否则为右值**
 
@@ -137,7 +139,7 @@ int &&d = 10;
 
 ### std::move
 
-强制将左值转换为右值引用，如push_back避免开辟新内存
+强制将左值转换为右值引用，如 `push_back` 避免开辟新内存
 
 ```c++
 AvlNode(const Comparable & ele, AvlNode *lt, AvlNode *rt, int h = 0): element{ele}, left{lt}, right{rt}, height{h} {}
@@ -203,15 +205,16 @@ clock_t start = clock();
 
 ### big O
 
-$1000N=O(N^2); (logN)^k=O(N);\\$
+$1000N=O(N^2); (logN)^k=O(N);$
+
 $1 < logN < N < NlogN < N^2$
 
 ### 时间复杂度
 
-> for循环｜内语句*迭代次数；嵌套循环
-> 顺序语句｜求和，取Max；判定语句
-> NlogN|最大子序列问题 一次N遍历&一次二分查找
-> logN｜二分搜索，欧几里得
+- for循环｜内语句*迭代次数；嵌套循环
+- 顺序语句｜求和，取Max；判定语句
+- NlogN|最大子序列问题 一次N遍历&一次二分查找
+- logN｜二分搜索，欧几里得
 
 ## 主定理
 
@@ -223,17 +226,24 @@ $1 < logN < N < NlogN < N^2$
 
 构造树，$\text{depth}=log(b,n)，\text{widget}=a^{(log(b,n))}=n^{(log(b,a))}$
 
-*实例：二分查找*
+{{< admonition note "实例：二分查找" true >}}
+$T(n) = T(n/2) + O(1)$
 
-$$T(n) = T(n/2) + O(1)$$
-$$T(n/2) = T(n/4) + O(1)$$
-$$...$$
-$$T(2) = T(1) + O(1)$$
-$$T(1) = O(1)$$
+$T(n/2) = T(n/4) + O(1)$
+
+$...$
+
+$T(2) = T(1) + O(1)$
+
+$T(1) = O(1)$
 
 $a=1,b=2,k=0$ 代入得 $O(logN)$;
+{{< /admonition >}}
 
-另可直接证，由于为$1/2,1/4...1/n$,尾项$2^k$项为$n$，故共$logn$项，$T(n)=logn\times o(1)=logn$
+
+
+
+另可直接证，由于为$1/2,1/4...1/n$, 尾项$2^k$项为$n$，故共$logn$项，$$T(n)=logn\times o(1)=logn$$
 
 
 ## Vector & List & Stack & Queues
@@ -247,9 +257,9 @@ i = find(v.begin(), v.end(), 1);
 
 ### Vector & List
 
-Array|经典数组
-Vector|批量分配内存的数组，空间不够时再申请新的内存；模板化<T>；允许拷贝赋值
-List|链表 Single/Double-Linked-List **双链表** 表头、尾、哨兵结点
+- Array | 经典数组
+- Vector | 批量分配内存的数组，空间不够时再申请新的内存；模板化`<T>`；允许拷贝赋值
+- List | 链表 Single/Double-Linked-List **双链表** 表头、尾、哨兵结点
 
 ```c++
 vector<int> a(10,1); //10个初值为1的元素
@@ -279,38 +289,41 @@ a.remove(val);a.remove_if(condition);a.unique();//去重
 
 ### Stack & Queue
 
-`pop() push() size() swap() empty();`Stack:LIFO `top();` Queue:FIFO `front() back();`
+`pop() push() size() swap() empty();`
+
+- Stack: LIFO `top();` 
+- Queue: FIFO `front() back();`
 
 #### Stack 计算器
 
-前缀/后缀。**中缀转后缀：**`A+B*(C-D)-E/F`转为`ABCD−∗+EF/−`
+- 前缀/后缀。
+- **中缀转后缀：**`A+B*(C-D)-E/F`转为`ABCD−∗+EF/−`
 
-优先级设置 ‘*’ = ‘/’ > ‘+’ = ‘-’ >
-  style1:‘(’优先级最高，如直接读入；推入操作符时不弹
-  style2:‘(’优先级最低，强制直接读入
-数字直接放到[输出列]，右括号直接弹到左括号止；操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈
-
+优先级设置 `‘*’ = ‘/’ > ‘+’ = ‘-’ >`
+- style1: `‘(’` 优先级最高，如直接读入；推入操作符时不弹
+- style2: `‘(’` 优先级最低，强制直接读入
+- 数字直接放到[输出列]，右括号直接弹到左括号止；
+- 操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。
+- 计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈。
 
 
 ## 树
 
-Binary Tree 二叉树平均深度O(√N)，表达式树应用；
+Binary Tree 二叉树平均深度 $O(\sqrt{N})$ ，表达式树应用；
 
 ### 二叉搜索树
 
-左小右大；平均深度O(logN)最坏深度O(N-1)
+左小右大；平均深度 $O(logN)$ ，最坏深度 $O(N-1)$.
 
-#### **构建**
+#### 构建
 
-contains｜findMin(Max)｜insert｜～:makeEmpty递归
-
-copy| clone，递归return new node; 重载运算符：this!=&rhs则makeEmpty再clone rhs.root，最终return *this
-
-remove|(*&t)t为结点地址；空,return;t<>x判断;t=x.
-
-双子:t->ele=findmax(t->right)->ele,remove(t->ele;t->right); // 右子找min代入t,删除该min
-
-单子/无子：T*oldNode=t,另引入的参数t=t->left/right相当于改结点地址为t左/右子，再删oldNode即删了原结点.
+- `contains`｜`findMin(Max)`｜`insert`｜`～` 
+- `makeEmpty` 递归
+- `copy` | clone，递归 `return new node`; 
+- 重载运算符：`this!=&rhs` 则 `makeEmpty` 再 `clone rhs.root` ，最终 `return *this`
+- `remove` | `(*&t)t` 为结点地址；空, `return`; `t<>x` 判断; `t=x`.
+- 双子: `t->ele=findmax(t->right)->ele` , `remove(t->ele;t->right); // 右子找min代入t,删除该min`
+- 单子/无子: `T*oldNode=t` ,另引入的参数 `t=t->left/right` 相当于改结点地址为 t 左/右子，再删 `oldNode` 即删了原结点.
 
 ```c++
 // findmin: 递归或while 注意空树直接返回nullptr
@@ -329,19 +342,20 @@ BinaryNode * findMin( BinaryNode *t ) const {
 
 #### 关于 struct 构造
 
-BinaryNode置于private；针对struct的操作也位于private部分
-
-外部操作→public函数→private函数
+- `BinaryNode` 置于 private；针对 `struct` 的操作也位于 private 部分
+- 外部操作 $\rightarrow$ public函数 $\rightarrow$ private函数
 
 #### 关于 function 参数
 
-对Struct BinaryNode，由于其element为变量，left/right为指针，fuction引用时应采用(BinaryNode * & t)，引用Node地址
+对 `Struct BinaryNode`，由于其 `element` 为变量，`left/right` 为指针，fuction 引用时应采用 `BinaryNode * & t` ，引用 Node 地址。
 
 #### 时间分析
 
-内部路径长｜所有结点的深度和；递推关系、秩，D(N)=D(i)+D(N-i-1)+N-1 => O(NlogN),average
+- 内部路径长｜所有结点的深度和
+- 递推关系、秩，(average) $$D(N)=D(i)+D(N-i-1)+N-1 \Rightarrow O(NlogN)$$
 
-任意结点预期深度logN；交替insert/remove O(N^2)，期望深度O(√N)
+- 任意结点预期深度 $logN$
+- 交替 `insert/remove` $O(N^2)$ ，期望深度 $O(\sqrt{N})$
 
 ### Balance 树
 
@@ -366,8 +380,8 @@ int height( AvlNode *t ) const {
 
 **Rotation的具体实现**
 
-| 插入方式 | 描述                                                  | 旋转方式     |
-| -------- | ----------------------------------------------------- | ------------ |
+| 插入方式 | 描述                | 旋转方式     |
+| -------- | ------------------ | ------------ |
 | LL       | 在a的**左子树**根节点的**左子树**上插入节点而破坏平衡 | 右旋转       |
 | RR       | 在a的**右子树**根节点的**右子树**上插入节点而破坏平衡 | 左旋转       |
 | LR       | 在a的**左子树**根节点的**右子树**上插入节点而破坏平衡 | 先左旋后右旋 |
@@ -397,9 +411,14 @@ void doubleWithLeftChild( AvlNode * & k3 ) {
 }
 ```
 
-**时间复杂度分析**:计算高度O(logN)；保证查询O(logN)避免Binary Tree最坏的N；但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；额外封装，繁琐
+**时间复杂度分析**
 
-*另一种写法：独立的balance操作
+- 计算高度O(logN)；
+- 保证查询O(logN)避免Binary Tree最坏的N；
+- 但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；
+- 额外封装，繁琐。
+
+*另一种写法：独立的balance操作*
 
 ```c++
 // at the end of each insert or remove operation, you need to do "balance(t)"
@@ -423,7 +442,7 @@ void balance( AvlNode * & t ) {
 
 #### Splay 树*
 
-保证从空树开始任意连续M次操作最多花费O(MlogN)的时间
+保证从空树开始任意连续M次操作最多花费 $O(MlogN)$ 的时间
 
 ### Traversals
 
@@ -446,7 +465,7 @@ using <queue>
 
 ### Sets & Maps
 
-Sets｜排序、去重
+- Sets｜排序、去重
 
 ```c++
 set<int> a;
@@ -454,54 +473,67 @@ a.find(val);//logN
 a.erase(val);a.swap(b);a.clear();
 ```
 
-Maps｜key-value(>=1)
+- Maps｜key-value(>=1)
 
 ```c++
 map<int> a;
 map<int>::iterator b; // key:b->first; value:b->second....
 ```
 
-
-
 ## 哈希
 
-散列表；[insert/search/delete]average:O(1)；Key -> Table；素数 TableSize；collision
+- 散列表
+- `insert` / `search` / `delete`
+- average:O(1)
+- Key -> Table
+- 素数
+- TableSize
+- collision
 
 ### 分析
 
-**负数补偿？**value<0，then+tableSize
+**负数补偿？**
 
-**均匀分配键：**单元数目有限，键数实际上无穷；习惯：0～tableSize-1
+- value<0，then+tableSize
 
-装填因子；分离链接法（缺点：内存分配耗时）；除了链表，也可用二叉树/新散列表
+**均匀分配键：**
+
+- 单元数目有限，键数实际上无穷
+- 习惯：0～tableSize-1
+- 装填因子
+- 分离链接法（缺点：内存分配耗时）
+- 除了链表，也可用二叉树/新散列表
 
 ### 开放寻址法
 
-冲突解决函数，𝝀<0.5聚集效应,f(i)为冲突点与探查点的距离
-
-线性探测:f(i)=i；一次聚集-占据单元形成区块
-
-平方探测:f(i)=i^2*保证表的大小是素数，否则表被填满一半就找不到空单元了*；二次聚集
-
-双散列:f(i)=i*hash(x),结果不可以为0；example，hash(x)=R-(xmodR)
+- 冲突解决函数，$\lambda<0.5$ 聚集效应, $f(i)$ 为冲突点与探查点的距离
+- 线性探测: $f(i)=i$ ；一次聚集-占据单元形成区块
+- 平方探测: $f(i)=i^2$ 二次聚集
+    
+    *保证表的大小是素数，否则表被填满一半就找不到空单元了*
+    
+- 双散列:f(i)=i*hash(x),结果不可以为0；example，hash(x)=R-(xmodR)
 
 ### 再散列
 
-O(N);一半/插满的策略;
-
-途中策略：某一装填因子
+- $O(N)$
+- 一半/插满的策略
+- 途中策略：某一装填因子
 
 ### 可扩散列*
-
-
 
 ## Priority Queues & Heaps
 
 ### 二叉堆
 
-完全二叉树；最小堆、最大堆；数组存储i,2i,2i+1；查找O(N)；堆序性质
+- 完全二叉树
+- 最小堆、最大堆
+- 数组存储 $i,2i,2i+1$
+- 查找 $O(N)$
+- 堆序性质
 
-**为何选用Heap？**Min/Max:O(1)
+**为何选用Heap？**
+- Min/Max: $O(1)$
 
 ```c++
 void insert( const Comparable & x ) {
@@ -520,8 +552,6 @@ void insert( const Comparable & x ) {
 
 ### Applications of Priority Queues
 
-
-
 ## 排序
 
 ### 插入排序
@@ -532,10 +562,10 @@ void insert( const Comparable & x ) {
 
 **最好/坏可能性**
 
-随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度
-每次问题规模减半，a=2，b=2，d=1
-复杂度为n^2 log(n)
-最差情况下，复杂度为O(n^2)
+- 随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度
+- 每次问题规模减半，$a=2，b=2，d=1$
+- 复杂度为 $n^2 log(n)$
+- 最差情况下，复杂度为 $O(n^2)$
 
 #### 选择的线性期望时间算法
 
@@ -543,35 +573,45 @@ void insert( const Comparable & x ) {
 
 ### 计（基）数排序——非比较算法
 
-对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次
-每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1
-复杂度为n^1 log(n) = nlog(n)，近似为O(kN)，k为整数的位数
+- 对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次
+- 每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为 $O(n)$ 的，$a=10，b=10，d=1$
+- 复杂度为 $n^1 log(n) = nlog(n)$ ，近似为 $O(kN)$ ，k为整数的位数
 
 ### 归并排序/堆排序
 
-*归并排序* ｜ 数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)
-每次问题规模减半，a=2，b=2，d=1
-复杂度为nlog(n)
+归并排序
+- 数据列均分为两部分，分别排序，之后以 $O(n)$ 的复杂度进行合并，空间复杂度 $O(n)$
+- 每次问题规模减半，$a=2，b=2，d=1$
+- 复杂度为 $nlog(n)$
 
 
 
 ## 图论
 
-G[graph] -> V[vertex],E[edge(arc)],path；digraph 有向；Weight&cost 权/值；Adjacent 邻接；cycle 回路：满足w1=wN length>=1；loop 环：回到自身，length=0；Simple path 简单路径；强/弱连通、基础图/完全图
+- G[graph] -> V[vertex]
+- E[edge(arc)], path
+- digraph 有向
+- Weight&cost 权/值
+- Adjacent 邻接
+- cycle 回路：满足 $w1=wN$ , length>=1
+- loop 环：回到自身，length=0
+- Simple path 简单路径
+- 强/弱连通、基础图/完全图
 
 ### 表示
 
-Adjacent Matrix：dense `A[u][v]`
-
-Adjacent List：sparse O(|E|+|V|) 
+- Adjacent Matrix：dense `A[u][v]`
+- Adjacent List：sparse $O(|E|+|V|) $
 
 ### 拓扑排序
 
-find indegree=0 v1 -> delete v1, neighbors indegree-1 ->find indegree=0 v2...
+```find indegree=0 v1 
+-> delete v1, neighbors indegree-1 
+-> find indegree=0 v2
+...
+```
 
-![image-20211231162550699](/Users/ralvine/Library/Application Support/typora-user-images/image-20211231162550699.png)
-
-O(V^2) using <Queue>
+- $O(V^2)$ using `<Queue>`
 
 ### Dijkstras
 
@@ -581,24 +621,22 @@ O(V^2) using <Queue>
 
 ### 最小生成树
 
-如何扩张（Ch10）
+- 如何扩张？（Ch10）
 
 ### 深度优先 广度优先
-
-
 
 ## 算法设计补充
 
 ### 贪心算法
 
-ch10.1 分析复杂度
+- ch10.1 分析复杂度
 
 ### 分治算法 Divide-and-Conquer
 
-分而治之，递归
+- 分而治之，递归
 
 ### Dynamic Programming
 
-ch10.3 与d-c的比较（自底向上&自顶向下）
+- ch10.3 与d-c的比较（自底向上&自顶向下）
 
 ### 回溯法

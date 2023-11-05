@@ -1,16 +1,16 @@
 ---
 authors: [Ralvine]
-title: 「不背单词」生词表
+title: 不背单词：生词表
 # subtitle: 副标题.
 date: 2023-10-22T20:20:40+08:00
 lastmod: 2023-10-22T20:25:40+08:00
 draft: false
-description: 文章内容的描述。
+description: 记录生词并重复学习。
 #license: MIT
-images: ["https://z1.ax1x.com/2023/11/01/pinHjAI.png"]
+images: ["https://z1.ax1x.com/2023/11/05/piQBoIH.jpg"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHjAI.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/05/piQBoIH.jpg"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -29,9 +29,6 @@ series_weight: 1
 ---
 
 <!--more-->
-
-
-记录生词并重复学习。
 
 ## 随手拼
 ### 0924-0917

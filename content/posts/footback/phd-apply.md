@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: PHD 申请实录
+title: PHD：申请实录
 # subtitle: 副标题.
 date: 2023-09-29T13:20:40+08:00
 lastmod: 2023-09-29T13:25:40+08:00
@@ -9,8 +9,8 @@ description: 升学季的足迹。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/01/pinHOHA.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHOHA.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/01/pinHOHA.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: 
 categories: ["回溯"]
-series: ["自我成长"]
+series: ["自我成长", "象牙塔"]
 series_weight: 1
 password: test
 ---

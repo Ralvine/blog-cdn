@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: C++面向对象面试题总结
+title: C++ 面向对象之面试与机考技巧
 # subtitle:
 date: 2023-08-30T20:20:40+08:00
 lastmod: 2023-08-30T20:25:40+08:00
@@ -9,8 +9,8 @@ description:
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/01/pinHqnH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -29,6 +29,26 @@ series_weight: 1
 ---
 
 <!--more-->
+
+## 笔试技巧
+
+1. 输入输出
+- 带空格 getline
+- 字符串处理 string
+- 大小写转换
+    - string: `<algorithm>` `transform(str.begin(),str.end(),str.begin(),::tolower);`
+    - char: `-'a'+'A'`
+- 进制转换
+    - `bitset`
+    - 8(oct), 10(dec), 16(hex), 2(bitset(num))
+- 取整 (int)直接去除小数点后的部分
+2. 排序 sort 默认升序 自定义规则
+- `functional greater<Type>`
+3. 质数 因数分解
+- 时间复杂度 先判断n不是素数再进入计算循环
+- 分解到sqrt(n) 剩下的留n即可
+
+## 经典面试题
 
 1. new/delete和malloc/free的区别
  
@@ -80,7 +100,6 @@ C语言不支持函数重载，即不允许同名符号，所以不需要这些�
 - 数据长度count的单位是字节，1byte = 8bit
 - 数据类型为char，则数据长度就等于元素的个数；其他数据类型则要注意数据长度的值
 - n * sizeof(type_name)的写法
-    
 
 7. strcat、strncat、strcmp、strcpy函数
 

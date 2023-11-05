@@ -1,16 +1,16 @@
 ---
 authors: [Ralvine]
-title: 数学前沿专题讨论：遗传算法和统计学习方法
+title: 复变函数
 # subtitle:
-date: 2023-10-30T20:20:40+08:00
-lastmod: 2023-10-30T20:25:40+08:00
+date: 2023-03-01T20:20:40+08:00
+lastmod: 2023-03-01T20:25:40+08:00
 draft: false
-description: 毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。
+description: 22-23 春夏学期「复变函数」课程学习笔记。
 #license: MIT
-images: ["https://z1.ax1x.com/2023/11/01/pinHqnH.png"]
+images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -36,8 +36,6 @@ series_weight: 1
 🧑‍🏫 毕惟红<br>
 📝 50%读书报告，10%考勤，10%编程，30%两次展示
 {{< /admonition >}}
-
-# 复变函数
 
 !!! quote ""
     - 🎓 数学科学学院

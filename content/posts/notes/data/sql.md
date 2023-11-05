@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: SQL 强化笔记
+title: SQL 强化
 # subtitle: 副标题.
 date: 2023-10-22T20:20:40+08:00
 lastmod: 2023-10-22T20:25:40+08:00
@@ -9,8 +9,8 @@ description:
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piAtBlV.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAtBlV.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAtBlV.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

@@ -1,18 +1,18 @@
 ---
 authors: [Ralvine]
-title: 零碎记录
+title: 九月随想：做难事必有所得
 # subtitle: 副标题.
-date: 2023-10-24T13:20:40+08:00
+date: 2023-10-15T13:20:40+08:00
 lastmod: 2023-10-24T13:25:40+08:00
 draft: false
-description: 消费互联网领域平台企业数据类岗位的经验与复盘。
+description: 一个人的不仅要看个人的奋斗，也要考虑到历史的进程。
 #license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAGdW6.png"]
+images: ["https://z1.ax1x.com/2023/11/05/piQsirV.jpg"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAGdW6.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
-hiddenFromHomePage: true #主页隐藏
-hiddenFromSearch: true #搜索隐藏
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/05/piQsirV.jpg"
+hiddenFromHomePage: false #主页隐藏
+hiddenFromSearch: false #搜索隐藏
 lightgallery: true
 ruby: true
 fraction: true
@@ -31,7 +31,7 @@ password: test
 
 <!--more-->
 
-## 指标
+## z
 
 - 距离寝室近
 - 独立小间
@@ -50,6 +50,7 @@ password: test
 - 插座
 - 食堂
 - 讨论区
+- 灯光
 - 阳台
 - 咖啡店
 - 打印机
@@ -212,3 +213,6 @@ ML Python
     - 数据分析和机器学习 ![Python](https://img.shields.io/badge/-Python-11ddd?)
     - 前端
     - JavaScript
+
+- [ ] 民主 多数人的统治 精英治理 儒家秩序架构 文官系统
+- [ ] 理想主义和革命政党的归宿

@@ -2,15 +2,15 @@
 authors: [Ralvine]
 title: 数据建模与分析
 subtitle: 
-date: 2023-06-28T20:20:40+08:00
+date: 2023-03-01T20:20:40+08:00
 lastmod: 2023-06-28T20:25:40+08:00
 draft: false
-description: “两个互不否定”的历史见证了中国经济举世瞩目的成就。那么，代价是什么呢？
+description: 22-23 春夏学期「数据建模与分析」课程学习笔记。
 #license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piA8fr4.png"]
+images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piA8fr4.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["社区发现", "图像分割", "毕业", "论文"]
 categories: ["回溯"]
-series: ["自我成长"]
+series: ["自我成长", "象牙塔"]
 series_weight: 1
 password: test
 ---

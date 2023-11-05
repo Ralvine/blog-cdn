@@ -3,11 +3,15 @@
 
 .single {
   .single-title {
+    // border-top: 1px solid #AAA;
     margin: 1rem 0 .5rem;
+    // text-decoration: underline;
+    // text-decoration-thickness: 2px;
     font-size: 1.6rem;
     line-height: 140%;
     font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
     font-weight: 800;
+    // border-bottom: 1px solid #ddd;
   }
 
   .single-subtitle {
@@ -18,11 +22,13 @@
     line-height: 100%;
     font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
     font-weight: 800;
+    // border-bottom: 1px solid #AAA;
   }
 
   .post-meta {
     font-size: .875rem;
     color: $global-font-secondary-color;
+    border-bottom: 1px solid #AAA;
 
     span {
       display: inline-block;
@@ -60,14 +66,18 @@
   }
 
   .content {
+    counter-reset: h2;
+
+
     >h2 {
       font-size: 1.5rem;
       font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
-
       & code {
         font-size: 1.25rem;
       }
+      counter-reset: h3;
     }
+
 
     >h3 {
       font-size: 1.375rem;
@@ -76,6 +86,7 @@
       & code {
         font-size: 1.125rem;
       }
+      counter-reset: h4;
     }
 
     >h4 {
@@ -85,11 +96,13 @@
       & code {
         font-size: 1rem;
       }
+      counter-reset: h5;
     }
 
     >h5 {
       font-size: 1.125rem;
       font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
+      counter-reset: h6;
     }
 
     >h6 {
@@ -121,22 +134,46 @@
     >h6 {
       >.header-mark::before {
         content: "|";
+        text-decoration: underline;
+        text-decoration-thickness: 1.1px;
         margin-right: .3125rem;
-        color: $single-link-color;
+        color: $global-link-color;
 
         [theme=dark] & {
-          color: $single-link-color-dark;
+          color: $global-link-color-dark;
         }
 
         [theme=black] & {
-          color: $single-link-color-black;
+          color: $global-link-color-black;
         }
       }
     }
 
     >h2>.header-mark::before {
-      content: "|";
+      counter-increment: h2;
+      content: counter(h2);
     }
+
+    >h3>.header-mark::before {
+      counter-increment: h3;
+      content: counter(h2) "." counter(h3);
+    }
+
+    >h4>.header-mark::before {
+      counter-increment: h4;
+      content: counter(h2) "." counter(h3) "." counter(h4);
+    }
+
+    >h5>.header-mark::before {
+      counter-increment: h5;
+      content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5);
+    }
+
+    >h6>.header-mark::before {
+      counter-increment: h6;
+      content: ounter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6);
+    }
+
 
     p {
       margin: .5rem 0;
@@ -145,6 +182,7 @@
     b,
     strong {
       font-weight: bold;
+
 
       [theme=dark] & {
         color: #ddd;
@@ -162,12 +200,12 @@
 
       [theme=dark] & b,
       [theme=dark] & strong {
-        color: $single-link-color-dark;
+        color: $global-link-color-dark;
       }
 
       [theme=black] & b,
       [theme=black] & strong {
-        color: $single-link-color-black;
+        color: $global-link-color-black;
       }
     }
 

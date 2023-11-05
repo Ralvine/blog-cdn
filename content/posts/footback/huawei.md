@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: 华为鸿蒙通用软件开发复盘
+title: 华为：鸿蒙通用软件开发复盘
 # subtitle: 副标题.
 date: 2023-10-12T13:20:40+08:00
 lastmod: 2023-10-24T13:25:40+08:00
@@ -9,8 +9,8 @@ description: 爱华，信华，等华。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/24/piEGg5n.jpg"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/24/piEGg5n.jpg"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/24/piEGg5n.jpg"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["华为", "鸿蒙", "C++"]
 categories: ["回溯"]
-series: ["自我成长"]
+series: ["自我成长", "打工人"]
 series_weight: 1
 ---
 

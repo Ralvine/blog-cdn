@@ -9,8 +9,8 @@ description: 突然间，我意识到这样一件事实——自己是“非常�
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/03/piM2X0P.jpg"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/03/piM2X0P.jpg"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/03/piM2X0P.jpg"
 lightgallery: true
 ruby: true
 fraction: true

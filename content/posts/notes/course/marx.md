@@ -9,8 +9,8 @@ description: 从阶级内因角度阐释对工会动议被否决所持的各方�
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/24/piEyqgg.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/24/piEyqgg.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/24/piEyqgg.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

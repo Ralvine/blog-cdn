@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: Matlab曲线拟合工具箱的国产替代产品研发与应用
+title: Matlab 曲线拟合工具箱的国产替代产品研发与应用
 # subtitle: 副标题.
 date: 2023-03-01T13:20:40+08:00
 lastmod: 2023-03-01T13:25:40+08:00
@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: 
 categories: ["回溯"]
-series: ["自我成长"]
+series: ["自我成长", "象牙塔"]
 series_weight: 1
 password: test
 ---

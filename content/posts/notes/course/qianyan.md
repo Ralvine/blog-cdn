@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: 数学前沿专题讨论：遗传算法和统计学习方法
+title: 数学前沿专题讨论
 # subtitle:
 date: 2023-10-30T20:20:40+08:00
 lastmod: 2023-10-30T20:25:40+08:00
@@ -9,8 +9,8 @@ description: 毕老师恰巧也是我的毕业设计导师，第一次课程上�
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/01/pinHqnH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

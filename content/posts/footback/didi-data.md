@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: 滴滴大数据研发实习进程实录
+title: 滴滴：大数据研发实习
 # subtitle: 副标题.
 date: 2023-10-24T13:20:40+08:00
 lastmod: 2023-10-24T13:25:40+08:00
@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["数据开发", "行业"]
 categories: ["回溯"]
-series: ["自我成长"]
+series: ["自我成长", "打工人"]
 series_weight: 1
 ---
 

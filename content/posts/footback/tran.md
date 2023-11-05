@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: 
 categories: ["回溯"]
-series: ["自我成长"]
+series: ["自我成长", "象牙塔"]
 series_weight: 1
 ---
 

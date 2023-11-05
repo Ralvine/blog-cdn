@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: CSS
+title: CSS 强化
 # subtitle:
 date: 2023-09-12T20:20:40+08:00
 lastmod: 2023-09-12T20:25:40+08:00
@@ -9,8 +9,8 @@ description:
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/01/pinHqnH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

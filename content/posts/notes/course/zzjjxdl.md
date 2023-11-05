@@ -2,15 +2,15 @@
 authors: [Ralvine]
 title: 政治经济学导论
 # subtitle: 副标题.
-date: 2023-06-29T20:20:40+08:00
+date: 2023-04-29T20:20:40+08:00
 lastmod: 2023-06-29T20:25:40+08:00
 draft: false
 description: “两头在外”的工业化与投资驱动转向要素驱动。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piAGKJ0.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

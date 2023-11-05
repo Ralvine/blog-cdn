@@ -5,12 +5,12 @@ title: 偏微分方程
 date: 2023-03-01T20:20:40+08:00
 lastmod: 2023-07-01T20:25:40+08:00
 draft: false
-description: 22-23 春夏学期「面向对象程序设计」课程学习笔记。
+description: 21-22, 22-23 春夏学期「偏微分方程」课程学习笔记。
 #license: MI
-images: ["https://z1.ax1x.com/2023/10/23/piAWIwd.png"]
+images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAWIwd.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

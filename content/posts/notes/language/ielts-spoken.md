@@ -1,16 +1,16 @@
 ---
 authors: [Ralvine]
-title: 雅思口语（2023年9-12月）话题准备
+title: IELTS 口语：9~12月话题准备
 # subtitle: 副标题.
 date: 2023-10-22T20:20:40+08:00
 lastmod: 2023-10-22T20:25:40+08:00
 draft: false
-description: 文章内容的描述。
+description: 口语题库参考表达。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/01/pinHjAI.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHjAI.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/01/pinHjAI.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

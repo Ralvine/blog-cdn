@@ -2,15 +2,15 @@
 authors: [Ralvine]
 title: 政治经济学
 # subtitle: 副标题.
-date: 2023-07-04T20:20:40+08:00
+date: 2023-03-01T20:20:40+08:00
 lastmod: 2023-07-04T20:25:40+08:00
 draft: false
 description: 符号逻辑下的身份叙事，巧妙地编织起资本主义时代置身于统治机器中的自由幻觉。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piA8qxO.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piA8qxO.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piA8qxO.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

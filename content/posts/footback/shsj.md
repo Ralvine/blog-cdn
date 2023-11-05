@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: 2020-2023 寒假社会实践经历汇总
+title: 寒假社会实践：2020~2023
 # subtitle: 副标题.
 date: 2022-01-23T13:20:40+08:00
 lastmod: 2023-11-04T13:25:40+08:00
@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["寒假", "社会实践"]
 categories: ["回溯"]
-series: ["自我成长"]
+series: ["自我成长", "象牙塔"]
 series_weight: 1
 password: test
 ---

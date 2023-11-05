@@ -9,8 +9,8 @@ description: 22-23 春夏学期「面向对象程序设计」课程学习笔记�
 #license: MI
 images: ["https://z1.ax1x.com/2023/10/23/piAWIwd.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAWIwd.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAWIwd.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true

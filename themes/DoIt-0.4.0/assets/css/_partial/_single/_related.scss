@@ -1,5 +1,5 @@
 .related-container {
-    --related-background-color: #f8f8f8;
+    --related-background-color: rgb(253,250,243);
     --related-background-color-dark: #252627;
     --related-background-color-black: #111111;
     --related-color: #2d96bd;
@@ -10,11 +10,27 @@
     --related-hover-color-black: #ffffff;
     display: flex;
     flex-wrap: nowrap;
+
     overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
     width: 100%;
-    height: 180px;
+    height: 220px;
+    padding-left: 0;
+    border-top: 1px solid rgb(221,221,221);
+    border-bottom: 1px solid rgb(221,221,221);
+
+    .related-text {
+        margin-top: 10px;
+        position: absolute;
+        font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
 
     .related-item-container {
+        top: 40px;
         flex-basis: 350px;
         flex-grow: 1;
         flex-shrink: 1;
@@ -29,6 +45,9 @@
         [theme="black"] & {
             background: var(--related-background-color-black);
         }
+        border-radius: 10px;
+        box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+
     }
     
     .related-image {
@@ -53,7 +72,8 @@
         margin: 10px;
         font-size: 0.9rem;
         line-height: 110%;
-        font-family: "LXGW WenKai Screen";
+        // font-family: "LXGW WenKai Screen";
+        font-family: "STFangsong", "FangSong", "STSong", serif;
         font-weight: 200;
     }
     
@@ -75,4 +95,8 @@
             }
         }
     }
+}
+
+.related-container::-webkit-scrollbar {
+    display: none;
 }

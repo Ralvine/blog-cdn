@@ -9,8 +9,8 @@ description: 21-22 秋冬学期「数据结构与算法」课程学习笔记。
 #license: MI
 images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -36,6 +36,8 @@ series_weight: 1
 🧑‍🏫 王何宇<br>
 📝 作业，项目作业，期末考试
 {{< /admonition >}}
+
+## 大纲
 
 - **CH3.** 链表、栈和队列
 - **CH4.** 树
@@ -213,21 +215,25 @@ $1 < logN < N < NlogN < N^2$
 
 ## 主定理
 
-**归纳法证明：** （例）
+**归纳法证明：** 
 
-**一般性证明：**构造树，$depth=log(b,n)，widget=a^{(log(b,n))}=n^{(log(b,a))}$
+（例）
+
+**一般性证明：**
+
+构造树，$\text{depth}=log(b,n)，\text{widget}=a^{(log(b,n))}=n^{(log(b,a))}$
 
 *实例：二分查找*
-$$
-T(n) = T(n/2) + O(1)  \\
-T(n/2) = T(n/4) + O(1)  \\  
-  ...\\
-T(2) = T(1) + O(1)     \\
-T(1) = O(1)\\
-a=1,b=2,k=0\\代入得O(logN);
-$$
 
-另可直接证，由于为1/2,1/4...1/n,尾项2^k项为n，故共logn项，T(n)=logn*o(1)=logn
+$$T(n) = T(n/2) + O(1)$$
+$$T(n/2) = T(n/4) + O(1)$$
+$$...$$
+$$T(2) = T(1) + O(1)$$
+$$T(1) = O(1)$$
+
+$a=1,b=2,k=0$ 代入得 $O(logN)$;
+
+另可直接证，由于为$1/2,1/4...1/n$,尾项$2^k$项为$n$，故共$logn$项，$T(n)=logn\times o(1)=logn$
 
 
 ## Vector & List & Stack & Queues

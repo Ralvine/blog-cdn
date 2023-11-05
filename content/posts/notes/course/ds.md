@@ -5,12 +5,12 @@ title: 数据科学的数学基础
 date: 2023-10-30T20:20:40+08:00
 lastmod: 2023-10-30T20:25:40+08:00
 draft: false
-description: 毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。
+description: 样本空间、条件概率和独立性、分布函数、期望和方差、联合边际概率和条件概率、贝叶斯法则、极大似然估计和贝叶斯推断。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/01/pinHqnH.png"]
 #seriesNavigation: 系列导航.
-featuredImage: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-#featuredImagePreview: 用在主页预览的文章特色图片.
+featuredImage: 
+featuredImagePreview: "https://z1.ax1x.com/2023/11/01/pinHqnH.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
@@ -32,21 +32,14 @@ series_weight: 1
 
 {{< admonition quote "课程信息" true >}}
 🎓 数学科学学院<br>
-🕙 2023-2024 秋冬<br>
-🧑‍🏫 毕惟红<br>
-📝 50%读书报告，10%考勤，10%编程，30%两次展示
+🕙 2022-2023 秋冬<br>
+🧑‍🏫 赖俊<br>
+📝 20%作业，20%上机，60%考试
 {{< /admonition >}}
 
-!!! quote ""
-    - 🎓 数学科学学院
-    - 🕙 2022-2023 秋冬
-    - 🧑‍🏫 赖俊
-    - 📝 20%作业，20%上机，60%考试
-
-## 参考
+## 参考资料
 
 - 《Mathematical Foundations for Data Analysis》Jeff M. Phillips
-
 
 ## Ch1.概率论回顾
 
@@ -65,7 +58,6 @@ series_weight: 1
 - Markov, Chebyshev, Chernoff-Hoeffding 不等式
 - Union Bound
 - 重采样
-
 
 ## Ch4. 距离
 

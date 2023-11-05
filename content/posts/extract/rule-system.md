@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["炎黄春秋", "政治", "历史"]
+tags: ["炎黄春秋", "傅士卓", "政治", "历史"]
 categories: ["札录"]
 series: ["历史进程"]
 series_weight: 1

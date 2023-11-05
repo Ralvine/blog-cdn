@@ -3,8 +3,8 @@
 {{ $related := first $params.related.count (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
 {{ with $related }}
 
-<h3><font face="LXGW WenKai Screen">{{- T "relatedContent" -}}</font></h2>
 <div class="related-container">
+    <div class="related-text">{{- T "relatedContent" -}}</div>
     {{ range . }}
         {{- $params := .Params | merge .Site.Params.page -}}
         <div class="related-item-container">

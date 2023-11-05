@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["新左派", "十八大", "马克思"]
+tags: ["新左派", "傅士卓", "十八大", "马克思"]
 categories: ["札录"]
 series: ["历史进程"]
 series_weight: 1

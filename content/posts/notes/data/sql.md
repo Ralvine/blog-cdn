@@ -31,9 +31,7 @@ mindmap: true
 
 <!--more-->
 
-## MySQL[^1][^2][^7]
-
-[^7]: 数据分析师之——我的SQL自学之路 @意识成长 https://zhuanlan.zhihu.com/p/220172077 ![MySQL大纲](https://pic3.zhimg.com/v2-1ac8dc043d5fc80916ddea5d6d97e376_r.jpg)
+## SQL语法[^1][^2]
 
 ### 查询
 
@@ -157,7 +155,7 @@ on d.id = t.dept
 - 一般用于`from, where`
 
 4. 组合查询
-- union
+- union（施工中）
 
 ### 操作
 
@@ -165,7 +163,7 @@ on d.id = t.dept
 
 1. 创建
 - `create table 表名 (字段名 字段类型 约束)`
-- ```sql
+```sql
 create table student(
 	id integer primary key autoincrement, --主键自增长
 	name text not null, --非空
@@ -174,9 +172,27 @@ create table student(
 	check (age>0)
 );
 ```
+- 参见Access, Server, MySQL各自数据类型规范。
+- 约束
+    - 主键 `primary key` 非空唯一
+    - 非空 `no null`
+    - 唯一 `unique`
+    - 主键自增长（int时） `autoincrement`
+    - 外键 `foreign key` 关联外表主键
+    - `check` 限制列值范围
+    - `default 默认值` 
 2. 更新
+`alter table 表名 [操作]`
+- `add 列名 类型`
+- `drop column 列名`
+- `modify 列名 类型` 修改列类型
+- `chanage 列名 新列名 类型` 修改列名
+- `rename to 表名` 修改表名
 3. 查询
+- `show tables` 当前数据库下所有表名称
+- `desc 表名` 查询表详细信息
 4. 删除
+- `drop table`
 
 #### 数据
 
@@ -193,16 +209,33 @@ create table student(
 
 ### 事务
 
-1. 
+1. SQL操作批处理：全部执行或不执行
+2. 分类
+- 显式：用`begin transaction`指定
+- 隐式
+- 自动提交
+3. 使用
+- `begin` 设置起点
+- `commit` 永久化
+- `rollback` 遗忘
+- `save` 特定标记 部分回滚
+4. 判断
 
-### 索引
+### 索引与视图[^7]
 
-### 视图
-
+[^7]: 数据分析师之——我的SQL自学之路 @意识成长 https://zhuanlan.zhihu.com/p/220172077 ![MySQL大纲](https://pic3.zhimg.com/v2-1ac8dc043d5fc80916ddea5d6d97e376_r.jpg)
 
 ### 触发器
 
 ## Hive SQL[^5]
+
+### DDL
+
+- 数据定义语句
+1. 库操作
+2. 表操作
+
+
 
 [^5]: 一文学完所有的Hive Sql（两万字最全详解） @五分钟学大数据 https://blog.csdn.net/helloHbulie/article/details/115376657
 

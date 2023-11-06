@@ -673,11 +673,11 @@ theme = "DoIt-0.4.0"
 
 # 作者配置
 [author]
-  name = "Ralvine"
-  email = "ralvine@163.com"
-  link = "https://blog.ralvines.top/"
-  avatar = "https://z1.ax1x.com/2023/10/29/pimpLTg.jpg"
-  gravatarEmail = ""
+#  name = "Ralvine"
+#  email = "ralvine@163.com"
+#  link = "https://blog.ralvines.top/"
+#  avatar = "https://z1.ax1x.com/2023/10/29/pimpLTg.jpg"
+#  gravatarEmail = ""
 
 # 网站地图配置
 [sitemap]

@@ -30,12 +30,13 @@ series_weight: 1
 
 <!--more-->
 
-## 数据仓库[^1]
+## 数仓建设规范[^3]
+
+[^3]: 最强最全面的数仓建设规范指南 @五分钟学大数据 https://yuanmore.blog.csdn.net/article/details/121265222
 
 ### 模型
 
 1. 星型模型：事实表+维度表
-![星型模型](https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp)
 
 
 ### 数据倾斜
@@ -50,9 +51,11 @@ series_weight: 1
 - 频率倾斜：某区域数据量过多
 - 大小倾斜：部分记录大小过大
 
+## Hadoop
 
-## 实例：尚硅谷-电商数仓[^1]
+
+## 实例：尚硅谷-电商数仓[^1][^2]
 
 [^1]: https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a
 
-[^1]: 尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 https://zhuanlan.zhihu.com/p/647035072
+[^2]: 尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 https://zhuanlan.zhihu.com/p/647035072

@@ -4,7 +4,7 @@
 .single {
   .single-title {
     // border-top: 1px solid #AAA;
-    margin: 1rem 0 .5rem;
+    margin: 1rem 0 0rem;
     // text-decoration: underline;
     // text-decoration-thickness: 2px;
     font-size: 1.6rem;
@@ -28,7 +28,7 @@
   .post-meta {
     font-size: .875rem;
     color: $global-font-secondary-color;
-    border-bottom: 1px solid #AAA;
+    border-bottom: 1px solid #DDD;
 
     span {
       display: inline-block;
@@ -45,7 +45,7 @@
     @include link(false, true);
 
     .author {
-      font-size: 1.05rem;
+      font-size: 1rem;
       font-family: "Font Awesome 5 Free", "LXGW WenKai Screen", serif;
     }
   }
@@ -379,6 +379,7 @@
     img {
       max-width: 100%;
       min-height: 1em;
+      width: 100%;
     }
 
     figure {

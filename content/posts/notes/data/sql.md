@@ -26,11 +26,16 @@ tags: ["数据开发", "数据库", "数据仓库"]
 categories: ["笔记"]
 series: ["数据研发与分析"]
 series_weight: 1
+mindmap: true
 ---
 
 <!--more-->
 
-## MySQL[^1][^2]
+## MySQL[^1][^2][^7]
+
+[^7]: 数据分析师之——我的SQL自学之路 @意识成长 https://zhuanlan.zhihu.com/p/220172077 ![MySQL大纲](https://pic3.zhimg.com/v2-1ac8dc043d5fc80916ddea5d6d97e376_r.jpg)
+
+### 查询
 
 [^1]: SQL从入门到实战 @戴师兄 https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf
 [^2]: 数据库（SQL）面试题，基础知识（超全面） @weihubeats https://blog.csdn.net/qq_42651904/article/details/83146345
@@ -38,7 +43,7 @@ series_weight: 1
 - 语法 select-from-where-group by-having-order by-limit
 - 运行 from-where-group by-having-order by-limit-select
 
-### 基础语句
+#### 基础语句
 
 1. select & from
 - `select 字段（展示） from 表（数据来源）`
@@ -84,7 +89,7 @@ order by yr desc, count(winner) desc
 6. having
 - 对分组后数据进行筛选
 
-### 主要函数
+#### 主要函数
 
 1. `round(x,y)`
 - 四舍五入精确到小数点后y位，y负数仅保留
@@ -122,21 +127,80 @@ order by yr desc, count(winner) desc
 
 11. `case expr when v1 then r1[when v2 then r2] ... [else rn] end`
 
-### 高级语句
+#### 高级语句
 
 1. 窗口函数
 - `over([partition by 字段][order by 字段 asc/desc])`
 - 排序窗口 `rank()over(), dense_rank()over(), row_number()over()`
-- 偏移分析 `lag(字段名,偏移量[,默认值])over(), lead(字段名,偏移量[,默认值])over()`
+- 偏移分析 `lag(字段名,偏移量[,默认值])over(), lead(字段名,偏移量[,默认值])over()` 往上/往下
 
 **例题**
 - 对每年票数从高到低赋予名次 `rank()over(partition by yr order by votes desc) as posn`
 - [**covid每天新增人数**](https://sglzoo.net/wiki/Window_LAG)
 
-
 2. 表连接
 
+- `from 表1 inner/left/right join 表2 on 表1.字段 = 表2.字段`
+- 内连接会筛掉没有连上的行
+- 左/右连接保留对应 (from) 表内所有数据
+- 重名时指定字段列所在表 `select game.id`
+
+```sql
+select distinct t.name, d.name
+from teacher t
+left join dept d
+on d.id = t.dept
+```
+
 3. 子查询
+- `()` 多层嵌套
+- 一般用于`from, where`
+
+4. 组合查询
+- union
+
+### 操作
+
+#### 表
+
+1. 创建
+- `create table 表名 (字段名 字段类型 约束)`
+- ```sql
+create table student(
+	id integer primary key autoincrement, --主键自增长
+	name text not null, --非空
+	age integer,
+	email text unique, --唯一
+	check (age>0)
+);
+```
+2. 更新
+3. 查询
+4. 删除
+
+#### 数据
+
+1. 增
+- `insert into 表(列1,列2,...) values(值1,值2,...)`
+- 省略列名给所有列添加数据
+- `insert into student(id,name,age) values(3,'guy',16)`
+2. 删
+- `delete from 表 [where 条件]`
+- 不加条件则删除表中所有数据
+3. 改
+- `update 表 set 列1=值1, 列2=值2, ... [where 条件]`
+- `update scores set scores=scores+5 where scores<=95`
+
+### 事务
+
+1. 
+
+### 索引
+
+### 视图
+
+
+### 触发器
 
 ## Hive SQL[^5]
 

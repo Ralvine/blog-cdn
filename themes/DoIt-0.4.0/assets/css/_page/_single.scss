@@ -219,15 +219,26 @@
       color: $single-link-hover-color-black;
     }
 
-    ul,
     ol {
-      margin: .5rem 0;
-      padding-left: 2.5rem;
+      margin-left:0;
+      padding-inline-start: .5rem;
     }
 
     ul {
+      margin: 0.5rem 0.5rem;
       list-style-type: disc;
+      padding-left: 0;
+      border-left: #aaaaaa 0.5px dashed;
+      [theme=dark] & ,
+      [theme=black] & {
+        border-left: #aaaaaa 0.5px dashed;
+      }
     }
+
+    li {
+      margin-left: 1.2rem;
+    }
+
 
     ruby {
       background: $code-background-color;
@@ -406,8 +417,8 @@
 
     blockquote {
       display: block;
-      border-top: 0.07rem solid $blockquote-color;
-      border-bottom: 0.07rem solid $blockquote-color;
+      border-top: 0.1rem solid $blockquote-color;
+      border-bottom: 0.1rem solid $blockquote-color;
       background-color: rgba($blockquote-color, 0);
       font-family: "LXGW WenKai Screen", serif;
       padding: .25rem .75rem;
@@ -467,17 +478,17 @@
     @import "../_partial/_single/mermaid";
 
     hr {
-      margin: 2rem 0;
+      margin: 1.5rem 0;
       position: relative;
-      border-top: 3px dashed $global-border-color;
+      border-top: 2px dashed $global-border-color;
       border-bottom: none;
 
       [theme=dark] & {
-        border-top: 3px dashed $global-border-color-dark;
+        border-top: 2px dashed $global-border-color-dark;
       }
 
       [theme=black] & {
-        border-top: 3px dashed $global-border-color-black;
+        border-top: 2px dashed $global-border-color-black;
       }
     }
 

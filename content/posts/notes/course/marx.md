@@ -22,11 +22,13 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["经济", "政治"]
+tags: ["政治经济学", "马克思", "通识课"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1
 ---
+
+<!--more-->
 
 ## 《美国工厂》效率与福利中被忽视的阶级内因
 

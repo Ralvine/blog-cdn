@@ -518,7 +518,7 @@ theme = "DoIt-0.4.0"
     #  第三方库配置
     [params.page.library]
       [params.page.library.css]
-        # someCSS = "extra.css"
+        # someCSS = "bootstrap.min.css"
         #  更多第三方库配置
         [params.page.library.css.someOtherCSS]
           src = "extra.css"
@@ -526,9 +526,9 @@ theme = "DoIt-0.4.0"
           attr = "customAttribute"
         # 位于 "assets/"
         # 或者
-        # someCSS = "https://cdn.example.com/some.css"
+        # someCSS = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
       [params.page.library.js]
-        # someJavaScript = "some.js"
+        # someJavaScript = "bootstrap.min.js"
         #  更多第三方库配置
         # [params.page.library.js.someOtherJavaScript]
         #   src = "someOther.js"
@@ -537,7 +537,7 @@ theme = "DoIt-0.4.0"
         #   attr = "customAttribute"
         # 位于 "assets/"
         # 或者
-        # someJavaScript = "https://cdn.example.com/some.js"
+        # someJavaScript = "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     #  页面 SEO 配置
     [params.page.seo]
       # 图片 URL
@@ -834,17 +834,8 @@ series = "series"
     parent = "便笺"
     pre = "⚙️"
     post = ""
-    name = "工具"
+    name = "收藏"
     url = "/cage/tool/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = ""
-    parent = "便笺"
-    pre = "🎬"
-    post = ""
-    name = "纪录片"
-    url = "/cage/document/"
     title = ""
     weight = 4
   [[menu.main]]

@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["C++", "编程语言", "王何宇"]
+tags: ["C++", "计算机", "王何宇", "专业必修课"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: 
+tags: ["微分方程", "学术"]
 categories: ["回溯"]
 series: ["自我成长", "象牙塔"]
 series_weight: 1

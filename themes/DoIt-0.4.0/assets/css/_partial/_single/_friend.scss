@@ -1,15 +1,17 @@
 .friend-link-div {
     height: 92px;
-    margin-top: 5px;
-    width: 48%;
+    margin: 10px 10px 10px;
+    width: 46%;
     display: inline-block;
-    background: $friend-link-background-color;
+    background: #ffffff;
+    box-shadow: 0 0px 40px rgba(0,0,0,0.1);
+    border-radius: 25px;
     vertical-align: top;
     [theme="dark"] & {
-        background: $friend-link-background-color-dark;
+        background: #000000;
     }
     [theme="black"] & {
-        background: $friend-link-background-color-black;
+        background: #000000;
     }
     -webkit-transition: transform 0.4s ease;
     -moz-transition: transform 0.4s ease;
@@ -70,8 +72,8 @@
     }
 }
 
-@media screen and (max-width: 680px) {
-    .friend-link-div {
-        width: 100%;
+@media screen and (max-width: 710px) {
+    .friend-link {
+        width: 80%;
     }
 }

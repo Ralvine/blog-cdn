@@ -111,14 +111,9 @@ $showcase-hover-color-black: #ffffff;
     right: 2%;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
     .showcase-box {
         width: 100% !important;
         margin: 1% 0% 0% 0%;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .column-3 {
-        width: 48%;
     }
 }

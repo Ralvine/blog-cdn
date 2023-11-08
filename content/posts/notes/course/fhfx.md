@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["温铁军", "经济", "政治"]
+tags: ["王伟", "数学", "专业必修课"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

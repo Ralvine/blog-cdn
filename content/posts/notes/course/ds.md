@@ -5,7 +5,7 @@ title: 数据科学的数学基础
 date: 2022-09-01T20:20:40+08:00
 lastmod: 2022-09-01T20:25:40+08:00
 draft: false
-description: 样本空间、条件概率和独立性、分布函数、期望和方差、联合边际概率和条件概率、贝叶斯法则、极大似然估计和贝叶斯推断。
+description: 22-23 秋冬学期「数据科学的数学基础」课程学习笔记。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
 #seriesNavigation: 系列导航.
@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["温铁军", "经济", "政治"]
+tags: ["赖俊", "专业必修课", "数学"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

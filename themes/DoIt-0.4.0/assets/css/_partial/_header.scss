@@ -2,6 +2,8 @@ header {
   width: 100%;
   z-index: 150;
   background-color: $header-background-color;
+  // backdrop-filter: blur(1000px);
+  // -webkit-backdrop-filter: blur(1000px);
   @include transition(box-shadow 0.3s ease);
 
   [theme=dark] & {
@@ -172,6 +174,7 @@ header {
     .search-toggle:hover {
       cursor: default;
     }
+    
   }
 }
 
@@ -188,6 +191,7 @@ header {
   position: fixed;
   height: $header-height;
   line-height: $header-height;
+  
 
   [header-desktop=normal] & {
     position: static;

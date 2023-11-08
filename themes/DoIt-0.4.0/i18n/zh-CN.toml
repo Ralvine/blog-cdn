@@ -179,7 +179,7 @@ other = "返回"
 other = "主页"
 
 [readMore]
-other = "阅读全文"
+other = "详情"
 
 [outdatedInfoWarningBefore]
 other = "本文最后更新于 "

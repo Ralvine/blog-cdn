@@ -33,6 +33,17 @@
         margin-bottom: .75rem;
         font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
         font-weight: 800;
+
+        a {
+          border-bottom: 1px solid #000000;
+          [theme=dark] & {
+              border-bottom: 1px solid #bbbbbb;
+          }
+          [theme=black] & {
+              border-bottom: 1px solid #ffffff;
+          }
+        }
+
       }
 
       span {

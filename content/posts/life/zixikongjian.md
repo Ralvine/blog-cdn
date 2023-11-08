@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: 
+tags: ["方法论", "心理"]
 categories: ["生活"]
 series:
 series_weight: 1

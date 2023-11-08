@@ -9,50 +9,6 @@ comment:
   enable: false
 ---
 
-{{< echarts >}}
-{
-  "series": [
-    {
-      "name": "数据",
-      "type": "map",
-      "mapType": "河南",
-      "mapType": "china",
-      "roam": true,
-      "label": {
-        "normal": { "show": true },
-        "emphasis": { "show": false }
-      },
-      "data": [
-        { "name": "郑州市", "value": "100" }
-      ]
-    }
-  ]
-}
-{{< /echarts >}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">效率</p>&nbsp;
@@ -77,9 +33,10 @@ comment:
 
 - [Obsidian](https://www.bilibili.com/video/BV18a411r7mt)
 - [科研 FigureBest](https://www.bilibili.com/video/BV1xA411c7Cv)
-- [Notion](https://www.bilibili.com/video/BV1aV411v7te) [模板](https://www.bilibili.com/video/BV1aa4y1a7Gi) [DataBase]https://www.bilibili.com/video/BV1YJ411T7aB
+- [Notion](https://www.bilibili.com/video/BV1aV411v7te)
+- [模板](https://www.bilibili.com/video/BV1aa4y1a7Gi)
+- [DataBase](https://www.bilibili.com/video/BV1YJ411T7aB)
 - [可视化](https://www.bilibili.com/video/BV1L34y1o7gu)
-
 - [eCharts](https://echarts.apache.org/examples/zh/index.html#chart-type-pie) 在线绘图并获得JSON代码
 
 <h2>🔖 设备技巧</h2>

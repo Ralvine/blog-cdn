@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["温铁军", "经济", "政治"]
+tags: ["数学", "毕惟红"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1
@@ -44,7 +44,7 @@ series_weight: 1
     - 数字模拟 投影法求曲面面积
     - 随机数生成 数值代数 多元非线性方程组求解
 
-**研究方向**
+### 研究方向
 
 1. 图像处理
     - 图像分割 图像识别

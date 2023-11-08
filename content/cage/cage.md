@@ -12,6 +12,12 @@ comment:
 故物皆着我之色彩
 {{< /quote-center >}}
 
+{{< align center "🔖" >}}
+
+{{< align center "这里用于日常的琐碎收集" >}}
+
+{{< align center "一切有趣的事物均存放于此" >}}
+
 <div class="subpage-box">
 
   <div class="subpage-box-cover">
@@ -24,7 +30,7 @@ comment:
   <div class="subpage-box-cover">
     <a href="../goods" data-pjax-state="">
       <p class="image-hyper">⌨️</p>
-      <p class="image-caption">产品</p>
+      <p class="image-caption">好物</p>
       <img alt="产品" data-src="" src="https://z1.ax1x.com/2023/10/30/pimsIXD.jpg" data-loaded="true">
     </a>
   </div>

@@ -26,7 +26,6 @@ tags: ["秋招", "就业", "产品经理"]
 categories: ["回溯"]
 series: ["自我成长", "打工人"]
 series_weight: 1
-password: test
 ---
 
 <!--more-->
@@ -135,11 +134,11 @@ password: test
 
 ### 开发类
 
-    - 操作系统
-    - Linux
-    - C++面向对象
-    - 数据结构
-    - 算法
+- 操作系统
+- Linux
+- C++面向对象
+- 数据结构
+- 算法
 
 
 ### 产品类

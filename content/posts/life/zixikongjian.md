@@ -5,7 +5,7 @@ title: 九月随想：做难事必有所得
 date: 2023-10-15T13:20:40+08:00
 lastmod: 2023-10-24T13:25:40+08:00
 draft: false
-description: 一个人的不仅要看个人的奋斗，也要考虑到历史的进程。
+description: 一个人的命运，不仅要看个人的奋斗，也要考虑到历史的进程。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/05/piQsirV.jpg"]
 #seriesNavigation: 系列导航.

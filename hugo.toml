@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://blog.ralvines.top/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -796,9 +796,9 @@ series = "series"
   [[menu.main]]
     identifier = ""
     parent = "便笺"
-    pre = "📱"
+    pre = "⌨️"
     post = ""
-    name = "产品"
+    name = "好物"
     url = "/cage/goods/"
     title = ""
     weight = 4

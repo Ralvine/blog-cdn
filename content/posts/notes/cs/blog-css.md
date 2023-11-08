@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["温铁军", "经济", "政治"]
+tags: ["css", "html"]
 categories: ["笔记"]
-series: ["课程-大四"]
+series: ["前端开发"]
 series_weight: 1
 password: test
 ---

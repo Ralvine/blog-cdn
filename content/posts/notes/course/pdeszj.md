@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["C++", "编程语言", "许威威"]
+tags: ["数学", "微分方程", "张庆海", "专业必修课"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1
@@ -31,17 +31,11 @@ series_weight: 1
 <!--more-->
 
 {{< admonition quote "课程信息" true >}}
-🎓 计算机科学与技术学院<br>
+🎓 数学科学学院<br>
 🕙 2022-2023 春夏<br>
-🧑‍🏫 许威威<br>
-📝 50%作业，50%期末
+🧑‍🏫 张庆海<br>
+📝 40%平时，60%期末
 {{< /admonition >}}
-
-!!! quote ""
-    - 🎓 数学科学学院
-    - 🕙 2022-2023 春夏
-    - 🧑‍🏫 张庆海
-    - 📝 40%平时，60%期末
 
 
 ## 参考
@@ -50,7 +44,7 @@ series_weight: 1
 - [智云课堂回放](https://classroom.zju.edu.cn/coursedetail?course_id=51564&tenant_code=112)
 
 
-## Ch7. BVP-FD
+## (Ch7) BVP-FD
 
 > P60-70 (11)
 
@@ -66,7 +60,7 @@ series_weight: 1
     - 范数收敛性
 - 不规则边界、收敛性
 
-## Ch9. Multigrid
+## (Ch9) Multigrid
 
 > P80-87 (8)
 
@@ -82,7 +76,7 @@ series_weight: 1
     - 代数图
     - FMG最优复杂度
 
-## Ch11. IVP
+## (Ch11) IVP
 
 > P102-138 (37)
 
@@ -128,7 +122,7 @@ series_weight: 1
     - 收缩性、B-稳定性
     - 代数稳定性
 
-## Ch12. MOL
+## (Ch12) MOL
 
 > P140-155 (16)
 

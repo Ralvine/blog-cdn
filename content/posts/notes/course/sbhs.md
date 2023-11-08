@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["温铁军", "经济", "政治"]
+tags: ["数学", "贾厚玉", "专业必修课"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1
@@ -51,7 +51,7 @@ series_weight: 1
 - [实变函数习题十讲](https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&vd_source=e81e93bc6892fd0d7e19b265d26a2b3a)
 - [](https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&vd_source=e81e93bc6892fd0d7e19b265d26a2b3a)
 
-## Ch1. 集合
+## 集合
 
 - 三次完备化
     - 有理数&实数（极限封闭）
@@ -113,7 +113,7 @@ series_weight: 1
     - 连续函数的集合特征
 
 
-## Ch2. L可测集
+## L可测集
 
 - 外测度
     - L覆盖（开区间、可有限）
@@ -144,7 +144,7 @@ series_weight: 1
 - $\mathbb{R}^n$可测集
     - 直积可测性问题
 
-## Ch3. 可测函数
+## 可测函数
 
 - 定义
     - 广义实数
@@ -170,7 +170,7 @@ series_weight: 1
     - 连续扩张定理
     - 连续逼近、Frechet
 
-## Ch4. L积分
+## L积分
 
 - 非负简单函数
     - 分划
@@ -204,7 +204,7 @@ series_weight: 1
 - 可积与连续
     - 卷积
 
-## Ch5. L微分
+## L微分
 
 - 单调可微
     - Vitali覆盖
@@ -218,7 +218,7 @@ series_weight: 1
 - 绝对连续函数、微积分基本定理
 - 密度、全密点、近似连续点
 
-## Ch6. $L^p$空间
+## $L^p$空间
 
 - 定义
     - 本性有界（上界、上确界）

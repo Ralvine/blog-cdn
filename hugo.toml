@@ -1,4 +1,4 @@
-baseURL = "https://blog.ralvines.top/"
+baseURL = ""
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -899,3 +899,4 @@ series = "series"
   name="关于我们"
   url="/about"
   weight="1"
+

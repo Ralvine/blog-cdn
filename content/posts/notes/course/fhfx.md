@@ -37,8 +37,7 @@ series_weight: 1
 📝 20%小测，20%作业，60%期末
 {{< /admonition >}}
 
-## 参考
-
+{{< admonition note "课程材料" true >}}
 - 《实变函数与泛函分析概要（第五版）》王声望，郑维行
 - 课程讲义
     - Ch1.1
@@ -52,6 +51,7 @@ series_weight: 1
     - [度量空间](https://zhuanlan.zhihu.com/p/486354129)
     - [Banach&Hilbert](https://zhuanlan.zhihu.com/p/524355026)
 - [*智云课堂回放*](https://classroom.zju.edu.cn/coursedetail?course_id=48021&tenant_code=112)
+{{< /admonition >}}
 
 
 ## Ch1. 距离空间
@@ -170,6 +170,6 @@ series_weight: 1
 
 ## Ch4. 有界线性算子：希尔伯特空间
 
-## 前辈经验
+## 参考资料
 
 小测：https://www.cc98.org/topic/5321722

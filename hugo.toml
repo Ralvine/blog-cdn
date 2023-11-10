@@ -740,42 +740,42 @@ series = "series"
     # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
     # title = ""
     weight = 1
-  [[menu.main]]
-    identifier = "posts"
-    parent = "归档"
-    pre = "🧭"
-    post = ""
-    name = "所有文章"
-    url = "/posts/"
-    title = ""
-    weight = 3
-  [[menu.main]]
-    identifier = "tags"
-    parent = "归档"
-    pre = "🏷️"
-    post = ""
-    name = "标签"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    parent = "归档"
-    pre = "📁"
-    post = ""
-    name = "分类"
-    url = "/categories/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "series"
-    parent = "归档"
-    pre = "🔦"
-    post = ""
-    name = "系列"
-    url = "/series/"
-    title = ""
-    weight = 2
+#  [[menu.main]]
+#    identifier = "posts"
+#    parent = "归档"
+#    pre = "🧭"
+#    post = ""
+#    name = "所有文章"
+#    url = "/posts/"
+#    title = ""
+#    weight = 3
+#  [[menu.main]]
+#    identifier = "tags"
+#    parent = "归档"
+#    pre = "🏷️"
+#    post = ""
+#    name = "标签"
+#    url = "/tags/"
+#    title = ""
+#    weight = 2
+#  [[menu.main]]
+#    identifier = "categories"
+#    parent = "归档"
+#    pre = "📁"
+#    post = ""
+#    name = "分类"
+#    url = "/categories/"
+#    title = ""
+#    weight = 2
+#  [[menu.main]]
+#    identifier = "series"
+#    parent = "归档"
+#    pre = "🔦"
+#    post = ""
+#    name = "系列"
+#    url = "/series/"
+#    title = ""
+#    weight = 2
   [[menu.main]]
     identifier = ""
     pre = "🔖"
@@ -784,60 +784,60 @@ series = "series"
     url = "/cage/cage/"
     title = "便笺"
     weight = 3
-  [[menu.main]]
-    identifier = ""
-    parent = "便笺"
-    pre = "🎞️"
-    post = ""
-    name = "电影"
-    url = "/cage/movies/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = ""
-    parent = "便笺"
-    pre = "⌨️"
-    post = ""
-    name = "好物"
-    url = "/cage/goods/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = ""
-    parent = "便笺"
-    pre = "📚"
-    post = ""
-    name = "书籍"
-    url = "/cage/books/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = ""
-    parent = "便笺"
-    pre = "🎹"
-    post = ""
-    name = "音乐"
-    url = "/cage/music/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = ""
-    parent = "便笺"
-    pre = "📺"
-    post = ""
-    name = "剧集"
-    url = "/cage/drama/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = ""
-    parent = "便笺"
-    pre = "⚙️"
-    post = ""
-    name = "收藏"
-    url = "/cage/tool/"
-    title = ""
-    weight = 4
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "便笺"
+#    pre = "🎞️"
+#    post = ""
+#    name = "影片"
+#    url = "/cage/movies/"
+#    title = ""
+#    weight = 4
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "便笺"
+#    pre = "⌨️"
+#    post = ""
+#    name = "好物"
+#    url = "/cage/goods/"
+#    title = ""
+#    weight = 4
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "便笺"
+#    pre = "📚"
+#    post = ""
+#    name = "书籍"
+#    url = "/cage/books/"
+#    title = ""
+#    weight = 4
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "便笺"
+#    pre = "🎹"
+#    post = ""
+#    name = "音乐"
+#    url = "/cage/music/"
+#    title = ""
+#    weight = 4
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "便笺"
+#    pre = "📺"
+#    post = ""
+#    name = "剧集"
+#    url = "/cage/drama/"
+#    title = ""
+#    weight = 4
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "便笺"
+#    pre = "⚙️"
+#    post = ""
+#    name = "收藏"
+#    url = "/cage/tool/"
+#    title = ""
+#    weight = 4
   [[menu.main]]
     identifier = ""
     pre = "🧭"
@@ -846,33 +846,33 @@ series = "series"
     url = "/time/time/"
     title = ""
     weight = 5
-  [[menu.main]]
-    identifier = ""
-    parent = "拾迹"
-    pre = "📦"
-    post = ""
-    name = "项目"
-    url = "/time/project/"
-    title = ""
-    weight = 6
-  [[menu.main]]
-    identifier = ""
-    parent = "拾迹"
-    pre = "📸"
-    post = ""
-    name = "光阑"
-    url = "/time/photo/"
-    title = ""
-    weight = 6
-  [[menu.main]]
-    identifier = ""
-    parent = "拾迹"
-    pre = "🔦"
-    post = ""
-    name = "技能"
-    url = "/time/skill/"
-    title = ""
-    weight = 6
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "拾迹"
+#    pre = "📦"
+#    post = ""
+#    name = "项目"
+#    url = "/time/project/"
+#    title = ""
+#    weight = 6
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "拾迹"
+#    pre = "📸"
+#    post = ""
+#    name = "光阑"
+#    url = "/time/photo/"
+#    title = ""
+#    weight = 6
+#  [[menu.main]]
+#    identifier = ""
+#    parent = "拾迹"
+#    pre = "🔦"
+#    post = ""
+#    name = "技能"
+#    url = "/time/skill/"
+#    title = ""
+#    weight = 6
   [[menu.main]]
     identifier = "about"
     pre = "🏡"

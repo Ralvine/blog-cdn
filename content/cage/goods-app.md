@@ -1,5 +1,5 @@
 ---
-title: "⌨️ 好物"
+title: "⌨️ 风物"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 lightgallery: true
@@ -18,17 +18,6 @@ math:
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0a/5e/bb/0a5ebbe6-b331-2d24-8981-898d109a193f/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">月亮山<span style="float:right;font-weight:400">生活</span></div>
-      <div class="media-meta-item">
-        <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
-    </div>
-  </div>
-  <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/91/c6/a2/91c6a29c-4a14-d980-2903-3a7d56bc4989/AppIcon-0-0-1x_U007emarketing-0-10-0-0-sRGB-85-220.jpeg/460x0w.webp)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">番茄 to do<span style="float:right;font-weight:400">效率</span></div>
@@ -36,29 +25,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
-    </div>
-  </div>
-  <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/3c/35/d33c3583-5c70-f5b2-8562-c3b40c5ee31c/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">墨墨记忆卡<span style="float:right;font-weight:400">教育</span></div>
-      <div class="media-meta-item">
-        <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
-    </div>
-  </div>
-  <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/35/13/73/351373a1-a21a-2996-3e1d-144b43976308/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">会读<span style="float:right;font-weight:400">效率</span></div>
-      <div class="media-meta-item">
-        <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -67,20 +34,9 @@ math:
       <div class="media-meta-item title">心光<span style="float:right;font-weight:400">生活</span></div>
       <div class="media-meta-item">
         <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
-    </div>
-  </div>
-  <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0e/41/32/0e41321a-c4d3-3755-ddaa-784ab80b8d4a/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">华住会<span style="float:right;font-weight:400">旅游</span></div>
-      <div class="media-meta-item">
-        <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">最好用的心理+复盘工具，引入AI使记录碎片生动化，UI和交互也很赏心悦目。</div>
     </div>
   </div>
   <div class="media-app">
@@ -91,7 +47,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">模块化设计、弥补了 iOS 健康概览页无图表的问题，心理监测比较好用，但没有亮色模式。</div>
     </div>
   </div>
   <div class="media-app">
@@ -100,13 +56,44 @@ math:
       <div class="media-meta-item title">不背单词<span style="float:right;font-weight:400">教育</span></div>
       <div class="media-meta-item">
         <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">最好用的背单词工具，打卡激励+模块自定义+沉浸刷词+丰富的例句库和词根词组。</div>
     </div>
+  </div><br>
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">墨墨记忆卡<span style="float:right;font-weight:400">教育</span></div>
+    <div class="media-meta-item">
+      <span class="author">iOS</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">月亮山<span style="float:right;font-weight:400">生活</span></div>
+    <div class="media-meta-item">
+      <span class="author">iOS</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">会读<span style="float:right;font-weight:400">效率</span></div>
+    <div class="media-meta-item">
+      <span class="author">iOS</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div><br>
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">华住会<span style="float:right;font-weight:400">旅游</span></div>
+    <div class="media-meta-item">
+      <span class="author">iOS</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
   </div>
 </div>
-
 
 <h2>🔖 2022</h2>
 
@@ -119,7 +106,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -130,7 +117,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
 </div>
@@ -139,17 +126,6 @@ math:
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/eb/22/62/eb2262a8-f211-e41e-f5ff-e93966ed122e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">阅读记录<span style="float:right;font-weight:400">效率</span></div>
-      <div class="media-meta-item">
-        <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
-    </div>
-  </div>
-  <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/06/c7/c706c7fb-6250-f0e5-f2ea-3b657b79c906/AppIcon-2x-4-85-220.png/460x0w.webp);background-size: 113px 113px;"></div>
     <div class="media-meta">
       <div class="media-meta-item title">Goodnotes<span style="float:right;font-weight:400">效率</span></div>
@@ -157,7 +133,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -168,7 +144,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -179,7 +155,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -190,18 +166,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
-    </div>
-  </div>
-  <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c6/c2/53/c6c25390-6e31-dfec-f53c-f99c77d59f18/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">瓣读<span style="float:right;font-weight:400">效率</span></div>
-      <div class="media-meta-item">
-        <span class="author">iOS</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -212,8 +177,26 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
+  </div>
+</div>
+<div class="culture-list" cover-src="" json-src="books.json">
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">阅读记录<span style="float:right;font-weight:400">效率</span></div>
+    <div class="media-meta-item">
+      <span class="author">iOS</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">瓣读<span style="float:right;font-weight:400">效率</span></div>
+    <div class="media-meta-item">
+      <span class="author">iOS</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
   </div>
 </div>
 
@@ -228,7 +211,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -239,7 +222,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -250,7 +233,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -261,7 +244,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -272,7 +255,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -283,7 +266,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -294,7 +277,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -305,7 +288,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -316,7 +299,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -327,7 +310,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -338,7 +321,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -349,7 +332,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
 </div>
@@ -365,7 +348,7 @@ math:
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
 </div>

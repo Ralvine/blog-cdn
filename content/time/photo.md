@@ -1,5 +1,5 @@
 ---
-title: "📸 摄影"
+title: "📸 光阑"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 lightgallery: true
@@ -46,7 +46,7 @@ comment:
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="" data-pjax-state="">
+    <a href="./wuhan" data-pjax-state="">
       <p class="image-caption">武汉</p>
       <p class="image-description">2023-05</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1Mzcj.jpg" data-loaded="true">

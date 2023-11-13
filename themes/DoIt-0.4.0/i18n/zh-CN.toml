@@ -17,7 +17,7 @@ other = "文章"
 
 # === Taxonomy ===
 [allSome]
-other = "所有{{ .Some }}"
+other = "🌳 所有{{ .Some }}"
 
 [tag]
 other = "标签"

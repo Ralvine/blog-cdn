@@ -6,10 +6,19 @@
   }
 
   .group-title {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    text-align: center;
+    width: 30%;
+    margin: 1.5rem auto 1rem;
     font-family: 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
     font-weight: 800;
+    font-size: 1.5rem;
+    border-bottom: .5px solid rgba(0,0,0,0.3);
+    [theme=dark] & {
+      border-bottom: .5px solid rgba(255,255,255,0.5);
+    }
+    [theme=black] & {
+      border-bottom: .5px solid rgba(255,255,255,0.5);
+    }
   }
   .author-link-icon {
     padding-top: 0.5rem;

@@ -5,12 +5,13 @@
     padding-top: 0rem;
     padding-bottom: 2rem;
     text-align: center;
-    background-position: 50% 50%;
+    background-position: 50% 30%;
     border-radius: 20px;
     background-size: 150%;
     background-image: url("https://z1.ax1x.com/2023/10/29/pieoGfe.png");
     background-repeat: no-repeat;
     box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.2);
+    border:1px solid #f9f9f9;
 
     .home-avatar {
       padding: .5rem;
@@ -43,7 +44,7 @@
       font-weight: normal;
       font-family: "LXGW WenKai Screen";
       color: #FFFFFF;
-      text-shadow: 0 0 3px red, 0 0 3px green, 0 0 3px blue;
+      text-shadow: 0 0 5px rgba(0,0,0,0.3);
       margin: 0;
       padding: 0rem;
     }
@@ -51,7 +52,8 @@
     .links {
       padding: 0rem;
       font-size: 1.2rem;
-      text-shadow: 0 0 3px red, 0 0 3px green, 0 0 3px blue;
+      // text-shadow: 0 0 3px red, 0 0 3px green, 0 0 3px blue;
+      text-shadow: 0 0 5px rgba(0,0,0,0.3);
 
       a * {
         vertical-align: text-bottom;

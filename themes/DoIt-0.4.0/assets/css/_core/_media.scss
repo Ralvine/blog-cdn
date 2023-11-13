@@ -23,7 +23,11 @@
     margin-left: 3%;
   }
   .page.single.special {
-    margin: auto;
+    margin-left: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: none;
+    width: 70%;
   }
   .page.archive {
     margin: auto;
@@ -52,11 +56,6 @@
   #header-desktop .header-wrapper {
     padding-right: 1%;
     padding-left: 1%;
-  }
-  .page.single.special {
-    margin: auto;
-    padding-left: 2%;
-    padding-right: 2%;
   }
 }
 
@@ -109,6 +108,7 @@
   }
   .page.single.special {
     margin: auto;
+    width: 100%;
     padding-left: 2%;
     padding-right: 2%;
   }

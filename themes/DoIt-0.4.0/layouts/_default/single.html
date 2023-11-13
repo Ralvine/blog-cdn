@@ -1,6 +1,9 @@
 {{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
 
 {{- define "content" -}}
+
+    {{- partial "home/nav.html" . -}}
+
     {{- $params := .Scratch.Get "params" -}}
     <div class="page single special">
         {{- /* Title */ -}}

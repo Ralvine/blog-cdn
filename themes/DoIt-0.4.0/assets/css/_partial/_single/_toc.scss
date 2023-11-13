@@ -3,7 +3,9 @@
     font-size: $toc-title-font-size;
     font-weight: bold;
     text-transform: uppercase;
+    border-radius: 10px 10px 0 0;
   }
+  box-shadow: 0 0px 15px rgba(0,0,0,0.1);
 
   .toc-content {
     font-size: $toc-content-font-size;
@@ -70,8 +72,6 @@
   @include overflow-wrap(break-word);
   box-sizing: border-box;
   top: 4.8rem;
-  // left: 80%;
-  // width: 20%;
 
   [header-desktop=normal] & {
     top: 5rem;
@@ -137,6 +137,7 @@
 #toc-static {
   display: none;
   margin: .8rem 0;
+  border-radius: 10px;
 
   &[kept=true] {
     display: block;

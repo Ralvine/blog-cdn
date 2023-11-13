@@ -1,5 +1,5 @@
 ---
-title: "🤝 友链"
+title: ""
 date: 2019-08-02T11:04:49+08:00
 draft: false
 lightgallery: true
@@ -7,13 +7,17 @@ math:
   enable: true
 ---
 
-<h2><center>🤝 <u>友人</u></center></h2>
+<center><br><p style="font-size: 2.5rem;">🤝</p></center>
 
-{{< friend name="Keldos!" url="https://blog.keldos.me/" avatar="https://blog.keldos.me/images/avatar.jpeg" bio="竟然是规划狗" >}}
+<h3><center>- <u>友人</u> -</center></h3>
+
+{{< friend name="Keldos!" url="https://blog.keldos.me/" avatar="https://blog.keldos.me/images/avatar.jpeg" bio="学城乡规划学的" >}}
 
 {{< friend name="Barney's Blog" url="https://hugo.bnblogs.cc" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" bio="All the truth is simple" >}}
 
-<h2><center>🚪 <u>传送门</u></center></h2>
+<center><br><p style="font-size: 2.5rem;">🚪</p></center>
+
+<h3><center>- <u>传送门</u> -</center></h3>
 
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" bio="一个记录技术、阅读、生活的博客" >}}
 
@@ -55,12 +59,13 @@ math:
 
 {{< friend name="wututuのblog" url="https://blog.wututu.cn/" avatar="https://file-up.beaa.cn/blog/icon.webp" bio="wututu的博客,各种干货分享的博客" >}}
 
+{{< friend name="一元-ONESRC" url="https://www.onesrc.cn" avatar="https://www.onesrc.cn/usr/uploads/images/favicon.png" bio="To be simple!" >}}
 
-<h2><center>👉 <u>交换友链</u></center></h2>
+{{< friend name="进击的学霸的博客" url="https://blog.jjdxb.top" avatar="https://qny.jjdxb.top/pikaqiu.png" bio="代码写出来是给人看的，附带能在机器上运行" >}}
 
-欢迎交换友链~在下方留言你的：
 
-> 1. 名字
-> 2. 一句话介绍
-> 3. 主页地址
-> 4. 头像
+<center><br><p style="font-size: 2.5rem;">👉</p></center>
+
+<h3><center>- <u>交换</u> -</center></h3>
+
+<center>欢迎交换友链~</center><br>

@@ -11,8 +11,8 @@ images: ["https://z1.ax1x.com/2023/11/01/pinHjAI.png"]
 #seriesNavigation: 系列导航.
 featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/01/pinHjAI.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
+hiddenFromHomePage: true
+hiddenFromSearch: true
 lightgallery: true
 ruby: true
 fraction: true
@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["口语", "雅思"]
+tags: ["政治"]
 categories: ["笔记"]
 series: ["自我成长"]
 series_weight: 1

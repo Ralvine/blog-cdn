@@ -79,6 +79,20 @@
             {{- dict "Series" . | T "includedInSeries" | safeHTML -}}
         </span>
     {{- end -}}
+
+    <!-- 在meta区域插入标签 -->
+    &nbsp;<a href="{{ .RelPermalink }}"></a>
+    {{- with .Params.tags -}}
+        <span class="post-tags">
+            <i class="fas fa-tags fa-fw"></i>&nbsp;
+            {{- range $index, $value := . -}}
+                {{- if gt $index 0 }},&nbsp;{{ end -}}
+                {{- $tag := partialCached "function/path.html" $value $value | printf "/tags/%v" | $.Site.GetPage -}}
+                <a href="{{ $tag.RelPermalink }}">{{ $tag.Title }}</a>
+            {{- end -}}
+        </span>
+    {{- end -}}
+
     </center>
     </div>
 
@@ -92,9 +106,9 @@
     </center></div>
 
     {{- /* Footer */ -}}
-    <div class="post-footer">
+    <!-- <div class="post-footer"> -->
         <!-- <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a> -->
-        <a href="{{ .RelPermalink }}"></a>
+        <!-- <a href="{{ .RelPermalink }}"></a>
         {{- with .Params.tags -}}
             <div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;
@@ -105,5 +119,5 @@
                 {{- end -}}
             </div>
         {{- end -}}
-    </div>
+    </div> -->
 </article>

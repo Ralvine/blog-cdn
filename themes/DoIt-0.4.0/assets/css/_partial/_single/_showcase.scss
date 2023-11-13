@@ -11,28 +11,24 @@ $showcase-hover-color-dark: #ffffff;
 $showcase-hover-color-black: #ffffff;
 
 .showcase-box {
-    width: 48%;
     height: 250px;
-    margin: 1.5% 3% 1.5% 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     border-radius: 25px;
+    margin-left: 1%;
     display: inline-block !important;
-    background: $showcase-background-color;
-    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    // background: $showcase-background-color;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     position: relative;
-    [theme="dark"] & {
-        background: $showcase-background-color-dark;
-    }
-    [theme="black"] & {
-        background: $showcase-background-color-black;
-    }
 }
 
 .column-1 {
     width: 100%;
-    margin: 1% 0% 0% 0%;
 }
 .column-2 {
-    width: 46%;
+    width: 48.2%;
 }
 .column-3 {
     width: 32%;

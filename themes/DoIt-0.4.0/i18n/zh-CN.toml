@@ -83,7 +83,7 @@ other = "主题 - {{ .Theme }}"
 other = "zh-cn"
 
 [valinePlaceholder]
-other = "你的评论 ..."
+other = "在此输入你的评论（使用Gravatar或QQ邮箱可以匹配对应的社交头像）..."
 
 [facebookLanguageCode]
 other = "zh_CN"

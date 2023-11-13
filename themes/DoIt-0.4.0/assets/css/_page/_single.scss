@@ -13,7 +13,7 @@
     line-height: 140%;
     font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
     font-weight: 800;
-    // border-bottom: 1px solid #ddd;
+    // border-left: 8px solid #ddd;
     left: 50%;
   }
 
@@ -305,6 +305,7 @@
         border-spacing: 0;
         background: $table-background-color;
         border-collapse: collapse;
+        // box-shadow: 0 0px 15px rgba(0,0,0,0.1);
 
         [theme=dark] & {
           background: $table-background-color-dark;
@@ -315,8 +316,7 @@
         }
 
         thead {
-          background: $table-thead-color;
-
+          background: rgb(254,253,249);
           [theme=dark] & {
             background-color: $table-thead-color-dark;
           }
@@ -335,16 +335,8 @@
 
         th,
         td {
-          padding: .3rem 1rem;
+          padding: .3rem .5rem;
           border: 1px solid darken($table-thead-color, 2%);
-
-          [theme=dark] & {
-            border-color: darken($table-thead-color-dark, 2%);
-          }
-
-          [theme=black] & {
-            border-color: darken($table-thead-color-black, 2%);
-          }
         }
 
         th[role=columnheader]:not(.no-sort) {
@@ -555,5 +547,6 @@
 #TableOfContents {
   max-height: 75vh;
   overflow: auto;
+  margin-bottom: 8px;
   // width: 100%
 }

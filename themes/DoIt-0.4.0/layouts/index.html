@@ -3,6 +3,11 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
 
+    {{- if ne $profile.enable false -}}
+        {{- partial "home/nav.html" . -}}
+    {{- end -}}
+
+
     <div class="page home"{{ if ne $posts.enable false | or .Content }} posts{{ end }}>
         {{- /* Profile */ -}}
         {{- if ne $profile.enable false -}}

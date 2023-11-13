@@ -113,9 +113,21 @@
 
         {{- /* Tag Cloud Page */ -}}
         {{- else if eq $taxonomies "tags" -}}
+            <br><br>
+
             <div class="tag-cloud-tags">
                 {{- range $.Site.Taxonomies.tags.ByCount -}}
-                    <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>
+                    {{- $count := .Count }}
+                    {{ $largestFontSize := 1.5 }}
+                    {{ $smallestFontSize := 1 }}
+                    {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
+                    {{ $max := add (len (index $.Site.Taxonomies.tags.ByCount 0).Pages) 1 }}
+                    {{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
+                    {{ $spread := sub $max $min }}
+                    {{ $fontStep := div $fontSpread $spread }}
+                    {{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+                    {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
+                    <a href="{{ .Page.RelPermalink }}" style="font-size: {{ $currentFontSize }}rem; ">{{ .Page.Title }} <sup>{{ .Count }}</sup></a>
                 {{- end -}}
             </div>
         {{- end -}}

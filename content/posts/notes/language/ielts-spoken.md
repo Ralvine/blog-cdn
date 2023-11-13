@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["口语", "雅思"]
 categories: ["笔记"]
-series: ["自我成长"]
+series: ["备考记"]
 series_weight: 1
 ---
 

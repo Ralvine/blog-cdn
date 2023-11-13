@@ -1,11 +1,8 @@
 @media only screen and (max-width: 1800px) {
   .page {
-    // width: 70%;
-    // margin-left: 20%;
-    margin-right: 10%;
-    // background: rgba(255,255,255,5);
-    backdrop-filter: blur(2.2px);
-    -webkit-backdrop-filter: blur(2.2px);
+    margin-right: 5%;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     border-radius: 20px;
     padding-left: 2%;
     padding-right: 2%;
@@ -15,11 +12,14 @@
     margin: auto;
   }
   .page.home {
-    margin-left: auto;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin: auto;
+    margin-left: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
     box-shadow: none;
+    width: 70%;
+  }
+  #sidebar{
+    width: 100%;
   }
   .page.single.special {
     margin: auto;
@@ -28,8 +28,8 @@
     margin: auto;
   }
   #toc-auto {
-    left: 10%;
-    width: 17%;  
+    left: 5%;
+    width: 20%;  
     // background: rgba(255,255,255,5);
     backdrop-filter: blur(2.2px);
     -webkit-backdrop-filter: blur(2.2px);
@@ -38,8 +38,8 @@
   }
 
   #header-desktop .header-wrapper {
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
   .search-dropdown.desktop {
@@ -47,44 +47,19 @@
   }
 }
 
-@media only screen and (max-width: 1400px) {
-  #header-desktop .header-wrapper {
-    padding-right: 5%;
-    padding-left: 5%;
-  }
-  #toc-auto {
-    left: 5%;
-    width: 20%;
-  }
-  .page {
-    margin-right: 5%;
-    width:100%;
-  }
-}
-
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1300px) {
   #header-desktop .header-wrapper {
     padding-right: 1%;
     padding-left: 1%;
-  }
-  #toc-auto {
-    left: 1%;
-    width: 20%;
-  }
-  .page {
-    margin-left: 22%;
-    width:100%;
   }
   .page.single.special {
     margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  #header-desktop .header-wrapper {
-    padding-right: 1%;
-    padding-left: 1%;
-  }
+@media only screen and (max-width: 1000px) {
   #toc-auto {
     display: none;
   }
@@ -92,16 +67,16 @@
     display: block;
   }
   .page {
-    margin: auto;
+    margin: 0 auto 0;
     width:100%;
-  }
-  .page.single.special {
-    margin: auto;
   }
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 910px) {
   #header-desktop {
+    display: none;
+  }
+  #sidebar {
     display: none;
   }
   #header-mobile {
@@ -112,9 +87,9 @@
   }
   .page {
     margin-left: auto !important;
-    width: 100% !important;
-    padding-left: 0%;
-    padding-right: 0%;
+    width: 95% !important;
+    padding-left: 2%;
+    padding-right: 2%;
     box-shadow: none;
     [header-mobile] & {
       padding-top: $header-height;
@@ -130,10 +105,13 @@
   }
   .page.single.special {
     margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .page.home {
     width: 100%;
-    margin-left: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .copyright {
     .copyright-line {

@@ -11,8 +11,8 @@ images: ["https://z1.ax1x.com/2023/11/05/piQylSs.png"]
 #seriesNavigation: 系列导航.
 featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/05/piQylSs.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
+hiddenFromHomePage: true
+hiddenFromSearch: true
 lightgallery: true
 ruby: true
 fraction: true
@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["口语", "雅思"]
+tags: ["数学"]
 categories: ["笔记"]
-series: ["自我成长"]
+series: ["备考记"]
 series_weight: 1
 ---
 

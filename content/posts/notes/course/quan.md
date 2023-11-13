@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["温铁军", "经济", "政治"]
+tags: ["量子", "物理", "专业选修课", "武俊德"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

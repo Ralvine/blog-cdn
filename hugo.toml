@@ -12,6 +12,7 @@ title = "暮瞻"
 theme = "DoIt-0.4.0"
 
 [params]
+  enableEmoji = true
   #  DoIt 主题版本
   version = "0.4.0"
   # 网站名称
@@ -103,7 +104,7 @@ theme = "DoIt-0.4.0"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       #  是否为标题显示打字机动画
-      typeit = true
+      typeit = false
 
   # 页面底部信息配置
   [params.footer]
@@ -170,7 +171,7 @@ theme = "DoIt-0.4.0"
       # 主页显示的网站副标题
       subtitle = "不忘其所始，不求其所终；受而喜之，忘而复之。"
       # 是否为副标题显示打字机动画
-      typeit = true
+      typeit = false
       # 是否显示社交账号
       social = true
       #  免责声明 (支持 HTML 格式)
@@ -179,7 +180,7 @@ theme = "DoIt-0.4.0"
     [params.home.posts]
       enable = true
       # 主页每页显示文章数量
-      paginate = 10
+      paginate = 5
       #  被 params.page 中的 hiddenFromHomePage 替代
       # 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
       defaultHiddenFromHomePage = false
@@ -405,21 +406,21 @@ theme = "DoIt-0.4.0"
         appId = "KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz"
         appKey = "IrISHvDjPwnvBj2sxGoiXkKG"
         placeholder = ""
-        avatar = "mp"
+        avatar = "monsterid"
         meta= ""
         pageSize = 10
         lang = ""
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
+        enableQQ = true
         serverURLs = "https://keoktvqn.lc-cn-n1-shared.com"
         #  emoji 数据文件名称, 默认是 "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # 位于 "themes/DoIt/assets/data/emoji/" 目录
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
-        emoji = ""
+        emoji = "apple.yml"
       # Waline 评论系统设置
       [params.page.comment.waline]
         enable = false
@@ -860,7 +861,7 @@ series = "series"
 #    parent = "拾迹"
 #    pre = "📸"
 #    post = ""
-#    name = "光阑"
+#    name = "光影"
 #    url = "/time/photo/"
 #    title = ""
 #    weight = 6

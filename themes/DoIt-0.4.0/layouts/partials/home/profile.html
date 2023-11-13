@@ -4,7 +4,8 @@
     {{- with $profile.gravatarEmail -}}
         {{- $avatar = md5 . | printf "https://www.gravatar.com/avatar/%v?s=240&d=mp" -}}
     {{- end -}}
-    {{- if $avatar -}}
+    <div class="loft-title">Dawniew</div>
+<!--     {{- if $avatar -}}
         <div class="home-avatar">
             {{- $menus := $.Site.Menus.main | default slice -}}
             {{- with index $menus 0 -}}
@@ -19,7 +20,7 @@
                 {{- dict "Src" $avatar "Height" "100" "Width" "100" | partial "plugin/image.html" -}}
             {{- end -}}
         </div>
-    {{- end -}}
+    {{- end -}} -->
 
     {{- with $profile.title -}}
         <h1 class="home-title">
@@ -39,7 +40,7 @@
         </h2>
     {{- end -}}
 
-    {{- if $profile.social -}}
+    <!-- {{- if $profile.social -}}
         <div class="links">
             {{- $socialMap := resources.Get "data/social.yml" | transform.Unmarshal -}}
             {{- $socialArr := slice -}}
@@ -85,7 +86,7 @@
                 {{- partial "plugin/social.html" . -}}
             {{- end -}}
         </div>
-    {{- end -}}
+    {{- end -}} -->
 
     {{- with $profile.disclaimer -}}
         <h3 class="home-disclaimer">

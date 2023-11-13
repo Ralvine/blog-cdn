@@ -13,6 +13,55 @@
 /* =Widgets
 -------------------------------------------------------------- */
 
+.loft-avatar {
+  padding: .5rem;
+
+  img {
+    display: block;
+    width: 7rem;
+    height: auto;
+    margin: 130px auto 2rem;
+    @include border-radius(100%);
+    @include box-shadow(0 0 0 .3618em rgba(255, 255, 255, .05));
+    @include transition(all 0.4s ease);
+
+    &:hover {
+      position: relative;
+      @include transform(translateY(-.75rem));
+    }
+  }
+}
+
+.loft-links {
+      padding: 0rem;
+      font-size: 1.2rem;
+      text-shadow: 0 0 3px red, 0 0 3px green, 0 0 3px blue;
+      margin: 0px auto;
+      text-align: center;
+      color: #ffffff;
+      a * {
+        vertical-align: text-bottom;
+        color: #FFFFFF;
+      }
+      .description {
+        font-size: .9rem;
+      }
+      img {
+        height: 1.5rem;
+        padding: 0 .25rem;
+      }
+    }
+
+.loft-title {
+  font-family: "LXGW WenKai Screen";
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(0,0,0,0.3);
+  margin: 3rem auto 3rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .widget{
     overflow: hidden;
     margin-left: 0%;
@@ -21,37 +70,56 @@
 
 .widget-title{
     position: relative;
-    margin: 10px;
+    margin: 15px;
+    text-align: center;
     font-weight:bold;
 
 }
 
+.widget-caption {
+    position: relative;
+    margin: 15px;
+    font-family: "LXGW WenKai Screen";
+    line-height: 1.5rem;
+    text-align: center;
+}
+
 #sidebar{
     width: 300px;
-    margin: 0px;
     padding-left: 2%;
 }
 
 .loft-head{
     border-radius: 20px;
-    background-color: rgba(33,62,149,1);
     background-image: url("https://z1.ax1x.com/2023/10/29/pieoGfe.png");
-    height: 600px;
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-    border:1px solid #f2f2f2;
-    margin-bottom: 20px;
+    background-position: 50% 70%;
+    height: 450px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    border:1px solid #f9f9f9;
+    [theme=dark] & {
+        border:1px solid #aaaaaa;
+    }
+    [theme=black] & {
+        border:1px solid #aaaaaa;
+    }
+    margin-bottom: 20px;
 }
 
 .loft-inner{
+    position: sticky;
     border-radius: 20px;
-    background-color: rgba(255,255,255,0.5);
+    // background-color: rgba(255,255,255,0.5);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-    border:1px solid #f2f2f2;
-    margin-bottom: 20px;
+    border:1px solid #f9f9f9;
+    [theme=dark] & {
+        border:1px solid #aaaaaa;
+    }
+    [theme=black] & {
+        border:1px solid #aaaaaa;
+    }
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 /* 子菜单栏 */

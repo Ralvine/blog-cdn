@@ -6,11 +6,13 @@
     {{- $taxonomies := .Data.Plural -}}
     {{- $type := .Type -}}
 
+    {{- partial "home/nav.html" . -}}
+
     <div class="page archive">
         {{- /* Title */ -}}
-        <h2 class="single-title animate__animated animate__pulse animate__faster">
-            {{- .Params.Title | default (T $taxonomies) | default $taxonomies | dict "Some" | T "allSome" -}}
-        </h2>
+        <br><h2 class="single-title animate__animated animate__pulse animate__faster"><center>
+            {{- .Params.Title | default (T $taxonomies) | default $taxonomies | dict "Some" | T "allSome" -}}<sup>{{ len .Pages }}</sup>
+        </center></h2>
 
         {{- /* Categories Page */ -}}
         {{- if eq $taxonomies "categories" -}}
@@ -113,8 +115,6 @@
 
         {{- /* Tag Cloud Page */ -}}
         {{- else if eq $taxonomies "tags" -}}
-            <br><br>
-
             <div class="tag-cloud-tags">
                 {{- range $.Site.Taxonomies.tags.ByCount -}}
                     {{- $count := .Count }}

@@ -1,6 +1,7 @@
 /* eslint-disable no-new */
 /* eslint-disable no-undef */
 // import ClipboardJS from 'clipboard'
+
 const Tablesort = require('tablesort')
 // const autocomplete = require('autocomplete.js')
 
@@ -534,17 +535,20 @@ function initToc () {
         // If scroll to the top of the page
         // Set toc to absolute
         toc.style.position = 'absolute'
-        toc.style.top = `${minTocTop}px`
+        // toc.style.top = `${minTocTop}px`
+        toc.style.top = `295px`
       } else if (window.newScrollTop > maxScrollTop) {
         // If scroll to the bottom of the page
         // Set toc to absolute
         toc.style.position = 'absolute'
-        toc.style.top = `${maxTocTop}px`
+        // toc.style.top = `${maxTocTop}px`
+        toc.style.top = `295px`
       } else {
         // If in the middle
         // Set toc to fixed with TOP_SPACING
         toc.style.position = 'fixed'
-        toc.style.top = `${TOP_SPACING}px`
+        // toc.style.top = `${TOP_SPACING}px`
+        toc.style.top = `295px`
       }
       // Update the active toc link
       // Return directly if no toc link

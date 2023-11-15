@@ -38,7 +38,7 @@ math:
       <div class="media-meta-item title">邓小平时代<span style="float:right;font-weight:400">传记</span></div>
       <div class="media-meta-item">
         <span class="author">傅高义</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item intro">施工中...</div>
     </div>
@@ -46,10 +46,10 @@ math:
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi82K4x.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">自由在高处<span style="float:right;font-weight:400">传记</span></div>
+      <div class="media-meta-item title">自由在高处<span style="float:right;font-weight:400">类型施工中</span></div>
       <div class="media-meta-item">
         <span class="author">熊培云</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item intro">施工中...</div>
     </div>
@@ -57,7 +57,7 @@ math:
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/12/piGQs1S.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">人类简史<span style="float:right;font-weight:400">传记</span></div>
+      <div class="media-meta-item title">人类简史<span style="float:right;font-weight:400">类型施工中</span></div>
       <div class="media-meta-item">
         <span class="author">尤瓦尔·赫拉利</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
@@ -323,10 +323,3 @@ math:
     <div class="media-meta-item intro">施工中...</div>
   </div>
 </div>
-
-<center><br><p style="font-size: 2.5rem;">🔖💬💭</p></center>
-
-<h3><center>- <u>阅读</u> -</center></h3>
-
-📰
-- 留言板 -

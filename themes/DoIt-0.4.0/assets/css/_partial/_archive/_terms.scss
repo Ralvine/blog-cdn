@@ -1,6 +1,6 @@
 .categories-card, .author-card, .series-card {
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 0rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -22,7 +22,12 @@
     .card-item-wrapper {
       width: 100%;
       overflow: hidden;
-      @include border-radius(8%);
+      // @include border-radius(8%);
+      border-radius: 20px;
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+      padding-bottom: .8rem;
 
       .card-item-title {
         font-size: 1.2rem;

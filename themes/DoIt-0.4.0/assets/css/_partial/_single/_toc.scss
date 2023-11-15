@@ -1,4 +1,5 @@
 .toc {
+
   .toc-title {
     font-size: $toc-title-font-size;
     font-weight: bold;
@@ -67,11 +68,11 @@
 #toc-auto {
   display: block;
   position: absolute;
+  top: 295px;
   padding: 0 1rem;
   border-left: 4px solid $global-border-color;
   @include overflow-wrap(break-word);
   box-sizing: border-box;
-  top: 4.8rem;
 
   [header-desktop=normal] & {
     top: 5rem;

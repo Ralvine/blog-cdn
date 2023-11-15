@@ -1,40 +1,51 @@
 @media only screen and (max-width: 1800px) {
   .page {
-    margin-right: 5%;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border-radius: 20px;
     padding-left: 2%;
     padding-right: 2%;
     box-shadow: 0 -120px 150px 0 rgba(0, 0, 0, 0.19);
+    // margin-right: 5%;
+    margin-left: 30px;
+    width:63%;
   }
   #content-404 {
     margin: auto;
   }
   .page.home {
-    margin-left: 0px;
+    margin-left: 2%;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 0%;
     box-shadow: none;
-    width: 70%;
+    width: 63%;
+  }
+  .loft-inner-2 {
+    display: none;
   }
   #sidebar{
     width: 100%;
-    margin-left: 3%;
+    margin-left: 4%;
+  }
+  #sidebar-2{
+    width: 100%;
+    margin-left: 4%;
   }
   .page.single.special {
-    margin-left: 0px;
+    margin-left: 30px;
     padding-left: 2%;
     padding-right: 2%;
-    box-shadow: none;
-    width: 70%;
+    width: 63%;
   }
   .page.archive {
-    margin: auto;
+    margin-left: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 63%;
   }
   #toc-auto {
-    left: 5%;
-    width: 20%;  
+    left: 6%;
+    width: 290px;
     // background: rgba(255,255,255,5);
     backdrop-filter: blur(2.2px);
     -webkit-backdrop-filter: blur(2.2px);
@@ -52,26 +63,37 @@
   }
 }
 
+
 @media only screen and (max-width: 1300px) {
   #header-desktop .header-wrapper {
     padding-right: 1%;
     padding-left: 1%;
   }
-}
-
-@media only screen and (max-width: 1000px) {
+  .page {
+    margin-right: 4%;
+    // margin: 0 auto 0;
+    width:60%;
+  }
+  .page.single.special {
+    margin-right: 2%;
+  }
+  .page.archive {
+    margin-right: 2%;
+  }
+  #sidebar {
+    margin-left: 0%;
+  }
+  #sidebar-2 {
+    margin-left: 0%;
+  }
   #toc-auto {
     display: none;
   }
   #toc-static {
     display: block;
   }
-  .page {
-    margin: 0 auto 0;
-    width:100%;
-  }
-  #sidebar {
-    margin-left: 0%;
+  .loft-inner-2 {
+    display: block;
   }
 }
 
@@ -82,14 +104,21 @@
   #sidebar {
     display: none;
   }
+  #sidebar-2 {
+    display: none;
+  }
   #header-mobile {
     display: block;
   }
   body.blur {
     overflow: hidden;
   }
+  .loft-inner-2 {
+    display: none;
+  }
   .page {
-    margin-left: auto !important;
+    margin-left: 0;
+    margin-right: 0;
     width: 95% !important;
     padding-left: 2%;
     padding-right: 2%;
@@ -112,10 +141,18 @@
     padding-left: 2%;
     padding-right: 2%;
   }
+  .page.archive {
+    margin: auto;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
   .page.home {
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .copyright {
     .copyright-line {

@@ -3,11 +3,15 @@
 {{- end -}}
 
 {{- define "content" -}}
+
+    {{- partial "home/nav.html" . -}}
+
     <div class="page archive">
         {{- /* Title */ -}}
-        <h2 class="single-title animate__animated animate__pulse animate__faster">
-            {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}
-        </h2>
+        <br><h2 class="single-title animate__animated animate__pulse animate__faster"><center>
+            {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}<sup>{{ len .Pages }}</sup>
+        </center></h2>
+
 
         {{- /* Paginate */ -}}
         {{- if .Pages -}}
@@ -35,3 +39,5 @@
         {{- end -}}
     </div>
 {{- end -}}
+
+

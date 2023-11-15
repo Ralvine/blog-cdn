@@ -23,6 +23,7 @@
         </script>
     {{- end -}}
 
+    
 
     {{- $toc := $params.toc -}}
     {{- if eq $toc true -}}
@@ -32,6 +33,100 @@
     {{- end -}}
     
     
+<aside id="sidebar-2">
+    <div class="loft-box-2">
+    <div class="loft-head-2">
+        <div class="loft-avatar-2">
+            <a href="/article/" title="归档">
+                <img loading="eager" src="/images/avatar.jpg" srcset="/images/avatar.jpg, /images/avatar.jpg 1.5x, /images/avatar.jpg 2x" sizes="auto" alt="/images/avatar.jpg" title="/images/avatar.jpg" height="100" width="100">
+            </a>
+        </div>
+        <div class="loft-links-2">
+            <a href="https://github.com/Ralvine" title="GitHub" target="_blank" rel="noopener noreferrer me">
+                <i class="fab fa-github-alt fa-fw"></i>
+            </a><span class="description">Github</span>
+            <a href="https://t.me/Ralvine_offical" title="Telegram" target="_blank" rel="noopener noreferrer me">
+                <i class="fab fa-telegram-plane fa-fw"></i>
+            </a><span class="description">Telegram</span>
+            <br>
+            <a href="mailto:ralvine@163.com" title="Email" rel=" me">
+                <i class="far fa-envelope fa-fw"></i>
+            </a><span class="description">Email</span>
+            <a href="/index.xml" title="RSS" target="_blank" rel="noopener noreferrer me"><i class="fas fa-rss fa-fw"></i>
+            </a><span class="description">RSS</span>
+        </div>
+    </div>
+
+
+<div class="loft-inner-2">
+        <nav class="site-state">
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/posts">
+                    <span class="site-state-item-count">53</span>
+                    <span class="site-state-item-name">文章</span>
+                </a>
+            </div>
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/categories">
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">分类</span>
+                </a>
+            </div>      
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/tags">
+                    <span class="site-state-item-count">96</span>
+                    <span class="site-state-item-name">标签</span>
+                </a>
+            </div>
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/series">
+                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-name">系列</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="loft-inner-2">
+        <!-- <div class="widget-title"> 置顶</div> -->
+        <div class="widget-caption">💭<br>
+            以我观物 故物皆着我之色彩
+        </div>
+    </div>
+    <div class="loft-inner-2">
+        <nav class="site-state">
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/about/friend">
+                    <span class="site-state-item-count">🤝</span>
+                    <span class="site-state-item-name">友链</span>
+                </a>
+            </div>
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/about/about">
+                    <span class="site-state-item-count">📮</span>
+                    <span class="site-state-item-name">留言</span>
+                </a>
+            </div>
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/categories/笔记">
+                    <span class="site-state-item-count">📔</span>
+                    <span class="site-state-item-name">笔记</span>
+                </a>
+            </div>
+            <div class="site-state-item">
+                <a href="https://blog.ralvines.top/time/photo">
+                    <span class="site-state-item-count">📸</span>
+                    <span class="site-state-item-name">光影</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+</div>
+</aside>
+
     {{- /* Auto TOC */ -}}
     {{- if $toc.enable | and (eq $toc.keepStatic false) -}}
     <div class="toc" id="toc-auto">
@@ -52,6 +147,8 @@
     {{- else if eq $toc.enable false -}}
         <script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script>
     {{- end -}}
+
+
 
 
     <article class="page single">

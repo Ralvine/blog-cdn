@@ -3,7 +3,9 @@
 {{- end -}}
 
 {{- define "content" -}}
-    {{- $params := .Scratch.Get "params" -}}
+    {{- $params := .Scratch.Get "params" -}}】
+
+    {{- partial "home/nav.html" . -}}
 
     <div class="page archive">
         {{- /* Title */ -}}

@@ -23,6 +23,7 @@
             </div>
         {{- end -}}
 
+        <div class="board">
         {{- /* Posts */ -}}
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
             {{- /* Paginate */ -}}
@@ -42,5 +43,6 @@
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
+        </div>
     </div>
 {{- end -}}

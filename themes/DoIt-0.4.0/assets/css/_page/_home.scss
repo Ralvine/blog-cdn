@@ -1,4 +1,5 @@
 .home {
+
   .home-profile {
     @include transform(translateY( 16vh));
     margin-top: -20px;
@@ -91,115 +92,93 @@
     padding-top: 2rem;
   }
 
-  .home-avatar img {
-    width: 6rem;
-  }
-
-  .summary {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 0.8rem;
-    color: $global-font-color;
-    border-bottom: 0px dashed $global-border-color;
-    box-shadow: 0 80px 50px 0 rgba(0, 0, 0, 0.13);
-    margin-top: 1rem;
-    border-radius: 25px;
-
-    [theme=dark] & {
-      color: $global-font-color-dark;
-      border-bottom: 0px dashed $global-border-color-dark;
-    }
-    [theme=black] & {
-      color: $global-font-color-black;
-      border-bottom: 0px dashed $global-border-color-black;
-    }
-
-    .featured-image-preview {
-      width: 100%;
-      padding: 30% 0 0;
-      position: relative;
-      margin: 0rem auto;
-      @include transition(transform 0.4s ease);
-
-      img {
-        border-radius: 15px;
-        border:1px solid #f9f9f9;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        object-fit: cover;
-        // z-index: 0;
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    .summary {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 1rem;
+      padding-bottom: 0.8rem;
+      color: $global-font-color;
+      border-bottom: 0px dashed $global-border-color;
+      box-shadow: 0 80px 50px 0 rgba(0, 0, 0, 0.13);
+      margin-top: 1rem;
+      border-radius: 25px;
+      // width: 50%;
+      @media only screen and (max-width: 1800px) {
+          flex: 0 0 44%;
+      }
+      @media only screen and (max-width: 1200px) {
+          flex: 0 0 100%;
       }
 
-
-      &:hover {
-        @include transform(scale(1.01));
-      }
-    }
-
-
-    .single-title {
-      font-size: 1.4rem;
-      line-height: 110%;
-      font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
-      font-weight: 900;
-      // background-color: #ffffff;
-      // backdrop-filter: blur(1000px);
-      // box-shadow: 0 0px 150px 0 rgba(0, 0, 0, 10);
-      color: #ffffff;
-      margin-top: .6rem;
-      margin-bottom: .3rem;
-      left: 50%;
-    }
-
-    .content {
-      @include box(vertical);
-      -webkit-line-clamp: 3;
-      margin-top: 0.2rem;
-      width: 100%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      @include overflow-wrap(break-word);
-      color: $global-font-secondary-color;
-      // font-family: "LXGW WenKai Screen";
-      // font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
-      // font-weight: 300;
-      font-size: .95rem;
 
       [theme=dark] & {
-        color: $global-font-secondary-color-dark;
+        color: $global-font-color-dark;
+        border-bottom: 0px dashed $global-border-color-dark;
       }
       [theme=black] & {
-        color: $global-font-secondary-color-black;
+        color: $global-font-color-black;
+        border-bottom: 0px dashed $global-border-color-black;
       }
 
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      p {
-        font-size: 1rem;
-        line-height: 1.5;
-        display: inline;
+      .featured-image-preview {
+        width: 100%;
+        height: 70px;
+        padding: 30% 0 0;
+        position: relative;
+        margin: 0rem auto;
+        @include transition(transform 0.4s ease);
 
-        &::after {
-          content: "\A";
-          white-space: pre;
+        img {
+          border-radius: 15px;
+          border:1px solid #f9f9f9;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          object-fit: cover;
+          // z-index: 0;
+        }
+
+
+        &:hover {
+          @include transform(scale(1.01));
         }
       }
 
-      h2 {
-        font-size: 1.125rem;
+
+      .single-title {
+        font-size: 1.4rem;
+        line-height: 110%;
+        font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
+        font-weight: 900;
+        // background-color: #ffffff;
+        // backdrop-filter: blur(1000px);
+        // box-shadow: 0 0px 150px 0 rgba(0, 0, 0, 10);
+        color: #ffffff;
+        margin-top: .6rem;
+        margin-bottom: .3rem;
+        left: 50%;
       }
 
-      @include link(false, true);
-
-      b, strong {
+      .content {
+        @include box(vertical);
+        -webkit-line-clamp: 3;
+        margin-top: 0.2rem;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        @include overflow-wrap(break-word);
         color: $global-font-secondary-color;
+        // font-family: "LXGW WenKai Screen";
+        // font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
+        // font-weight: 300;
+        font-size: .95rem;
 
         [theme=dark] & {
           color: $global-font-secondary-color-dark;
@@ -207,28 +186,62 @@
         [theme=black] & {
           color: $global-font-secondary-color-black;
         }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+          font-size: 1rem;
+          line-height: 1.5;
+          display: inline;
+
+          &::after {
+            content: "\A";
+            white-space: pre;
+          }
+        }
+
+        h2 {
+          font-size: 1.125rem;
+        }
+
+        @include link(false, true);
+
+        b, strong {
+          color: $global-font-secondary-color;
+
+          [theme=dark] & {
+            color: $global-font-secondary-color-dark;
+          }
+          [theme=black] & {
+            color: $global-font-secondary-color-black;
+          }
+        }
       }
-    }
 
-    .post-footer {
-      margin-top: 0rem;
-      display: flex;
-      justify-content: center;
-      font-size: .85rem;
+      .post-footer {
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+        font-size: .85rem;
 
 
-      @include link(false, false);
+        @include link(false, false);
+
+        .post-tags {
+          padding: 0;
+          @include link(true, true);
+        }
+      }
 
       .post-tags {
-        padding: 0;
-        @include link(true, true);
+          padding: 0;
+          @include link(true, true);
       }
+      
     }
 
-    .post-tags {
-        padding: 0;
-        @include link(true, true);
-    }
-    
   }
 }

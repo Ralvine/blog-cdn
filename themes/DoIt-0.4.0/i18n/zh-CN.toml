@@ -143,13 +143,13 @@ other = "{{ .Categories }}"
 other = "{{ .Series }}"
 
 [wordCount]
-other = "约 {{ .Count }} 字"
+other = "{{ .Count }} 字"
 
 [readingTime]
-other = "预计阅读 {{ .Count }} 分钟"
+other = "{{ .Count }} 分钟"
 
 [views]
-other = "次阅读"
+other = ""
 
 [comments]
 other = "条评论"

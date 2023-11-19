@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["赖俊", "专业必修课", "数学"]
+tags: ["赖俊", "专业必修", "数据科学"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

@@ -1,10 +1,17 @@
 ---
-title: "⌨️ 风物"
+title: "⌨️"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 lightgallery: true
 math:
   enable: true
+---
+
+<div class="nav-tab">
+  <a href="../../cages"><p class="not">拾迹</p></a>
+  <p class="now">/&nbsp;风物</p>
+</div>
+
 ---
 
 <div class="nav-tab">
@@ -14,10 +21,7 @@ math:
   <p class="bord">]</p>
 </div>
 
-
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2023</u> -</center></h3>
+<center><p class="tabtag">2023</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -130,9 +134,7 @@ math:
   </div>
 </div>
 
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2022</u> -</center></h3>
+<center><p class="tabtag">2022</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -181,9 +183,7 @@ math:
   </div>
 </div>
 
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2021</u> -</center></h3>
+<center><p class="tabtag">2021</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -320,9 +320,7 @@ math:
   </div>
 </div>
 
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2020</u> -</center></h3>
+<center><p class="tabtag">2020</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -382,10 +380,7 @@ math:
   </div>
 </div>
 
-
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>更早</u> -</center></h3>
+<center><p class="tabtag">更早</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">

@@ -22,7 +22,7 @@
 }
 .site-state-item {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 6px;
     transition: transform 0.3s ease;
     .site-state-item-count {
         display: block;
@@ -35,7 +35,7 @@
             color: #ffffff;
         }
         font-weight: bold;
-        font-size: 16px;
+        font-size: 15px;
         position: relative;
     }
     .site-state-item-count::before {
@@ -124,14 +124,14 @@
         color: #ffffff;
     }
     a * {
-    vertical-align: text-bottom;
-    color: #FFFFFF;
-    [theme=dark] & {
-        color: #a9a9b3;
-    }
-    [theme=black] & {
-        color: #ffffff;
-    }
+        vertical-align: text-bottom;
+        color: #FFFFFF;
+        [theme=dark] & {
+            color: #a9a9b3;
+        }
+        [theme=black] & {
+            color: #ffffff;
+        }
     }
     .description {
         font-size: .9rem;
@@ -197,9 +197,10 @@
 .widget-caption {
     position: relative;
     margin: 15px;
-    font-family: "LXGW WenKai Screen";
-    line-height: 1.5rem;
+    font-family: "Permanent Marker", "Baskerville-BoldItalic", "BellMT-BoldItalic", Baskerville, Permanent Marker, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+    // line-height: 1.5rem;
     text-align: center;
+    font-size: 13px;
 }
 
 #sidebar{
@@ -229,7 +230,7 @@
     background-image: url("https://z1.ax1x.com/2023/10/29/pieoGfe.png");
     background-position: 50% 70%;
     height: 450px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
     border:1px solid #f9f9f9;
     [theme=dark] & {
         border:1px solid #aaaaaa;
@@ -245,7 +246,7 @@
     background-image: url("https://z1.ax1x.com/2023/10/29/pieoGfe.png");
     background-position: 50% 70%;
     height: 280px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
     border:1px solid #f9f9f9;
     [theme=dark] & {
         border:1px solid #aaaaaa;
@@ -269,7 +270,7 @@
     [theme=black] & {
         border:1px solid #aaaaaa;
     }
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
     margin-bottom: 10px;
 }
 
@@ -285,7 +286,7 @@
     [theme=black] & {
         border:1px solid #aaaaaa;
     }
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
     margin-bottom: 10px;
 }
 
@@ -375,7 +376,7 @@ blockquote.quote-center {
         font-size: 3em;
         font-weight: bold;
         font-family: serif;
-        margin-top: 0em;
+        margin-top: -20px;
     }
     &::after {
         position: absolute;
@@ -384,7 +385,7 @@ blockquote.quote-center {
         color: $blockquote-color;
         font-size: 3em;
         font-weight: bold;
-        margin-top: 0em;
+        margin-top: -55px;
         font-family: serif;
     }
 }
@@ -641,7 +642,7 @@ blockquote.quote {
 .github {
     border: 1px solid var(--color-contrast-low);
     border-radius: 20px;
-    box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.05);
     margin: 0 auto;
     margin-bottom: 1em;
     padding: 1em;

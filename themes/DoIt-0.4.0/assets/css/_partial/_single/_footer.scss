@@ -3,7 +3,8 @@
 
   .post-info {
     border-bottom: 1px solid $global-border-color;
-    padding: .3rem 0 0.3rem;
+    padding: 3px 0px 2px 4px;
+    font-size: 14px;
 
     [theme="dark"] & {
       border-bottom: 1px solid $global-border-color-dark;
@@ -92,7 +93,8 @@
   }
 
   .post-tags {
-    max-width: 65%;
+    max-width: 100%;
+    text-align: center;
 
     * {
       display: inline;

@@ -5,7 +5,7 @@ title: 史纲：解构苦难，建构辉煌
 date: 2021-01-10T20:20:40+08:00
 lastmod: 2021-01-10T20:25:40+08:00
 draft: false
-description: 对书籍《苦难辉煌》主线架构、基本内容的叙述阐述个人以下阅读感悟，即经历苦难是成就辉煌的必要条件和奠基性因素是二者的内在联系，承续中国共产党革命精神的时代意义寓于对统一战线、群众立场、坚韧品性、坚定信念等中共得以在艰苦卓绝的奋斗中取得革命胜利的系统要素之中。
+description: 经历苦难是成就辉煌的必要条件，承续中国共产党革命精神的时代意义寓于对统一战线、群众立场、坚韧品性、坚定信念等中共得以在艰苦卓绝的奋斗中取得革命胜利的系统要素之中。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/10/23/piAfKt1.png"]
 #seriesNavigation: 系列导航.
@@ -22,11 +22,13 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["思政课", "历史", "金一南"]
+tags: ["思政", "历史", "金一南"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1
 ---
+
+<!--more-->
 
 ## 旨归
 

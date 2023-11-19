@@ -2,19 +2,16 @@
 @import "../_partial/_single/toc";
 
 .single {
+  
   .single-title {
-    // border-top: 1px solid #AAA;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-    // margin-left: 50%; // 居左
-    // text-decoration: underline;
-    // text-decoration-thickness: 2px;
-    font-size: 1.6rem;
-    line-height: 140%;
-    font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
-    font-weight: 800;
-    // border-left: 8px solid #ddd;
+    font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    padding-left: 10px;
     left: 50%;
+    margin-top: 35px;
+    margin-left: 5px;
+    margin-bottom: 20px;
   }
 
   .single-subtitle {
@@ -24,17 +21,18 @@
     font-weight: normal;
     font-style: italic;
     line-height: 100%;
-    font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
-    font-weight: 800;
+    font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+    line-height: 1.5;
+    text-align: right;
+    
     // border-bottom: 1px solid #AAA;
   }
 
   .post-meta {
-    // margin-left: -35%; // 居左
     font-size: .875rem;
     color: $global-font-secondary-color;
-    // border-bottom: 1px solid #DDD;
-    left: 50%;
+    margin-left: 18px;
+    margin-right: 18px;
 
     span {
       display: inline-block;
@@ -54,6 +52,24 @@
       font-size: 1rem;
       font-family: "Font Awesome 5 Free", "LXGW WenKai Screen", serif;
     }
+
+    .post-series {
+        background-image:-webkit-linear-gradient(135deg,#6270ee,#2b90d9 60%,#37dede);
+        // background-image:-webkit-linear-gradient(135deg,#ffe9c9,#ffa12e 60%,#f48600);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        font-weight: 800;
+    }
+
+    .post-category {
+        background-image:-webkit-linear-gradient(135deg,#f48600,#ffa12e 60%,#ffe9c9);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        font-weight: 800;
+    }
+
+
+
   }
 
   .featured-image {
@@ -61,7 +77,6 @@
 
     img {
       display: block;
-      width: 100%;
       max-width: 100%;
       height: auto;
       margin: 0 auto;
@@ -73,11 +88,22 @@
 
   .content {
     counter-reset: h2;
+    margin-left: 18px;
+    margin-right: 18px;
+    line-height: 1.7;
+
+    .img-desc {
+        text-align: center;
+        color: #9a9a9a;
+        font-size: 15px;
+        margin-top: 0;
+    }
 
 
     >h2 {
       font-size: 1.5rem;
-      font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
+      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      line-height: 1.5;
       & code {
         font-size: 1.25rem;
       }
@@ -87,7 +113,8 @@
 
     >h3 {
       font-size: 1.3rem;
-      font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
+      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      line-height: 1.5;
       & code {
         font-size: 1.125rem;
       }
@@ -96,7 +123,8 @@
 
     >h4 {
       font-size: 1.2rem;
-      font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
+      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      line-height: 1.5;
 
       & code {
         font-size: 1rem;
@@ -106,13 +134,15 @@
 
     >h5 {
       font-size: 1.1rem;
-      font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
+      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      line-height: 1.5;
       counter-reset: h6;
     }
 
     >h6 {
       font-size: 1rem;
-      font-family: "Noto Serif SC", "Microsoft Yahei", STZhongsong, Roboto, serif;
+      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      line-height: 1.5;
     }
 
     h2,
@@ -139,10 +169,16 @@
     >h6 {
       >.header-mark::before {
         content: "|";
-        text-decoration: underline;
-        text-decoration-thickness: 1.1px;
+        // text-decoration: underline;
+        // text-decoration-thickness: 1.1px;
+        // background-color: #dddddd;
+        // border-radius: 8px;
+        background-image: -webkit-linear-gradient(135deg, #6270ee, #2b90d9 60%, #37dede);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         margin-right: .3125rem;
         color: $global-link-color;
+        margin-right: 10px;
 
         [theme=dark] & {
           color: $global-link-color-dark;
@@ -177,11 +213,6 @@
     >h6>.header-mark::before {
       counter-increment: h6;
       content: ounter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6);
-    }
-
-
-    p {
-      margin: .5rem 0;
     }
 
     b,
@@ -387,7 +418,10 @@
     img {
       max-width: 100%;
       min-height: 1em;
-      width: 100%;
+      // width: 100%;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
     }
 
     figure {
@@ -414,12 +448,10 @@
 
     blockquote {
       display: block;
-      border-top: 0.1rem solid $blockquote-color;
-      border-bottom: 0.1rem solid $blockquote-color;
-      background-color: rgba($blockquote-color, 0);
-      font-family: "LXGW WenKai Screen", serif;
-      padding: .25rem .75rem;
-      margin: 1rem 0;
+      border-left: 6px solid rgba(142, 174, 107, 0.3);
+      color: #6e6e6e;
+      margin: 30px 0;
+      padding: 0px 0 0px 25px;
 
       [theme=dark] & {
         border-left-color: $blockquote-color-dark;
@@ -477,7 +509,7 @@
     hr {
       margin: 1.5rem 0;
       position: relative;
-      border-top: 2px dashed $global-border-color;
+      border-top: 1px solid rgb(240,240,240);
       border-bottom: none;
 
       [theme=dark] & {
@@ -548,5 +580,6 @@
   max-height: 50vh;
   overflow: auto;
   margin-bottom: 8px;
+  margin-top: 8px;
   // width: 100%
 }

@@ -1,10 +1,17 @@
 ---
-title: "🎹 音乐"
+title: "🎹"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 lightgallery: true
 math:
   enable: true
+---
+
+<div class="nav-tab">
+  <a href="../../cages"><p class="not">拾迹</p></a>
+  <p class="now">/&nbsp;音乐</p>
+</div>
+
 ---
 
 <div class="nav-tab">
@@ -15,7 +22,6 @@ math:
   <a href="../music-other"><p class="not">小语种</p></a>
   <p class="bord">]</p>
 </div>
-
 
 
 <div class="culture-list" cover-src="" json-src="books.json">

@@ -534,13 +534,13 @@ function initToc () {
       if (window.newScrollTop < minScrollTop) {
         // If scroll to the top of the page
         // Set toc to absolute
-        toc.style.position = 'absolute'
+        toc.style.position = 'fixed'
         // toc.style.top = `${minTocTop}px`
         toc.style.top = `295px`
       } else if (window.newScrollTop > maxScrollTop) {
         // If scroll to the bottom of the page
         // Set toc to absolute
-        toc.style.position = 'absolute'
+        toc.style.position = 'fixed'
         // toc.style.top = `${maxTocTop}px`
         toc.style.top = `295px`
       } else {

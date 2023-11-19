@@ -1,25 +1,39 @@
 .archive {
   .single-title {
-    text-align: right;
-    font-family: 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
+    text-align: center;
+    font-family: "Noto Serif SC", serif;
     font-weight: 800;
   }
 
   .group-title {
-    text-align: center;
-    width: 30%;
-    margin: 1.5rem auto 1rem;
-    font-family: 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
-    font-weight: 800;
-    font-size: 1.5rem;
-    border-bottom: .5px solid rgba(0,0,0,0.3);
-    [theme=dark] & {
-      border-bottom: .5px solid rgba(255,255,255,0.5);
-    }
-    [theme=black] & {
-      border-bottom: .5px solid rgba(255,255,255,0.5);
-    }
+      width: 10%;
+      position: relative;
+      text-align: center;
+      margin: 1.5rem auto 1rem;
+      line-height: 1.4em;
+      z-index: 0;
+      transition: all .25s ease;
+      color: inherit;
+      padding: 0 3px;
   }
+
+  .group-title:after {
+      content: "";
+      position: absolute;
+      display: block;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 40%;
+      z-index: -1;
+      transition: all .25s ease;
+      background-color: rgba(142, 174, 107, 0.3);
+  }
+
+  .group-title:hover::after {
+      height: 100%;
+  }
+
   .author-link-icon {
     padding-top: 0.5rem;
     font-size: 1.5rem;

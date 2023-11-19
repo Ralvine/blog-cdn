@@ -1,5 +1,5 @@
 ---
-title: "🌳 归档"
+title: "🌳"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 lightgallery: true
@@ -7,20 +7,13 @@ comment:
   enable: false
 ---
 
-{{< quote-center >}}
+<div class="nav-tab">
+  <p class="now">归档</p>
+</div>
 
-<center><p style="font-size: 1.75rem;">🌳</p></center>
+---
 
-{{< align center "这里归档博客所有文章" >}}
-
-{{< align center "部分经典内容亦置顶于此" >}}
-
-{{< align center "可通过子级 [📁分类](../categories) 查看不同类别的内容" >}}
-
-{{< align center "或以 [🏷标签](../tags) 或 [🔦系列](../series) 形式阅览细分领域" >}}
-
-{{< /quote-center >}}
-
+<center><p class="tabtag">概览</p></center>
 
 <div class="subpage-box">
   <div class="subpage-box-cover-2">
@@ -37,6 +30,25 @@ comment:
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
     </a>
   </div>
+  <div class="subpage-box-cover-2-left">
+    <a href="../tags/" data-pjax-state="">
+      <p class="image-caption">所有标签</p>
+      <p class="image-description">🏷</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover-2">
+    <a href="../series/" data-pjax-state="">
+      <p class="image-caption">所有系列</p>
+      <p class="image-description">🧩</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
+    </a>
+  </div>
+</div>
+
+<center><p class="tabtag">精选</p></center>
+
+<div class="subpage-box">
   <div class="subpage-box-cover">
     <a href="../shsj/" data-pjax-state="">
       <p class="image-caption">社会实践</p>
@@ -81,22 +93,17 @@ comment:
   </div>
 </div>
 
+<center><p class="tabtag">分类</p></center>
+
 <div class="subpage-box">
-  <div class="subpage-box-cover">
-    <a href="../cage/cage" data-pjax-state="">
-      <p class="image-hyper">🔖</p>
-      <p class="image-caption">便笺</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1MLAf.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../time/time" data-pjax-state="">
+  <div class="subpage-box-cover-2">
+    <a href="../cages" data-pjax-state="">
       <p class="image-hyper">🧭</p>
       <p class="image-caption">拾迹</p>
       <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1sas1.jpg" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover">
+  <div class="subpage-box-cover-2-left">
     <a href="../categories/回溯" data-pjax-state="">
       <p class="image-hyper">⏳</p>
       <p class="image-caption">回溯</p>
@@ -126,68 +133,3 @@ comment:
   </div>
 </div>
 
-
-<div class="subpage-box">
-  <div class="subpage-box-cover-2">
-    <a href="../series/" data-pjax-state="">
-      <p class="image-caption">所有系列</p>
-      <p class="image-description">🔦</p>
-      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover-2-left">
-    <a href="../tags/" data-pjax-state="">
-      <p class="image-caption">所有标签</p>
-      <p class="image-description">🏷</p>
-      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/本科课程/" data-pjax-state="">
-      <p class="image-caption">本科课程</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1MX4S.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/自我成长/" data-pjax-state="">
-      <p class="image-caption">自我成长</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1aX59.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/历史进程/" data-pjax-state="">
-      <p class="image-caption">历史进程</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1aHDU.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/象牙塔/" data-pjax-state="">
-      <p class="image-caption">象牙塔</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/01/pinHjAI.png" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/读书记录/" data-pjax-state="">
-      <p class="image-caption">读书记录</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/人物志/" data-pjax-state="">
-      <p class="image-caption">人物志</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1MbHP.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/打工人/" data-pjax-state="">
-      <p class="image-caption">打工人</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../series/文化研究/" data-pjax-state="">
-      <p class="image-caption">文化研究</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/10/30/pimOw6S.png" data-loaded="true">
-    </a>
-  </div>
-</div>

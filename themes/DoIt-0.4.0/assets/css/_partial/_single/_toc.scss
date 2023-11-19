@@ -6,7 +6,7 @@
     text-transform: uppercase;
     border-radius: 10px 10px 0 0;
   }
-  box-shadow: 0 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0px 30px rgba(0,0,0,0.05);
 
   .toc-content {
     font-size: $toc-content-font-size;
@@ -110,9 +110,19 @@
       }
     }
 
+    a {
+      filter: blur(1px);
+    }
+
+    a:hover {
+      filter: none;
+      font-weight: bold;
+    }
+
     a.active {
       font-weight: bold;
       color: $single-link-color;
+      filter: none;
 
       [theme=dark] & {
         color: $single-link-color-dark;

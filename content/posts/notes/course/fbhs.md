@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["齐治", "数学", "专业选修课"]
+tags: ["齐治", "数学", "专业选修"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

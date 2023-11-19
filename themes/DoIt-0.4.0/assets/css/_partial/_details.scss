@@ -21,6 +21,7 @@
     max-height: 0;
     overflow-y: hidden;
     transition: max-height 0.5s ease-out;
+    border-radius: 0 0 10px 10px;
   }
 
   &.open {

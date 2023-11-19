@@ -7,10 +7,9 @@ comment:
   enable: false
 ---
 
-<center><br><p style="font-size: 2.5rem;">💰</p></center>
+<center><p class="tabtag">💰 赞赏</p></center>
 
-<h3><center>- <u>赞赏</u> -</center></h3>
-
+<center><p class="tabtag" style="font-size: 2rem;">☕️</p></center>
 
 <!-- ![☕️赞助我一杯咖啡](/images/qrcode.jpg) -->
 
@@ -20,6 +19,4 @@ comment:
   </div>
 </div>
 
-<center>☕️</center>
-
-<center>赞助我一杯咖啡</center>
+<center><p class="tabtag">赞助我一杯咖啡</p></center>

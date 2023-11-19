@@ -5,7 +5,7 @@ title: 中文的常态与变态
 date: 2018-12-22T20:20:40+08:00
 lastmod: 2018-12-22T20:25:40+08:00
 draft: false
-description: 余光中先生对中文西化的思考。
+description: 今日的中文虽因地区不同而互见差异，但共同的趋势都是繁琐与生硬。对于这种化简为繁、以拙代巧的趋势，有心人如果不及时提出警告，我们的中文势必越变越差，而地道中文原有的那种美德，那种简洁而又灵活的语文生态，也必将面目全非。
 #license: MIT
 images: ["https://z1.ax1x.com/2023/11/04/piMLqwF.png"]
 #seriesNavigation: 系列导航.

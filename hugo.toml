@@ -620,7 +620,7 @@ theme = "DoIt-0.4.0"
 
   #  Cookie 许可配置
   [params.cookieconsent]
-    enable = true
+    enable = false
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
       message = ""
@@ -779,10 +779,10 @@ series = "series"
 #    weight = 2
   [[menu.main]]
     identifier = ""
-    pre = "🔖"
+    pre = "🧭"
     post = ""
-    name = "便笺"
-    url = "/cage/cage/"
+    name = "拾迹"
+    url = "/cages/"
     title = "便笺"
     weight = 3
 #  [[menu.main]]
@@ -839,14 +839,14 @@ series = "series"
 #    url = "/cage/tool/"
 #    title = ""
 #    weight = 4
-  [[menu.main]]
-    identifier = ""
-    pre = "🧭"
-    post = ""
-    name = "拾迹"
-    url = "/time/time/"
-    title = ""
-    weight = 5
+#  [[menu.main]]
+#    identifier = ""
+#    pre = "🧭"
+#    post = ""
+#    name = "拾迹"
+#    url = "/time/time/"
+#    title = ""
+#    weight = 5
 #  [[menu.main]]
 #    identifier = ""
 #    parent = "拾迹"
@@ -879,7 +879,7 @@ series = "series"
     pre = "🏡"
     post = ""
     name = "关于"
-    url = "/about/about/"
+    url = "/about/"
     title = ""
     weight = 7
 

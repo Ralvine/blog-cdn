@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["数学", "贾厚玉", "专业必修课"]
+tags: ["分析", "贾厚玉", "专业必修"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

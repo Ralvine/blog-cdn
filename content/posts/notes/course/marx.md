@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["政治经济学", "马克思", "通识课"]
+tags: ["政治经济学", "马克思", "通识"]
 categories: ["笔记"]
 series: ["本科课程"]
 series_weight: 1

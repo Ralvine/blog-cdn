@@ -24,3 +24,7 @@
     }
   }
 }
+
+#toc-auto .toc-content a, a::before, a::after {
+  transition: all .2s ease-in-out;
+}

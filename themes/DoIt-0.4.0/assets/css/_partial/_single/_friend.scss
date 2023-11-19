@@ -51,6 +51,7 @@
             .friend-name {
                 font-style: normal;
             }
+            line-height: 1.2;
         }
         .friend-bio {
             text-overflow: ellipsis;
@@ -63,6 +64,7 @@
             [theme="black"] & {
                 color: $global-font-secondary-color-black;
             }
+            line-height: 1;
         }
     }
 }

@@ -116,7 +116,7 @@
         {{- /* Tag Cloud Page */ -}}
         {{- else if eq $taxonomies "tags" -}}
             <div class="tag-cloud-tags">
-                {{- range $.Site.Taxonomies.tags.ByCount -}}
+                {{- range $.Site.Taxonomies.tags -}}
                     {{- $count := .Count }}
                     {{ $largestFontSize := 1.5 }}
                     {{ $smallestFontSize := 1 }}

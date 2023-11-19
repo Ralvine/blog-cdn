@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["文学", "吴秀明", "陈力君", "通识课"]
+tags: ["文学", "吴秀明", "陈力君", "通识"]
 categories: ["笔记"]
 series: ["本科课程", "文化研究"]
 series_weight: 1

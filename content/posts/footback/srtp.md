@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: Matlab 曲线拟合工具箱的国产替代产品研发与应用
+title: Matlab 曲线拟合工具箱 SRTP
 # subtitle: 副标题.
 date: 2023-03-01T13:20:40+08:00
 lastmod: 2023-03-01T13:25:40+08:00
@@ -11,8 +11,8 @@ images: ["https://z1.ax1x.com/2023/10/23/piADxe0.png"]
 #seriesNavigation: 系列导航.
 featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piADxe0.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
+hiddenFromHomePage: true
+hiddenFromSearch: true
 lightgallery: true
 ruby: true
 fraction: true

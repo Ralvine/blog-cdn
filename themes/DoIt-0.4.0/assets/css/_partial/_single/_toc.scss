@@ -159,7 +159,7 @@
     justify-content: space-between;
     line-height: 2em;
     padding: 0 .75rem;
-    background: darken($code-background-color, 6%);
+    // background: darken($code-background-color, 6%);
 
     [theme=dark] & {
       background: darken($code-background-color-dark, 6%);

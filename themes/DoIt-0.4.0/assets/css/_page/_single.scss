@@ -4,7 +4,7 @@
 .single {
   
   .single-title {
-    font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+    font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
     font-weight: 600;
     font-size: 32px;
     padding-left: 10px;
@@ -12,6 +12,7 @@
     margin-top: 35px;
     margin-left: 5px;
     margin-bottom: 20px;
+    line-height: 2rem;
   }
 
   .single-subtitle {
@@ -21,7 +22,7 @@
     font-weight: normal;
     font-style: italic;
     line-height: 100%;
-    font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+    font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
     line-height: 1.5;
     text-align: right;
     
@@ -50,7 +51,7 @@
 
     .author {
       font-size: 1rem;
-      font-family: "Font Awesome 5 Free", "LXGW WenKai Screen", serif;
+      font-family: "Rubik", "Monda", "Font Awesome 5 Free", "LXGW WenKai Screen", serif;
     }
 
     .post-series {
@@ -102,7 +103,7 @@
 
     >h2 {
       font-size: 1.5rem;
-      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
       line-height: 1.5;
       & code {
         font-size: 1.25rem;
@@ -113,7 +114,7 @@
 
     >h3 {
       font-size: 1.3rem;
-      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
       line-height: 1.5;
       & code {
         font-size: 1.125rem;
@@ -123,7 +124,7 @@
 
     >h4 {
       font-size: 1.2rem;
-      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
       line-height: 1.5;
 
       & code {
@@ -134,14 +135,14 @@
 
     >h5 {
       font-size: 1.1rem;
-      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
       line-height: 1.5;
       counter-reset: h6;
     }
 
     >h6 {
       font-size: 1rem;
-      font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
       line-height: 1.5;
     }
 
@@ -467,7 +468,7 @@
     }
 
     .footnotes {
-      font-family: "STFangsong", "FangSong", "STSong", serif;
+      font-family: "Rubik", "Monda", "STFangsong", "FangSong", "STSong", serif;
       color: $global-font-secondary-color;
 
       [theme=dark] & {
@@ -513,11 +514,11 @@
       border-bottom: none;
 
       [theme=dark] & {
-        border-top: 2px dashed $global-border-color-dark;
+        border-top: 1px solid $global-border-color-dark;
       }
 
       [theme=black] & {
-        border-top: 2px dashed $global-border-color-black;
+        border-top: 1px solid $global-border-color-black;
       }
     }
 

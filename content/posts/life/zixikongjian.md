@@ -11,8 +11,8 @@ images: ["https://z1.ax1x.com/2023/11/05/piQsirV.jpg"]
 #seriesNavigation: 系列导航.
 featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/05/piQsirV.jpg"
-hiddenFromHomePage: false #主页隐藏
-hiddenFromSearch: false #搜索隐藏
+hiddenFromHomePage: true
+hiddenFromSearch: true
 lightgallery: true
 ruby: true
 fraction: true

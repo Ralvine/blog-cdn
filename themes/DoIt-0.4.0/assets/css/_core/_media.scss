@@ -11,6 +11,9 @@
     margin-left: 30px;
     width:63%;
   }
+  .home[posts] .home-profile {
+    display:none;
+  }
   #content-404 {
     margin: auto;
   }
@@ -91,6 +94,8 @@
   }
   #toc-static {
     display: block;
+    margin-left: 18px;
+    margin-right: 18px;
   }
   .loft-inner-2 {
     display: block;
@@ -100,6 +105,9 @@
 @media only screen and (max-width: 910px) {
   #header-desktop {
     display: none;
+  }
+  .home[posts] .home-profile {
+    display:block;
   }
   #sidebar {
     display: none;

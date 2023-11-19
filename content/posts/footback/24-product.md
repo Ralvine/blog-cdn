@@ -11,8 +11,8 @@ images: ["https://z1.ax1x.com/2023/10/24/piEGcUs.png"]
 #seriesNavigation: 系列导航.
 featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/24/piEGcUs.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
+hiddenFromHomePage: true
+hiddenFromSearch: true
 lightgallery: true
 ruby: true
 fraction: true

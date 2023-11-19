@@ -44,7 +44,7 @@
     .home-subtitle {
       font-size: 1.3rem;
       font-weight: normal;
-      font-family: "Long Cang", "LXGW WenKai Screen";
+      font-family: "Rubik", "Monda", "Long Cang", "LXGW WenKai Screen";
       color: #FFFFFF;
       text-shadow: 0 0 5px rgba(0,0,0,0.3);
       margin: 0;
@@ -152,17 +152,28 @@
         }
       }
 
+      .post-meta {
+        text-align: right;
+      }
+
 
       .single-title {
-        font-family: "PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+        font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
         font-weight: 600;
         font-size: 22px;
         line-height: 1.4rem;
         margin-top: 15px;
         margin-bottom: 0;
+        margin-right: 8px;
+        overflow: visible;
+        height: 24px;
         left: 50%;
         border-left: 4px solid #9a9a9a;
         transform: scaleX(.3s);
+      }
+
+      .single-title a {
+        // border-left: 4px solid #9a9a9a;
       }
 
       .content {

@@ -1,6 +1,10 @@
 @import "../_partial/_single/series";
 @import "../_partial/_single/toc";
 
+.footnote-ref {
+  font-weight: 400;
+}
+
 .single {
   
   .single-title {
@@ -60,6 +64,7 @@
         -webkit-background-clip:text;
         -webkit-text-fill-color:transparent;
         font-weight: 800;
+        transition: all .2s ease-in-out;
     }
 
     .post-category {
@@ -67,6 +72,17 @@
         -webkit-background-clip:text;
         -webkit-text-fill-color:transparent;
         font-weight: 800;
+        transition: all .2s ease-in-out;
+    }
+
+    .post-series:hover {
+        background-image:-webkit-linear-gradient(135deg,#6270ee,#2b90d9 0%,#37dede);
+        transform: scale(1.1);
+    }
+
+    .post-category:hover {
+        background-image:-webkit-linear-gradient(135deg,#f48600,#ffa12e 0%,#ffe9c9);
+        transform: scale(1.1);
     }
 
 
@@ -97,7 +113,7 @@
         text-align: center;
         color: #9a9a9a;
         font-size: 15px;
-        margin-top: 0;
+        margin-top: 3px;
     }
 
 
@@ -151,16 +167,8 @@
     h4,
     h5,
     h6 {
-      font-weight: 800;
+      // font-weight: 800;
       margin: 1.2rem 0;
-
-      [theme=dark] & {
-        font-weight: 800;
-      }
-
-      [theme=black] & {
-        font-weight: 800;
-      }
     }
 
     >h2,
@@ -262,7 +270,7 @@
     }
 
     ul {
-      margin: 0.5rem 0.5rem;
+      margin: 0.5rem 0rem;
       list-style-type: disc;
       padding-left: 0;
       border-left: #aaaaaa 0.5px dashed;
@@ -274,6 +282,9 @@
 
     li {
       margin-left: 1.2rem;
+      p {
+        margin: 0;
+      }
     }
 
 
@@ -481,6 +492,7 @@
 
       p {
         margin: .25rem 0;
+        font-weight: 300;
       }
 
       li {

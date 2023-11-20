@@ -10,20 +10,20 @@
   src: local('仿宋'), local('FangSong'),local('fangsong'), url("/font/SIMFANG.TTF");
 }
 
-@font-face {
-  font-family: "PingFang SC";
-  src: url("./PingFangSC.woff2") format("woff2");
-}
+// @font-face {
+//   font-family: "PingFang SC";
+//   src: url("../fonts/PingFangSC.woff2") format("woff2");
+// }
 
 @font-face {
     font-family: "Apple Color Emoji";
     src: local('Apple Color Emoji'), local('AppleColorEmoji'), local('apple-color-emoji');
     src:
-    url('./AppleColorEmoji.woff') format('woff'),
-    url('./AppleColorEmoji.ttf') format('truetype'),
-    url('./AppleColorEmoji.eot?'),
-    url('./AppleColorEmoji.eot?#iefix') format('embedded-opentype'),
-    url('./AppleColorEmoji.svg') format('svg');
+    url('../fonts/AppleColorEmoji.woff') format('woff');
+    // url('../fonts/AppleColorEmoji.ttf') format('truetype'),
+    // url('../fonts/AppleColorEmoji.eot?'),
+    // url('../fonts/AppleColorEmoji.eot?#iefix') format('embedded-opentype'),
+    // url('../fonts/AppleColorEmoji.svg') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -38,7 +38,7 @@ $head-font-family: "Rubik", "Monda", "Long Cang", "LXGW WenKai Screen", "Apple C
 
 $lxgw-font-family: "Rubik", "Monda", "LXGW WenKai Screen", "Apple Color Emoji", "Font Awesome 5 Free", serif;
 
-$foot-font-family: "Rubik", "Monda", "FangSong", "STFangsong", "STSong", "Apple Color Emoji", serif;
+$foot-font-family: "Rubik", "Monda", "FangSong", "STFangsong", "STSong", serif;
 
 $global-font-size: 16px;
 $global-font-weight: 400;

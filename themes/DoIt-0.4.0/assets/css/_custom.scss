@@ -3,12 +3,6 @@
 // 自定义样式
 // ==============================
 
-@font-face {
-  font-family: 'Fangsong';
-  src: local('仿宋'), local('FangSong'),local('fangsong'), url('/font/SIMFANG.TTF');
-}
-
-
 /* =Widgets
 -------------------------------------------------------------- */
 
@@ -177,16 +171,6 @@
     }
 }
 
-.loft-title {
-  font-family: "LXGW WenKai Screen", "Noto Serif", "Microsoft Yahei", sans-serif;
-  color: #ffffff;
-  font-weight: 800;
-  text-shadow: 0 0 5px rgba(0,0,0,0.3);
-  margin: 3rem auto 3rem;
-  text-align: center;
-  font-size: 3rem;
-}
-
 .widget-title{
     position: relative;
     margin: 15px;
@@ -197,7 +181,7 @@
 .widget-caption {
     position: relative;
     margin: 15px;
-    font-family: "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
+    font-family: $sans-font-family;
     // line-height: 1.5rem;
     text-align: center;
     font-size: 13px;
@@ -365,7 +349,7 @@ blockquote.quote-center {
         text-align: center !important;
         margin-top: 1.5em;
         margin-bottom: 1.5em;
-        font-family: "LXGW WenKai Screen";
+        font-family: $lxgw-font-family;
     }
     &::before {
         position: absolute;
@@ -374,7 +358,7 @@ blockquote.quote-center {
         color: $blockquote-color;
         font-size: 3em;
         font-weight: bold;
-        font-family: "Monda", "Noto Serif SC", serif;
+        font-family: $lxgw-font-family;
         margin-top: -20px;
     }
     &::after {
@@ -385,7 +369,7 @@ blockquote.quote-center {
         font-size: 3em;
         font-weight: bold;
         margin-top: -55px;
-        font-family: "Monda", "Noto Serif SC", serif;
+        font-family: $lxgw-font-family;
     }
 }
 
@@ -398,14 +382,14 @@ blockquote.quote {
     padding-left: 3em;
     border: none;
     p {
-        font-family: "LXGW WenKai Screen";
+        font-family: $lxgw-font-family;
     }
     &::before {
         position: absolute;
         left: -10px;
         content: '“';
         color: $blockquote-color;
-        font-family: "Monda", "Noto Serif SC", serif;
+        font-family: $lxgw-font-family;
         font-size: 3em;
         font-weight: bold;
         line-height: 1;

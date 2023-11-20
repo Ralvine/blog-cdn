@@ -2,9 +2,8 @@
 title: "📚"
 date: 2019-08-02T11:04:49+08:00
 draft: false
-lightgallery: true
-math:
-  enable: true
+comment:
+  enable: false
 ---
 
 <div class="nav-tab">
@@ -18,12 +17,10 @@ math:
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../books"><p class="not">图书</p></a>&nbsp;
-  <p class="now">刊物</p>&nbsp;
+  <p class="now">媒体</p>&nbsp;
   <a href="../books-wenxian"><p class="not">文献</p></a>
   <p class="bord">]</p>
 </div>
-
-
 
 <center><p class="tabtag">杂志</p></center>
 
@@ -92,3 +89,7 @@ math:
     <div class="media-meta-item intro">施工中...</div>
   </div>
 </div>
+
+<center><p class="tabtag">报道</p></center>
+
+<center><p class="tabtag">观点</p></center>

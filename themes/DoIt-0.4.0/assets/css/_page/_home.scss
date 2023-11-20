@@ -44,7 +44,7 @@
     .home-subtitle {
       font-size: 1.3rem;
       font-weight: normal;
-      font-family: "Rubik", "Monda", "Long Cang", "LXGW WenKai Screen";
+      font-family: $head-font-family;
       color: #FFFFFF;
       text-shadow: 0 0 5px rgba(0,0,0,0.3);
       margin: 0;
@@ -158,7 +158,7 @@
 
 
       .single-title {
-        font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
+        font-family: $sans-font-family;
         font-weight: 600;
         font-size: 22px;
         line-height: 1.4rem;

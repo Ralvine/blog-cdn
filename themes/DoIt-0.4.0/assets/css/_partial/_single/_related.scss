@@ -23,7 +23,7 @@
     .related-text {
         margin-top: 10px;
         position: absolute;
-        font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
+        font-family: $sans-font-family;
         margin-bottom: 10px;
         font-weight: 300;
     }
@@ -75,8 +75,7 @@
         margin: 10px;
         font-size: 0.9rem;
         line-height: 110%;
-        // font-family: "STFangsong", "FangSong", "STSong", serif;
-        font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
+        font-family: $sans-font-family;
         font-weight: 300;
     }
     

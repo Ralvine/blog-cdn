@@ -1,17 +1,14 @@
 ---
-title: "⚙️"
+title: "🔦"
 date: 2019-08-02T11:04:49+08:00
 draft: false
-lightgallery: true
-math:
-  enable: true
 comment:
   enable: false
 ---
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;收藏</p>
+  <p class="now">/&nbsp;探索</p>
 </div>
 
 ---

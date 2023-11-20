@@ -4,7 +4,41 @@
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: -apple-system, BlinkMacSystemFont, PingFang SC, "Noto Sans SC", "Noto Serif SC", Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+
+@font-face {
+  font-family: "Fangsong";
+  src: local('仿宋'), local('FangSong'),local('fangsong'), url("/font/SIMFANG.TTF");
+}
+
+@font-face {
+  font-family: "PingFang SC";
+  src: url("./PingFangSC.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Apple Color Emoji";
+    src: local('Apple Color Emoji'), local('AppleColorEmoji'), local('apple-color-emoji');
+    src:
+    url('./AppleColorEmoji.woff') format('woff'),
+    url('./AppleColorEmoji.ttf') format('truetype'),
+    url('./AppleColorEmoji.eot?'),
+    url('./AppleColorEmoji.eot?#iefix') format('embedded-opentype'),
+    url('./AppleColorEmoji.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+$global-font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Noto Serif SC", Microsoft YaHei UI,  "Apple Color Emoji", Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+
+$serif-font-family: "Noto Serif SC", "Apple Color Emoji", "Font Awesome 5 Free", serif;
+
+$sans-font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", "Apple Color Emoji", "Font Awesome 5 Free", sans-serif;
+
+$head-font-family: "Rubik", "Monda", "Long Cang", "LXGW WenKai Screen", "Apple Color Emoji", "Font Awesome 5 Free", serif;
+
+$lxgw-font-family: "Rubik", "Monda", "LXGW WenKai Screen", "Apple Color Emoji", "Font Awesome 5 Free", serif;
+
+$foot-font-family: "Rubik", "Monda", "FangSong", "STFangsong", "STSong", "Apple Color Emoji", serif;
 
 $global-font-size: 16px;
 $global-font-weight: 400;

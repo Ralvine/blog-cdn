@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "apple-color-emoji": "^1.0.1",
     "echarts": "^5.4.3"
   }
 }

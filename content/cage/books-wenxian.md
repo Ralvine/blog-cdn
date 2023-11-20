@@ -2,9 +2,8 @@
 title: "📚"
 date: 2019-08-02T11:04:49+08:00
 draft: false
-lightgallery: true
-math:
-  enable: true
+comment:
+  enable: false
 ---
 
 <div class="nav-tab">
@@ -17,7 +16,7 @@ math:
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../books"><p class="not">图书</p></a>&nbsp;
-  <a href="../books-kanwu"><p class="not">刊物</p></a>&nbsp;
+  <a href="../books-kanwu"><p class="not">媒体</p></a>&nbsp;
   <p class="now">文献</p>
   <p class="bord">]</p>
 </div>

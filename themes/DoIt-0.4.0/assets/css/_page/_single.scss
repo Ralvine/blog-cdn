@@ -4,7 +4,7 @@
 .single {
   
   .single-title {
-    font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
+    font-family: $sans-font-family;
     font-weight: 600;
     font-size: 32px;
     padding-left: 10px;
@@ -22,7 +22,7 @@
     font-weight: normal;
     font-style: italic;
     line-height: 100%;
-    font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
+    font-family: $sans-font-family;
     line-height: 1.5;
     text-align: right;
     
@@ -51,7 +51,7 @@
 
     .author {
       font-size: 1rem;
-      font-family: "Rubik", "Monda", "Font Awesome 5 Free", "LXGW WenKai Screen", serif;
+      font-family: $lxgw-font-family;
     }
 
     .post-series {
@@ -103,7 +103,7 @@
 
     >h2 {
       font-size: 1.5rem;
-      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, "Noto Sans SC", "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: $sans-font-family;
       line-height: 1.5;
       & code {
         font-size: 1.25rem;
@@ -114,7 +114,7 @@
 
     >h3 {
       font-size: 1.3rem;
-      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: $sans-font-family;
       line-height: 1.5;
       & code {
         font-size: 1.125rem;
@@ -124,7 +124,7 @@
 
     >h4 {
       font-size: 1.2rem;
-      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: $sans-font-family;
       line-height: 1.5;
 
       & code {
@@ -135,14 +135,14 @@
 
     >h5 {
       font-size: 1.1rem;
-      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: $sans-font-family;
       line-height: 1.5;
       counter-reset: h6;
     }
 
     >h6 {
       font-size: 1rem;
-      font-family: "Rubik", "Monda", "PingFang SC", -apple-system, BlinkMacSystemFont, "Noto Serif SC", "Microsoft Yahei", sans-serif;
+      font-family: $sans-font-family;
       line-height: 1.5;
     }
 
@@ -457,18 +457,18 @@
       [theme=dark] & {
         border-left-color: $blockquote-color-dark;
         background-color: rgba($blockquote-color-dark, 0);
-        font-family: "LXGW WenKai Screen", serif;
+        font-family: $lxgw-font-family;
       }
 
       [theme=black] & {
         border-left-color: $blockquote-color-black;
         background-color: rgba($blockquote-color-black, 0);
-        font-family: "LXGW WenKai Screen", serif;
+        font-family: $lxgw-font-family;
       }
     }
 
     .footnotes {
-      font-family: "Rubik", "Monda", "STFangsong", "FangSong", "STSong", serif;
+      font-family: $foot-font-family;
       color: $global-font-secondary-color;
 
       [theme=dark] & {

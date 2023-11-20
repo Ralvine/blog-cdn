@@ -3,8 +3,8 @@ title: "🏝️"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 lightgallery: true
-math:
-  enable: true
+comment:
+  enable: false
 ---
 
 <div class="nav-tab">
@@ -12,6 +12,8 @@ math:
   <a href="../"><p class="not">光影</p></a>
   <p class="now">/&nbsp;长沙</p>
 </div>
+
+---
 
 {{< quote-center >}}
 独立寒秋，湘江北去，橘子洲头。<br>

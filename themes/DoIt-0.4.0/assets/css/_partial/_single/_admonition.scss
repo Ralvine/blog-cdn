@@ -16,6 +16,23 @@
     background-color: opacify(map-get($admonition-background-color-map, 'note'), 0.15);
   }
 
+  .title-text {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #000000;
+    [theme=dark] & {
+        color: #9a9a9a;
+    }
+    [theme=black] & {
+        color: #ffffff;
+    }
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin-left: .5rem;
+    margin-right: 1rem;
+    line-height: 1;
+  }
+
   &.open .admonition-title {
     background-color: map-get($admonition-background-color-map, 'note');
   }

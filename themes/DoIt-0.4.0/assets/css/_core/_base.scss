@@ -48,6 +48,7 @@ body {
   background-color: $global-background-color;
   color: $global-font-color;
   @include overflow-wrap(break-word);
+  word-break: break-all;
   scrollbar-color: auto;
   &[theme=dark] {
     color: $global-font-color-dark;

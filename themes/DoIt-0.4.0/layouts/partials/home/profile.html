@@ -4,8 +4,8 @@
     {{- with $profile.gravatarEmail -}}
         {{- $avatar = md5 . | printf "https://www.gravatar.com/avatar/%v?s=240&d=mp" -}}
     {{- end -}}
-    <div class="loft-title">Dawniew</div>
-<!--     {{- if $avatar -}}
+    <!-- <h1 class="loft-title">Dawniew</h1> -->
+    {{- if $avatar -}}
         <div class="home-avatar">
             {{- $menus := $.Site.Menus.main | default slice -}}
             {{- with index $menus 0 -}}
@@ -20,7 +20,7 @@
                 {{- dict "Src" $avatar "Height" "100" "Width" "100" | partial "plugin/image.html" -}}
             {{- end -}}
         </div>
-    {{- end -}} -->
+    {{- end -}}
 
     {{- with $profile.title -}}
         <h1 class="home-title">

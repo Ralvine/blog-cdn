@@ -13,7 +13,11 @@ fontawesome: true
 
 ---
 
+
+
 - 图床
+
+前置处理：[压缩](https://www.compresss.com/cn/compress-jpg.html)
 
 UI小部件：相对路径
 封面：聚合图床（加载快）

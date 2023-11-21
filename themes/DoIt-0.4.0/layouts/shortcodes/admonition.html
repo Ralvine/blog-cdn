@@ -28,8 +28,10 @@
     </div>
 {{- else -}}
     {{- $type := .Get 0 | default "note" -}}
+  
+    {{ if .Get 3 | ne false }}
+
     <div class="details admonition {{ $type }}{{ if .Get 2 | ne false }} open{{ end }}">
-        {{ if .Get 3 | ne false }}
         <div class="details-summary admonition-title">
             <i class="icon {{ index $iconMap $type | default (index $iconMap "note") }}"></i>{{ .Get 1 | default (T $type) }}<i class="details-icon {{ $iconDetails }}"></i>
         </div>
@@ -38,7 +40,11 @@
                 {{- $inner -}}
             </div>
         </div>
-        {{ else }}
+    </div>
+
+    {{ else }}
+
+    <div class="admonition {{ $type }}">
         <div class="title-text">
             {{ .Get 1 | default (T $type) }}
         </div>
@@ -47,6 +53,8 @@
                 {{- $inner -}}
             </div>
         </div>
-        {{ end }}
     </div>
+
+    {{ end }}
+    
 {{- end -}}

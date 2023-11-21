@@ -10,7 +10,7 @@ comment:
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
   <a href="../"><p class="not">光影</p></a>
-  <p class="now">/&nbsp;台州方特</p>
+  <p class="now">/</p><p class="now">台州方特</p>
 </div>
 
 ---

@@ -8,7 +8,7 @@ comment:
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;影视</p>
+  <p class="now">/</p><p class="now">影视</p>
 </div>
 
 ---
@@ -16,7 +16,7 @@ comment:
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../movies"><p class="not">影片</p></a>&nbsp;
-  <a href="../movies-docum"><p class="not">纪录片</p></a>&nbsp;
+  <a href="../movies-docum"><p class="not">视频</p></a>&nbsp;
   <p class="now">剧集</p>
   <p class="bord">]</p>
 </div>

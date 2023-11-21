@@ -8,7 +8,7 @@ comment:
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;音乐</p>
+  <p class="now">/</p><p class="now">音乐</p>
 </div>
 
 ---

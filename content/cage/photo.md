@@ -8,14 +8,14 @@ comment:
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;光影</p>
+  <p class="now">/</p><p class="now">光影</p>
 </div>
 
 ---
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <p class="now">旅途</p>
+  <p class="now">时刻</p>
   <p class="bord">]</p>
 </div>
 
@@ -69,6 +69,13 @@ comment:
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1Mzcj.jpg" data-loaded="true">
     </a>
   </div>
+  <div class="subpage-box-cover-2-left">
+    <a href="" data-pjax-state="">
+      <p class="image-caption">CUBA</p>
+      <p class="image-description">2023-04</p>
+      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/21/piaV0C6.jpg" data-loaded="true">
+    </a>
+  </div>
   <div class="subpage-box-cover-2">
     <a href="./liangzhu" data-pjax-state="">
       <p class="image-caption">良渚</p>
@@ -83,7 +90,7 @@ comment:
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1Mx3Q.jpg" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover-2-left">
+  <div class="subpage-box-cover-2">
     <a href="./23-spring" data-pjax-state="">
       <p class="image-caption">西区春景</p>
       <p class="image-description">2023-03</p>
@@ -97,7 +104,7 @@ comment:
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1MbHP.jpg" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover-2">
+  <div class="subpage-box-cover-2-left">
     <a href="" data-pjax-state="">
       <p class="image-caption">南官水街</p>
       <p class="image-description">2023-01</p>
@@ -111,21 +118,21 @@ comment:
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/10/pi3jbkV.jpg" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover">
+  <div class="subpage-box-cover-2">
     <a href="./zhijiangxiaoqu" data-pjax-state="">
       <p class="image-caption">之江校区</p>
       <p class="image-description">2022-11</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1M7nI.jpg" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover">
+  <div class="subpage-box-cover-2">
     <a href="" data-pjax-state="">
-      <p class="image-caption">新天地</p>
+      <p class="image-caption">星巢现场</p>
       <p class="image-description">2022-11</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1aOUJ.jpg" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover">
+  <div class="subpage-box-cover-2-left">
     <a href="" data-pjax-state="">
       <p class="image-caption">法喜寺</p>
       <p class="image-description">2022-10</p>

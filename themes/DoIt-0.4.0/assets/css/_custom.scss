@@ -88,6 +88,7 @@
     text-align: left;
     border-radius: 10px;
     bottom:1.1rem;
+    width: 150px;
     background: rgb(255,252,250);
     [theme=dark] & {
         background: rgb(50,50,50);
@@ -180,7 +181,6 @@
 
 
 .group-picture {
-    display: flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

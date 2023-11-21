@@ -1,5 +1,5 @@
 ---
-title: "探索"
+title: "🔦"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 comment:
@@ -8,7 +8,7 @@ comment:
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;🔦</p>
+  <p class="now">/</p><p class="now">探索</p>
 </div>
 
 ---

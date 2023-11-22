@@ -18,7 +18,7 @@ comment:
 {{< admonition question "湖北省·武汉市" true false >}}
 ☁️ 昔人已乘黄鹤去，此地空余黄鹤楼。<br>
 🕙 2023.**04.27-04.30**<br>
-📝 旅行<br>
+📝 旅行
 🔗 [火车开往破晓——武汉小记](../../../wuhan)
 {{< /admonition >}}
 
@@ -160,7 +160,6 @@ comment:
     </div>
 </div>
 {{< /admonition >}}
-
 
 ---
 

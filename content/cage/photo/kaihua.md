@@ -17,7 +17,7 @@ comment:
 
 {{< admonition question "衢州市·开化" true false >}}
 🕙 2023.**07.18-07.31**<br>
-📝 社会实践<br>
+📝 社会实践
 {{< /admonition >}}
 
 {{< admonition tip "行程" true false >}}
@@ -32,7 +32,7 @@ comment:
 {{< /admonition >}}
 
 {{< admonition success "时刻" true false >}}
-🏫 支教小学
+🏫 支教小学<br>
 🏞️ 衢州山水
 {{< /admonition >}}
 

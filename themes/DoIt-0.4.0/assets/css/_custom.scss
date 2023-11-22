@@ -207,7 +207,7 @@
     object-fit: cover;
     border: 1px solid #666666;
     border-radius: 8px;
-    transition: opacity 0.3s ease, height 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .group-picture-cover img:hover {
@@ -233,7 +233,7 @@
     object-fit: cover;
     border: 1px solid #666666;
     border-radius: 8px;
-    transition: opacity 0.3s ease, height 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .group3-picture-cover img:hover {
@@ -259,26 +259,11 @@
     object-fit: cover;
     border: 1px solid #666666;
     border-radius: 8px;
-    transition: opacity 0.3s ease, height 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .group1-picture-cover img:hover {
     opacity:.7;
-}
-
-.group1-picture-cover:hover img {
-    width: 102%;
-    height: 102%;
-}
-
-.group-picture-cover:hover img {
-    width: 102%;
-    height: 102%;
-}
-
-.group3-picture-cover:hover img {
-    width: 102%;
-    height: 102%;
 }
 
 .nav-tab {
@@ -357,11 +342,6 @@
         flex: 0 0 45%;
     }
     display:flex;
-    transition: transform 0.3s ease;
-}
-
-.subpage-box-cover:hover {
-    transform: scale(1.05);
 }
 
 .subpage-box-cover:hover img {
@@ -451,11 +431,6 @@
         flex: 0 0 93%;
     }
     display:flex;
-    transition: transform 0.3s ease;
-}
-
-.subpage-box-cover-2:hover {
-    transform: scale(1.05);
 }
 
 .subpage-box-cover-2:hover img {
@@ -542,11 +517,6 @@
         flex: 0 0 93%;
     }
     display:flex;
-    transition: transform 0.3s ease;
-}
-
-.subpage-box-cover-2-left:hover {
-    transform: scale(1.05);
 }
 
 .subpage-box-cover-2-left:hover img {

@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["刘慈欣", "科幻"]
 categories: ["札录"]
-series: ["读书记录", "⭐️5"]
+series: ["阅览", "书籍", "文学"]
 series_weight: 1
 ---
 

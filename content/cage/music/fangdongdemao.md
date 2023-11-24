@@ -1,40 +1,25 @@
 ---
-authors: [Ralvine]
-title: 房东的猫：歌词摘录
-# subtitle: 副标题.
-date: 2022-04-26T20:20:40+08:00
-lastmod: 2022-04-26T20:25:40+08:00
+title: "🎹"
+date: 2019-08-02T11:04:49+08:00
 draft: false
-description: “我是那迟迟不肯启航的一江水，以为明日扣门而来，是你铩羽而归。”
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piA8oI1.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
-featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piA8oI1.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
-tags: ["房东的猫", "民谣"]
-categories: ["札录"]
-series: ["音乐", "⭐️5"]
-series_weight: 1
+comment:
+  enable: false
 ---
 
-<!--more-->
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../../../cage/music"><p class="not">音乐</p></a>
+  <p class="now">/</p><p class="now">房东的猫</p>
+</div>
 
+---
+
+{{< admonition question "歌单" true false >}}
 {{< music auto="https://music.163.com/#/playlist?id=8817551395" >}}
+{{< /admonition >}}
 
-## 云烟成雨
+{{< admonition tip "云烟成雨" true false >}}
 
-{{< quote-center >}}
 你的晚安 是下意识的恻隐 我留至夜深 治疗失眠梦呓
 
 那封手写信 留在行李箱底 来不及 赋予它旅途的意义
@@ -50,19 +35,15 @@ series_weight: 1
 我多想再见你 至少玩笑话还能说起
 
 街巷初次落叶的秋分 渐行渐远去的我们
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 时光，一如既往
-
-{{< quote-center >}}
+{{< admonition success "时光，一如既往" true false >}}
 长夜后 最如常的破晓 一定会赴约 刚好
 
 最向往的时光 是一如既往 就好
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 如常
-
-{{< quote-center >}}
+{{< admonition info "如常" true false >}}
 你就是如此令人神往的角色 在造物主的手中不拘一格
 
 锋利中带着柔和 柔和里伴随冷落
@@ -86,11 +67,9 @@ series_weight: 1
 很多时候你一个人就这么 跳入了一扇沉默
 
 看起来属于陌生或属于暮色 却不是属于谁的
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 不摇滚
-
-{{< quote-center >}}
+{{< admonition failure "不摇滚" true false >}}
 是否 总有一种悖论 想过奋不顾身 却又一事无成
 
 生活 总得理不饶人 你的不知分寸 化作满身伤痕
@@ -110,11 +89,9 @@ series_weight: 1
 回头看人生 穷尽每个可能 历经每次沸腾 用平凡天分
 
 你我的青春 遗憾 精彩 共生共存 让虚幻此生 不知不觉里成真
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 今夜的江滩公园没有烟花跨年
-
-{{< quote-center >}}
+{{< admonition note "今夜的江滩公园没有烟花跨年" true false >}}
 新年的第一艘渡船已经停靠 亲爱的 记住我返航的信号
 
 记住我 在我余生未卜的浪潮 浪潮下的飞鸟也落脚
@@ -126,11 +103,9 @@ series_weight: 1
 这里没有新年只有封请柬 看浪花睡眠冷风清冽
 
 火花在迷雾跳一曲金色的舞 转个圈年华逝去了
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 所以来吧
-
-{{< quote-center >}}
+{{< admonition question "所以来吧" true false >}}
 你是火车经过的风光 我是有点疲惫的青阳
 
 我们在一样的时空里 却还不认识对方
@@ -144,11 +119,9 @@ series_weight: 1
 像疯子一样 像疯子一样 在青春将逝时 来一点伤
 
 来一点勇敢 来一点荡漾 来一点一点一点爱吧
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 不知归期的故人
-
-{{< quote-center >}}
+{{< admonition tip "不知归期的故人" true false >}}
 芭蕉雨夜的蝉声 不知归期的故人
 
 夜夜抒情的晚风 叫醒睡梦的鸢尾
@@ -160,11 +133,9 @@ series_weight: 1
 我是那迟迟不肯启航的一江水 以为明日扣门而来 是你铩羽而归
 
 我是那迟迟不肯落下的一滴泪 任凭眼里的红 浸染我全部的卑微
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 爱与喜欢的区别
-
-{{< quote-center >}}
+{{< admonition success "爱与喜欢的区别" true false >}}
 哎呀 想忍住不告别
 
 我的路灯刚刚熄灭 你会有永恒的满月
@@ -172,19 +143,15 @@ series_weight: 1
 哎呀 终于要说再见
 
 因为你更怕黑一些 我把月光分你不谢
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 美好事物
-
-{{< quote-center >}}
+{{< admonition info "美好事物" true false >}}
 你看 顽皮细雨招摇过远帆 修理过小店某处忽明忽暗的灯盏
 
 你听 江水流过人家吵着要上岸 你去过烟花三月的江南
-{{< /quote-center >}}
+{{< /admonition >}}
 
-## 你是我最愚蠢的一次浪漫
-
-{{< quote-center >}}
+{{< admonition failure "你是我最愚蠢的一次浪漫" true false >}}
 可爱可恨可有遗憾 是你是他又与谁相关
 
 细细缓缓轻轻慢慢 失神岁月一去无返
@@ -198,5 +165,6 @@ series_weight: 1
 时间一过 继而被吹散
 
 未出口的话喉咙里打转 换成歌给你听 可能更委婉
-{{< /quote-center >}}
+{{< /admonition >}}
+
 

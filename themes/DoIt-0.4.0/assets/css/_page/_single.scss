@@ -33,7 +33,7 @@
   }
 
   .single-subtitle::before {
-    content: "——";
+    content: "— ";
     padding-left: 1rem;
   }
 
@@ -506,16 +506,6 @@
         border: 1px solid #666666;
         border-radius: 8px;
         transition: opacity 0.3s ease, transform 0.3s ease;
-    }
-
-    .double-picture-cover img:hover {
-        opacity:.7;
-        transform: scale(1.02);
-    }
-
-    .trible-picture-cover img:hover {
-        opacity:.7;
-        transform: scale(1.02);
     }
 
     figure {

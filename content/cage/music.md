@@ -22,7 +22,6 @@ comment:
   <p class="bord">]</p>
 </div>
 
-
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
     <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
@@ -49,7 +48,7 @@ comment:
   <div class="media-app">
     <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
     <div class="media-meta">
-      <div class="media-meta-item title"><a href="../../fddm-lyris/">房东的猫 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
+      <div class="media-meta-item title"><a href="./fangdongdemao/">房东的猫 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
       <div class="media-meta-item">
         <span class="author">摇滚</span>
         <span class="star-score">★★★★★</span>

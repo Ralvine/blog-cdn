@@ -68,7 +68,7 @@ comment:
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b>数据科学的数学基础</b></span>
+    <span class="image-description"><b><a href="./shujukexue/">数据科学的数学基础</a></b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description"><b>数值分析</b></span>
@@ -145,7 +145,7 @@ comment:
     <span class="image-description"><b>常微分方程</b></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b>数据结构与算法</b></span>
+    <span class="image-description"><b><a href="./shujujiegou/">数据结构与算法</a></b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">大学物理</span>

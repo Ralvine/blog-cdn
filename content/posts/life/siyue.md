@@ -22,7 +22,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["方法论", "心理"]
 categories: ["生活"]
-series: ["自我成长", "读书记录"]
+series: ["复盘"]
 series_weight: 1
 ---
 

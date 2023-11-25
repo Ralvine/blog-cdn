@@ -24,7 +24,7 @@ comment:
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b><a href="./qianyan/">数学前沿专题讨论</a></b></span>
+    <span class="image-description"><b><a href="./sxqy/">数学前沿专题讨论</a></b></span>
   </div>
 </div>
 
@@ -38,13 +38,13 @@ comment:
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b>微分方程数值解</b></span>
+    <span class="image-description"><b><a href="./pdeszj/">微分方程数值解</a></b></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b><a href="./shujujianmo/">数据建模与分析</a></b></span>
+    <span class="image-description"><b><a href="./sjjm/">数据建模与分析</a></b></span>
   </div>
    <div class="little-box-cover">
-    <span class="image-description"><b>泛函分析</b></span>
+    <span class="image-description"><b><a href="./fhfx/">泛函分析</a></b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">复变函数</span>
@@ -68,7 +68,7 @@ comment:
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b><a href="./shujukexue/">数据科学的数学基础</a></b></span>
+    <span class="image-description"><b><a href="./sjkx/">数据科学的数学基础</a></b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description"><b>数值分析</b></span>
@@ -106,10 +106,10 @@ comment:
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b>实变函数</b></span>
+    <span class="image-description"><b><a href="./sbhs/">实变函数</a></b></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b>偏微分方程</b></span>
+    <span class="image-description"><b><a href="./pde/">偏微分方程</a></b></span>
   </div>
    <div class="little-box-cover">
     <span class="image-description"><b>数值代数</b></span>
@@ -145,7 +145,7 @@ comment:
     <span class="image-description"><b>常微分方程</b></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b><a href="./shujujiegou/">数据结构与算法</a></b></span>
+    <span class="image-description"><b><a href="./dsa/">数据结构与算法</a></b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">大学物理</span>

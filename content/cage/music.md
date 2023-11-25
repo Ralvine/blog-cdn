@@ -35,7 +35,7 @@ comment:
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
+    <div class="media-cover-round">{{< music auto="https://music.163.com/playlist?id=8848209408" list-max-height="340px" autoplay="true" mini="true">}}</div>
     <div class="media-meta">
       <div class="media-meta-item title"><a href="">五月天 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
       <div class="media-meta-item">
@@ -46,7 +46,7 @@ comment:
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
+    <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8817551395" list-max-height="340px" autoplay="true" mini="true">}}</div>
     <div class="media-meta">
       <div class="media-meta-item title"><a href="./fangdongdemao/">房东的猫 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
       <div class="media-meta-item">
@@ -57,7 +57,7 @@ comment:
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
+    <div class="media-cover-round">{{< music auto="https://music.163.com/playlist?id=8847750950" list-max-height="340px" autoplay="true" mini="true">}}</div>
     <div class="media-meta">
       <div class="media-meta-item title"><a href="">新裤子 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
       <div class="media-meta-item">
@@ -68,7 +68,7 @@ comment:
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
+    <div class="media-cover-round">{{< music auto="https://music.163.com/playlist?id=8848217316" list-max-height="340px" autoplay="true" mini="true">}}</div>
     <div class="media-meta">
       <div class="media-meta-item title"><a href="">八三夭 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
       <div class="media-meta-item">
@@ -90,7 +90,7 @@ comment:
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
+    <div class="media-cover-round">{{< music auto="https://music.163.com/playlist?id=8848194806" list-max-height="340px" autoplay="true" mini="true">}}</div>
     <div class="media-meta">
       <div class="media-meta-item title"><a href="">林俊杰 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
       <div class="media-meta-item">

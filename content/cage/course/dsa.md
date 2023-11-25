@@ -40,11 +40,12 @@ comment:
 🗞️ 编程项目
 {{< /admonition >}}
 
-<!--
+
 {{< admonition failure "笔记" true false >}}
+🗞️ [课程笔记](../../../dsa)
 {{< /admonition >}}
 
-{{< admonition note "经验" true false >}}
+<!-- {{< admonition note "经验" true false >}}
 {{< /admonition >}}
--->
+ -->
 

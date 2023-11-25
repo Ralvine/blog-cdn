@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["方法论", "心理"]
 categories: ["生活"]
-series:
+series: ["复盘"]
 series_weight: 1
 password: test
 ---

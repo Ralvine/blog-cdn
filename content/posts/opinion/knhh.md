@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: 史纲：解构苦难，建构辉煌
+title: 解构苦难，建构辉煌
 #subtitle: 
 date: 2021-01-10T20:20:40+08:00
 lastmod: 2021-01-10T20:25:40+08:00

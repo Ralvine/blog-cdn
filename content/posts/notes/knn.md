@@ -20,9 +20,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["统计学习方法"]
+tags: ["统计学习", "分类", "算法"]
 categories: ["笔记"]
-series: ["本科课程"]
+series: ["课程", "数学"]
 series_weight: 1
 ---
 

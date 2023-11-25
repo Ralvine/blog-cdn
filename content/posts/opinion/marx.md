@@ -1,7 +1,7 @@
 ---
 authors: [Ralvine]
-title: 理解马克思：工人、工会与资本家
-subtitle: ——《美国工厂》影评
+title: 效率与资本
+subtitle: 「理解马克思」课程论文
 date: 2020-11-01T20:20:40+08:00
 lastmod: 2020-11-01T20:25:40+08:00
 draft: false
@@ -22,8 +22,8 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["政治经济学", "马克思", "通识"]
-categories: ["笔记"]
+tags: ["阶级", "工人", "福利"]
+categories: ["评论"]
 series: ["本科课程"]
 series_weight: 1
 ---

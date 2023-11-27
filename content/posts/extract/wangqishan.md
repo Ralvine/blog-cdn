@@ -1,6 +1,6 @@
 ---
 authors: [Ralvine]
-title: 「救火队长」王岐山
+title: 救火队长王岐山
 # subtitle: 副标题.
 date: 2017-02-20T20:20:40+08:00
 lastmod: 2023-10-31T20:25:40+08:00

@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["共产党", "民主", "延安"]
 categories: ["札录"]
-series: ["历史进程", "读书记录", "⭐️5"]
+series: ["阅览", "书籍", "历史"]
 series_weight: 1
 ---
 

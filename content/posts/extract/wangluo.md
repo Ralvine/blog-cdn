@@ -24,7 +24,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["汪洋", "政治", "俞正声", "韩正", "蔡奇"]
 categories: ["札录"]
-series: ["人物志", "历史进程"]
+series: ["阅览", "观点", "时政"]
 series_weight: 1
 ---
 

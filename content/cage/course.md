@@ -50,7 +50,7 @@ comment:
     <span class="image-description">复变函数</span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description">政治经济学导论</span>
+    <span class="image-description"><a href="./zzjjxdl/">政治经济学导论</a></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">政治经济学</span>
@@ -186,7 +186,7 @@ comment:
     <span class="image-description">大学英语 IV</span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description">当代文学前沿问题研究</span>
+    <span class="image-description"><a href="./wxqy/">当代文学前沿问题研究</a></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">C程序设计基础</span>

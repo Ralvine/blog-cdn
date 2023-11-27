@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["王岐山", "政治"]
+tags: ["王岐山", "反腐"]
 categories: ["札录"]
-series: ["人物志", "读书记录", "历史进程", "⭐️5"]
+series: ["阅览", "观点", "人物"]
 series_weight: 1
 ---
 

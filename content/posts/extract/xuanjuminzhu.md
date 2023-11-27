@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["炎黄春秋", "傅士卓", "政治", "历史"]
+tags: ["炎黄春秋", "傅士卓", "选举", "精英"]
 categories: ["札录"]
-series: ["历史进程"]
+series: ["阅览", "观点", "政治"]
 series_weight: 1
 ---
 

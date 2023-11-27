@@ -1,7 +1,7 @@
 ---
 authors: [Ralvine]
 title: 解构苦难，建构辉煌
-#subtitle: 
+subtitle: 「中国近现代史纲要」课程论文
 date: 2021-01-10T20:20:40+08:00
 lastmod: 2021-01-10T20:25:40+08:00
 draft: false
@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["思政", "历史", "金一南"]
-categories: ["笔记"]
-series: ["本科课程"]
+tags: ["苦难辉煌", "金一南"]
+categories: ["随笔"]
+series: ["课程", "历史"]
 series_weight: 1
 ---
 

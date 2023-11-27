@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["王沪宁", "政治", "复旦大学"]
+tags: ["王沪宁", "政治", "复旦"]
 categories: ["札录"]
-series: ["人物志", "读书记录", "历史进程", "⭐️5"]
+series: ["阅览", "书籍", "人物"]
 series_weight: 1
 ---
 

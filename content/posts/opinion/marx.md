@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["阶级", "工人", "福利"]
-categories: ["评论"]
-series: ["本科课程"]
+tags: ["阶级", "矛盾"]
+categories: ["随笔"]
+series: ["课程", "政治"]
 series_weight: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 authors: [Ralvine]
 title: 符号权力的三十年
-# subtitle: 副标题.
+subtitle: 「政治经济学导论」课程论文
 date: 2023-04-29T20:20:40+08:00
 lastmod: 2023-06-29T20:25:40+08:00
 draft: false
@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["经济", "政治经济学", "俞彬", "通识"]
-categories: ["笔记"]
-series: ["本科课程"]
+tags: ["经济", "资本", "俞彬"]
+categories: ["随笔"]
+series: ["课程", "历史", "经济"]
 series_weight: 1
 ---
 

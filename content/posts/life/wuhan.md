@@ -21,7 +21,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["心理", "完美主义", "复旦大学"]
+tags: ["武汉", "热干面", "黄鹤楼"]
 categories: ["生活"]
 series: ["光影", "时刻"]
 series_weight: 1

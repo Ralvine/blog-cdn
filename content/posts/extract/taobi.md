@@ -23,7 +23,7 @@ enableWordCount: true
 enableReadingTime: true
 tags: ["完美主义", "逃避"]
 categories: ["札录"]
-series: ["阅览","图书", "心理学"]
+series: ["阅览","图书", "心理"]
 series_weight: 1
 ---
 

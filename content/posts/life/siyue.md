@@ -20,10 +20,11 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["方法论", "心理"]
+tags: ["四月"]
 categories: ["生活"]
 series: ["复盘"]
 series_weight: 1
+password: test
 ---
 
 <!--more-->

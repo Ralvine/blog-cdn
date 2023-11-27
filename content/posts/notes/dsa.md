@@ -22,9 +22,9 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["C++", "数据结构", "王何宇", "专业必修"]
+tags: ["C++", "数据结构", "王何宇"]
 categories: ["笔记"]
-series: ["本科课程"]
+series: ["课程", "数学"]
 series_weight: 1
 ---
 

@@ -22,7 +22,7 @@ rssFullText: true
 enableLastMod: true
 enableWordCount: true
 enableReadingTime: true
-tags: ["C++", "计算机", "许威威", "跨专业选修"]
+tags: ["C++", "计算机", "许威威"]
 categories: ["笔记"]
 series: ["课程", "计算机科学"]
 series_weight: 1

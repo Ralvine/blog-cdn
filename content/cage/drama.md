@@ -16,7 +16,7 @@ comment:
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../movies"><p class="not">影片</p></a>&nbsp;
-  <a href="../movies-docum"><p class="not">视频</p></a>&nbsp;
+  <a href="../video"><p class="not">视频</p></a>&nbsp;
   <p class="now">剧集</p>&nbsp;
   <a href="../music"><p class="not">音乐</p></a>
   <p class="bord">]</p>

@@ -17,11 +17,12 @@ comment:
   <p class="bord">[</p>
   <p class="now">影片</p>&nbsp;
   <a href="../movies-docum"><p class="not">视频</p></a>&nbsp;
-  <a href="../movies-drama"><p class="not">剧集</p></a>
+  <a href="../movies-drama"><p class="not">剧集</p></a>&nbsp;
+  <a href="../music"><p class="not">音乐</p></a>
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">2023</p></center>
+<center><p class="tabtag">院线</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
@@ -311,9 +312,6 @@ comment:
     </div>
   </div>
 </div>
-
-<center><p class="tabtag">2022</p></center>
-
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyYy8.jpg)"></div>
@@ -830,9 +828,6 @@ comment:
     </div>
   </div>
 </div>
-
-<center><p class="tabtag">更早</p></center>
-
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app-3-prime">
     <div class="media-meta-item title">蜘蛛侠：英雄无归<span style="float:right;font-weight:400">奇幻</span></div>
@@ -1627,3 +1622,7 @@ comment:
     <div class="media-meta-item-app intro">施工中...</div>
   </div>
 </div>
+
+<center><p class="tabtag">荧幕</p></center>
+
+<center><p class="tabtag">纪录</p></center>

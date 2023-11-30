@@ -69,7 +69,7 @@ comment:
     </div>
   </div>
 </div>
-<div class="culture-list" cover-src="" json-src="books.json">
+<!-- <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-3-prime">
     <div class="media-meta-item title">南方周末<span style="float:right;font-weight:400">类型施工中</span></div>
     <div class="media-meta-item">
@@ -104,9 +104,9 @@ comment:
     </div>
     <div class="media-meta-item intro">施工中...</div>
   </div>
-</div>
+</div> -->
 
-<center><p class="tabtag">教材</p></center>
+<!-- <center><p class="tabtag">教材</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-3-prime">
@@ -213,4 +213,4 @@ comment:
     </div>
     <div class="media-meta-item intro"></div>
   </div>
-</div>
+</div> -->

@@ -28,7 +28,11 @@ comment:
 [🗞️](https://archive.ph/20160508065740/http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece763104790380e54f722618d97027fa3c215cc795b434462e1bd27250d58d5c37b6c0ba8435fe9e73605765966e8c5dccd179ded9d3f598f3040070bf04505a26eb8ca3632b125872c99b86897ad804684afa2c4a95244bc20127bf0e7fa5c1767cc78f1642692d58e38154861bbfa4063&p=ce769a4786cc42ae10818c264b4c&newp=83578d15d9c040f046a7c7710f0592695c02dc3051d4d54a619e&user=baidu&fm=sc&query=%D5%FE%D6%CE%B7%DB%CB%BF%D4%DA%C4%A4%CA%B2%C3%B4%3F&qid=f1d842620002133f&p1=1) 政治粉丝在膜什么 - 搜狐<br>
 [🗞️](https://chinadigitaltimes.net/chinese/424823.html) “膜蛤”的模因与迷思 - 林中来信<br>
 🗞️ [给中国新媒体的八条标准](../../../xinwen) - 马前卒<br>
-[🗞️](https://zhuanlan.zhihu.com/p/22407366) 说美国的精英教育 一个在美国小学教书老师的亲身经历 - 知乎
+[🗞️](https://zhuanlan.zhihu.com/p/22407366) 说美国的精英教育 一个在美国小学教书老师的亲身经历 - 知乎<br>
+[🗞️](https://www.chuapp.com/?c=Article&a=index&id=284135) 中文 RPG Maker 游戏的过去、现在与未来<br>
+[🗞️](https://zhuanlan.zhihu.com/p/27601629) 风靡一时的《冒险小虎队》去哪儿了？<br>
+[🗞️](https://www.guancha.cn/LiuXueWei/2015_09_15_334232.shtml) 我所亲历的法国精英教育<br>
+[🗞️](https://www.guancha.cn/WanWeiGang/2017_07_04_416366_s.shtml) 美国各阶层教育分析
 {{< /admonition >}}
 
 {{< admonition tip "时政" true false >}}
@@ -75,9 +79,7 @@ comment:
 🗞️ 参与胡耀邦追悼会的回忆 - 炎黄春秋 - 2015年3期<br>
 [🗞️](https://difangwenge.org/forum.php?mod=viewthread&tid=11528) 中南海速记员纪事 - 陈宽宏<br>
 [🗞️](https://www.aisixiang.com/data/49917.html) 新闻立法之路 - 炎黄春秋 - 2012年2期<br>
-
 [🗞️](https://oversea.huanqiu.com/article/9CaKrnJFP9U) APEC蓝与习白发 - 联合早报
-
 {{< /admonition >}}
 
 
@@ -112,6 +114,7 @@ comment:
 [🗞️](https://www.guancha.cn/LiShiMo/2013_06_19_152386.shtml) 两种制度的传说：“元叙事”的终结 - TED<br>
 [🗞️](https://www.guancha.cn/FuLangXiSi-FuShan/2015_03_30_313170.shtml) 李世默对话福山：中美体制比较 - 观察者网<br>
 [🗞️](https://www.guancha.cn/zhangweiwei/2011_11_01_61959.shtml) 变动秩序中的中国与世界<br>
-[🗞️](https://max.book118.com/html/2023/0612/8040002002005100.shtm) 考察美国议会的几点收获和启示 - 人大研究
+[🗞️](https://max.book118.com/html/2023/0612/8040002002005100.shtm) 考察美国议会的几点收获和启示 - 人大研究<br>
+[🗞️](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjTl-WghemCAxU1b_UHHfejC6oQFnoECAgQAQ&url=https%3A%2F%2Fwww.rfi.fr%2Fcn%2F%25E4%25B8%25AD%25E5%259B%25BD%2F20101017-%25E4%25B8%25AD%25E5%259B%25BD%25E5%25AD%25A6%25E8%2580%2585%25E4%25B8%25BA%25E5%2585%25AD%25E5%259B%259B%25E8%25BE%25A9%25E6%258A%25A4%25E5%25AE%259E%25E5%25BD%2595%25E5%25BC%2595%25E5%258F%2591%25E7%2583%25AD%25E8%25AE%25AE%25E5%2592%258C%25E5%258F%258D%25E5%2593%258D&usg=AOvVaw2bA6sqn47fWf5UA8M6DwKv&opi=89978449) 中国学者首次公开为事件辩护实录
 {{< /admonition >}}
 

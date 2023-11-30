@@ -422,7 +422,7 @@ comment:
 
 {{< admonition question "2023" true false >}}
 <div class="culture-list">
-  <div class="media-app-3">
+  <div class="media-app-3-prime">
     <div class="media-meta-item title">MacBook Pro 16 (2019)<span style="float:right;font-weight:400">移动终端</span></div>
     <div class="media-meta-item">
       <span class="author">使用于10月 历时1周</span>
@@ -437,8 +437,8 @@ comment:
       <span class="star-score">★★★★★<span class="grey-star"></span></span>
     </div>
     <div class="media-meta-item-app intro">车头保时捷既视感、杏色内饰、鸿蒙座舱体验极佳，驾驶友好，智驾车机都是独一档。</div>
-  </div><br>
-  <div class="media-app-3-prime">
+  </div>
+  <div class="media-app-3">
     <div class="media-meta-item title">Mi 14<span style="float:right;font-weight:400">移动终端</span></div>
     <div class="media-meta-item">
       <span class="author">体验于10月</span>
@@ -446,7 +446,7 @@ comment:
     </div>
     <div class="media-meta-item-app intro">Hyper OS 稳定了许多，动画略生硬，用料扎实的小屏直板旗舰，可以胜任主力机。</div>
   </div>
-  <div class="media-app-3">
+  <div class="media-app-3-prime">
     <div class="media-meta-item title">Huawei Mate X5<span style="float:right;font-weight:400">移动终端</span></div>
     <div class="media-meta-item">
       <span class="author">体验于10月</span>
@@ -462,7 +462,7 @@ comment:
     </div>
     <div class="media-meta-item-app intro">挤牙膏，C口窄边框和换钛合金后的正常重量都是亮点，若作为13系列是值得购入的。</div>
   </div><br>
-  <div class="media-app-3-prime">
+  <div class="media-app-3">
     <div class="media-meta-item title">Huawei Mate 60 Pro<span style="float:right;font-weight:400">移动终端</span></div>
     <div class="media-meta-item">
       <span class="author">试驾于9月</span>
@@ -470,7 +470,7 @@ comment:
     </div>
     <div class="media-meta-item-app intro">经典圆环+全新拼接设计，实机质感一般，麒麟足以支撑日常，信号续航独一家。</div>
   </div>
-  <div class="media-app-3">
+  <div class="media-app-3-prime">
     <div class="media-meta-item title">Lumia 1020<span style="float:right;font-weight:400">移动终端</span></div>
     <div class="media-meta-item">
       <span class="author">体验于6月</span>

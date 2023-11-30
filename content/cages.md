@@ -50,7 +50,7 @@ comment:
     </a>
   </div>
   <div class="subpage-box-cover-2-left">
-    <a href="../cage/activity" data-pjax-state="">
+    <a href="../cage/project" data-pjax-state="">
       <p class="image-hyper">🌏</p>
       <p class="image-caption">实践</p>
       <img alt="项目" data-src="" src="https://z1.ax1x.com/2023/11/05/piQYui6.jpg" data-loaded="true">

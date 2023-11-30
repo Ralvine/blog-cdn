@@ -15,16 +15,36 @@ comment:
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <p class="now">效率</p>&nbsp;
-  <a href="../tool-art"><p class="not">艺术</p></a>&nbsp;
-  <a href="../tool-sci"><p class="not">学术</p></a>&nbsp;
-  <a href="../tool-dev"><p class="not">科技</p></a>&nbsp;
-  <a href="../tool-social"><p class="not">社会</p></a>
+  <a href="../course"><p class="not">学业</p></a>&nbsp;
+  <p class="now">技术</p>&nbsp;
+  <a href="../hobby"><p class="not">兴趣</p></a>
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">工具</p></center>
+<center><p class="tabtag">开发</p></center>
 
+{{< admonition question "MOOC" true false >}}
+
+<div class="little-box">
+  <div class="little-box-cover">
+    <span class="image-description"><b>算法导论</b>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1Kx411f7bL" target="_blank">MIT</a>
+    </span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>计算机科学</b>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1Mu411Z7LJ" target="_blank">CMU</a>
+    </span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>计算机系统</b>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1iW411d7hd" target="_blank">CMU</a>
+    </span>
+  </div>
+</div>
+{{< /admonition >}}
+
+{{< admonition tip "工具" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b>iStat Menus</b></span>
@@ -55,8 +75,6 @@ comment:
     <span class="image-description"><b>iShot Pro</b></span>
   </div>
 </div>
-
-
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b>Obsidian</b><br>
@@ -81,3 +99,5 @@ comment:
     </span>
   </div>
 </div>
+{{< /admonition >}}
+

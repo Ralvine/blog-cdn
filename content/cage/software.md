@@ -15,14 +15,15 @@ comment:
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <a href="../goods"><p class="not">硬件</p></a>&nbsp;
+  <a href="../hardware"><p class="not">硬件</p></a>&nbsp;
   <p class="now">软件</p>
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">2023</p></center>
+<center><p class="tabtag">App</p></center>
 
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition question "2023" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/91/c6/a2/91c6a29c-4a14-d980-2903-3a7d56bc4989/AppIcon-0-0-1x_U007emarketing-0-10-0-0-sRGB-85-220.jpeg/460x0w.webp)"></div>
     <div class="media-meta">
@@ -100,10 +101,10 @@ comment:
     <div class="media-meta-item-app intro">施工中...</div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">2022</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition tip "2022" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fc/da/61/fcda61bb-d07b-9136-c029-487076f45644/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/460x0w.webp)"></div>
     <div class="media-meta">
@@ -127,10 +128,10 @@ comment:
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">2021</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition success "2021" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/06/c7/c706c7fb-6250-f0e5-f2ea-3b657b79c906/AppIcon-2x-4-85-220.png/460x0w.webp);background-size: 113px 113px;"></div>
     <div class="media-meta">
@@ -187,7 +188,7 @@ comment:
     </div>
   </div>
 </div>
-<div class="culture-list" cover-src="" json-src="books.json">
+<div class="culture-list">
   <div class="media-app-3-prime">
     <div class="media-meta-item title">阅读记录<span style="float:right;font-weight:400">效率</span></div>
     <div class="media-meta-item">
@@ -205,10 +206,10 @@ comment:
     <div class="media-meta-item-app intro">施工中...</div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">2020</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition info "2020" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c8/bf/21/c8bf2180-ddb2-3935-5c28-3ef958366908/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
     <div class="media-meta">
@@ -342,10 +343,10 @@ comment:
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">更早</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition failure "更早" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/58/00/fc/5800fc54-23eb-e2a1-408a-4eaccb20231e/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/460x0w.webp)"></div>
     <div class="media-meta">
@@ -358,5 +359,4 @@ comment:
     </div>
   </div>
 </div>
-
-<center><br><br>🔐<br>更多App搬运中</center>
+{{< /admonition >}}

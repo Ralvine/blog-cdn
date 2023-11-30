@@ -16,13 +16,14 @@ comment:
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">硬件</p>&nbsp;
-  <a href="../goods-app"><p class="not">软件</p></a>
+  <a href="../software"><p class="not">软件</p></a>
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">2023</p></center>
+<center><p class="tabtag">主力</p></center>
 
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition question "2023" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(http://www.sigma-photo.com.cn/common/lenses/cas/product/contemporary/c_56_14/index/images/design-detail_image.jpg); background-size: 150px 70px;"></div>
     <div class="media-meta">
@@ -75,67 +76,11 @@ comment:
     </div>
     <div class="media-meta-item-app intro">实习办公本，旧模具更精致但割手，不烫的 Touch Bar 体验不错，特别轻薄便携。</div>
   </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">MacBook Pro 16 (2019)<span style="float:right;font-weight:400">移动终端</span></div>
-    <div class="media-meta-item">
-      <span class="author">使用于10月 历时1周</span>
-      <span class="star-score">★★<span class="grey-star">☆☆☆</span></span>
-    </div>
-    <div class="media-meta-item-app intro">Intel MBP 特有的严重发热和卡顿，16英寸的工业设计也十分单调。</div>
-  </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">问界 M5 智驾版<span style="float:right;font-weight:400">设备配件</span></div>
-    <div class="media-meta-item">
-      <span class="author">试驾于10月</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">车头保时捷既视感、杏色内饰、鸿蒙座舱体验极佳，驾驶友好，智驾车机都是独一档。</div>
-  </div><br>
-  <div class="media-app-3-prime">
-    <div class="media-meta-item title">Mi 14<span style="float:right;font-weight:400">移动终端</span></div>
-    <div class="media-meta-item">
-      <span class="author">体验于10月</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item-app intro">Hyper OS 稳定了许多，动画略生硬，用料扎实的小屏直板旗舰，可以胜任主力机。</div>
-  </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">Huawei Mate X5<span style="float:right;font-weight:400">移动终端</span></div>
-    <div class="media-meta-item">
-      <span class="author">体验于10月</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">迄今体验过最佳的折叠屏旗舰，生态适配良好，重量和耐用性都已足够完备。</div>
-  </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">iPhone 15 Pro Max<span style="float:right;font-weight:400">移动终端</span></div>
-    <div class="media-meta-item">
-      <span class="author">体验于9月</span>
-      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
-    </div>
-    <div class="media-meta-item-app intro">挤牙膏，C口窄边框和换钛合金后的正常重量都是亮点，若作为13系列是值得购入的。</div>
-  </div><br>
-  <div class="media-app-3-prime">
-    <div class="media-meta-item title">Huawei Mate 60 Pro<span style="float:right;font-weight:400">移动终端</span></div>
-    <div class="media-meta-item">
-      <span class="author">试驾于9月</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item-app intro">经典圆环+全新拼接设计，实机质感一般，麒麟足以支撑日常，信号续航独一家。</div>
-  </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">Lumia 1020<span style="float:right;font-weight:400">移动终端</span></div>
-    <div class="media-meta-item">
-      <span class="author">体验于6月</span>
-      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
-    </div>
-    <div class="media-meta-item-app intro">经典机型，「奥利奥」摄像头和氖光灯很亮眼，但单论用料和体验在当时也很一般。</div>
-  </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">2022</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition tip "2022" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://www.apple.com.cn/v/airpods/shared/compare/d/images/compare/compare_airpods_pro__e9uzt0mzviem_large_2x.png)"></div>
     <div class="media-meta">
@@ -181,10 +126,10 @@ comment:
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">2021</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition success "2021" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://www.apple.com.cn/v/mac/compare/z/images/overview/compare_macbook_pro_14_spacegray__gd16wbpyw7ee_large_2x.jpg); background-size: 100px 70px;"></div>
     <div class="media-meta">
@@ -318,10 +263,10 @@ comment:
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">2020</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition info "2020" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3j5Os.jpg)"></div>
     <div class="media-meta">
@@ -378,10 +323,10 @@ comment:
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">更早</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
+{{< admonition failure "更早" true false >}}
+<div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://ts1.cn.mm.bing.net/th/id/R-C.65f233c0ca66ba0215dc4006271d0cfb?rik=nV4UFA911vfRcw&riu=http%3a%2f%2ffiles.toodaylab.com%2f2014%2f12%2fmeilannote_20141223165531_01.jpg&ehk=ZyObSz0craOFhSj7V4iadToM2hpwWmkoY0%2bkU%2bF0SU8%3d&risl=&pid=ImgRaw&r=0); background-size: 90px 90px;"></div>
     <div class="media-meta">
@@ -471,3 +416,67 @@ comment:
     </div>
   </div>
 </div>
+{{< /admonition >}}
+
+<center><p class="tabtag">体验</p></center>
+
+{{< admonition question "2023" true false >}}
+<div class="culture-list">
+  <div class="media-app-3">
+    <div class="media-meta-item title">MacBook Pro 16 (2019)<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">使用于10月 历时1周</span>
+      <span class="star-score">★★<span class="grey-star">☆☆☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">Intel MBP 特有的严重发热和卡顿，16英寸的工业设计也十分单调。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">问界 M5 智驾版<span style="float:right;font-weight:400">设备配件</span></div>
+    <div class="media-meta-item">
+      <span class="author">试驾于10月</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">车头保时捷既视感、杏色内饰、鸿蒙座舱体验极佳，驾驶友好，智驾车机都是独一档。</div>
+  </div><br>
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">Mi 14<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于10月</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">Hyper OS 稳定了许多，动画略生硬，用料扎实的小屏直板旗舰，可以胜任主力机。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">Huawei Mate X5<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于10月</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">迄今体验过最佳的折叠屏旗舰，生态适配良好，重量和耐用性都已足够完备。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">iPhone 15 Pro Max<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于9月</span>
+      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">挤牙膏，C口窄边框和换钛合金后的正常重量都是亮点，若作为13系列是值得购入的。</div>
+  </div><br>
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">Huawei Mate 60 Pro<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">试驾于9月</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">经典圆环+全新拼接设计，实机质感一般，麒麟足以支撑日常，信号续航独一家。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">Lumia 1020<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于6月</span>
+      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">经典机型，「奥利奥」摄像头和氖光灯很亮眼，但单论用料和体验在当时也很一般。</div>
+  </div>
+</div>
+{{< /admonition >}}

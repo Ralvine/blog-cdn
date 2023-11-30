@@ -15,6 +15,7 @@ comment:
 
 <div class="nav-tab">
   <p class="bord">[</p>
+  <a href="../project"><p class="not">项目</p></a>&nbsp;
   <a href="../activity"><p class="not">活动</p></a>&nbsp;
   <p class="now">组织</p>
   <p class="bord">]</p>

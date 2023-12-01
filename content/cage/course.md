@@ -239,7 +239,7 @@ comment:
 </div>
 {{< /admonition >}}
 
-{{< admonition tip "教材" true false >}}
+<!-- {{< admonition tip "教材" true false >}}
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-3-prime">
     <div class="media-meta-item title">实变函数<span style="float:right;font-weight:400">数学</span></div>
@@ -347,3 +347,4 @@ comment:
   </div>
 </div>
 {{< /admonition >}}
+ -->

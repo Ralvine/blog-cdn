@@ -759,23 +759,15 @@
     box-sizing: border-box;
     padding-left: 10px;
     font-size: .8em;
-    line-height:1.8em;
+    line-height:1.6em;
 }
-
-/*.media-meta-item-music {
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 10px;
-    font-size: .8em;
-    line-height:1.8em;
-}*/
 
 .media-meta-item-app {
     width: 100%;
     box-sizing: border-box;
     padding-left: 10px;
     font-size: .8em;
-    line-height:1.8em;
+    line-height:1.6em;
 }
 
 .media-meta-item.title {
@@ -793,23 +785,9 @@
     line-height: 1.1rem;
     border-top: .1px solid #dddddd;
     padding-top: .2rem;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient:vertical
-}
-
-/*.media-meta-item-music.intro {
-    text-align: justify;
-    display: -webkit-box;
-    overflow: hidden;
-    white-space: normal !important;
-    text-overflow: ellipsis;
-    overflow-wrap: break-word;
-    line-height: 1.1rem;
-    border-top: .1px solid #dddddd;
-    padding-top: .2rem;
     -webkit-line-clamp: 6;
     -webkit-box-orient:vertical
-}*/
+}
 
 .media-meta-item-app.intro {
     text-align: justify;
@@ -821,7 +799,7 @@
     border-top: .1px solid #dddddd;
     padding-top: .2rem;
     overflow-wrap: break-word;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient:vertical
 }
 

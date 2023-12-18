@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 政党制度与统战工作：建国以来的历史变迁
 # subtitle: 副标题.
 date: 2018-12-20T20:20:40+08:00
 lastmod: 2018-12-20T20:25:40+08:00
-draft: false
 description: 邓小平在这份材料上批示：“可组织一个专门小组（成员要有民主党派的），专门拟定民主党派成员参政和履行监督职责的方案，并在一年内完成，明年开始实行。”
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAUwrT.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAUwrT.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["炎黄春秋", "政党", "邓小平"]
 categories: ["札录"]
 series: ["阅览", "观点", "政治"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

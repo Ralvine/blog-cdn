@@ -1,32 +1,15 @@
 ---
-authors: [Ralvine]
 title: SQL 技术栈基本语法
 # subtitle: 副标题.
 date: 2023-10-22T20:20:40+08:00
 lastmod: 2023-11-05T20:25:40+08:00
-draft: false
 description: SQL有许多分支，但它们的基本逻辑是贯通的。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAtBlV.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAtBlV.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["数据开发", "数据库", "数据仓库"]
 categories: ["笔记"]
 series: ["探索", "数据科学"]
-series_weight: 1
 mindmap: true
+hiddenFromHomePage: true
 ---
 
 <!--more-->

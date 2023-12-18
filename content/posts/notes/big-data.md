@@ -1,31 +1,13 @@
 ---
-authors: [Ralvine]
 title: 大数据基本理论
 subtitle: 
 date: 2023-10-22T20:20:40+08:00
 lastmod: 2023-10-22T20:25:40+08:00
-draft: false
 description: 大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。
-#license: MI
-images: ["https://z1.ax1x.com/2023/10/23/piApGh6.jpg"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piApGh6.jpg"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["大数据", "数据开发", "数据库"]
 categories: ["笔记"]
 series: ["探索", "数据科学"]
-series_weight: 1
 ---
 
 <!--more-->

@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 数据结构与算法
 # subtitle: 副标题.
 date: 2021-09-01T20:20:40+08:00
 lastmod: 2021-09-01T20:25:40+08:00
-draft: false
 description: 21-22 秋冬学期「数据结构与算法」课程学习笔记。
-#license: MI
-images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["C++", "数据结构", "王何宇"]
 categories: ["笔记"]
 series: ["课程", "数学"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

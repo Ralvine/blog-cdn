@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 现代化的代价
 subtitle: 「政治经济学」读书报告与课程论文
 date: 2023-03-01T20:20:40+08:00
 lastmod: 2023-07-04T20:25:40+08:00
-draft: false
 description: “两头在外”的工业化与投资驱动转向要素驱动。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piA8qxO.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piA8qxO.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["王宇", "八次危机", "工业化"]
 categories: ["随笔"]
 series: ["课程", "经济"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

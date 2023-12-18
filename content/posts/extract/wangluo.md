@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 网络时代的公开化与民主化
 # subtitle: 副标题.
 date: 2015-01-01T20:20:40+08:00
 lastmod: 2023-11-27T20:25:40+08:00
-draft: false
 description: 俞正声抬头缓缓说道：“党的未来取决于党本身，而不是取决于他人。我们党本身如果能够坚强，能够克服自身的弊端，党的未来是光明的；如果党本身是软弱无力的，这个党是没有希望的。”
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAN2DS.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAN2DS.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["汪洋", "政治", "俞正声", "韩正", "蔡奇"]
 categories: ["札录"]
 series: ["阅览", "观点", "时政"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

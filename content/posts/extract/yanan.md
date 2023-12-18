@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 漫长的革命：延安往事
 # subtitle: 副标题.
 date: 2022-10-27T20:20:40+08:00
 lastmod: 2022-10-27T20:25:40+08:00
-draft: false
 description: 四亿五千万人民生产和消费的力量，不是一件能完全由中国人来管的事情，而必须要许多国家来参加。我们几万万的人民，一旦获得真正的解放，把他们巨大的潜在的生产力用在各方面创造性的活动上，能够帮助改善全世界经济和提高全世界文化的水准。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/11/04/piQlkMn.jpg"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/04/piQlkMn.jpg"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["共产党", "民主", "延安"]
 categories: ["札录"]
 series: ["阅览", "书籍", "历史"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

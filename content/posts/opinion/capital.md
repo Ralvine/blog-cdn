@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 符号权力的三十年
 subtitle: 「政治经济学导论」课程论文
 date: 2023-04-29T20:20:40+08:00
 lastmod: 2023-06-29T20:25:40+08:00
-draft: false
 description: 符号逻辑下的身份叙事，巧妙地编织起资本主义时代置身于统治机器中的自由幻觉。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAGKJ0.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["经济", "资本", "俞彬"]
 categories: ["随笔"]
 series: ["课程", "历史", "经济"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

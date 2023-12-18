@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 刘慈欣短篇科幻小说合集选摘
 # subtitle: 副标题.
 date: 2022-12-01T20:20:40+08:00
 lastmod: 2022-12-01T20:25:40+08:00
-draft: false
 description: 很遗憾，如果没有高级文明的培植，他们还要在亚光速和三维时空中被禁锢两千年，至少还需一千年时间才能掌握和使用湮灭能量……至少要一万年，他们才具备加入银河系碳基文明大家庭的起码条件。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/11/04/piMvzND.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/04/piMvzND.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["刘慈欣", "科幻"]
 categories: ["札录"]
 series: ["阅览", "书籍", "文学"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

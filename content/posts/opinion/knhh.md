@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 解构苦难，建构辉煌
 subtitle: 「中国近现代史纲要」课程论文
 date: 2021-01-10T20:20:40+08:00
 lastmod: 2021-01-10T20:25:40+08:00
-draft: false
 description: 经历苦难是成就辉煌的必要条件，承续中国共产党革命精神的时代意义寓于对统一战线、群众立场、坚韧品性、坚定信念等中共得以在艰苦卓绝的奋斗中取得革命胜利的系统要素之中。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAfKt1.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAfKt1.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["苦难辉煌", "金一南"]
 categories: ["随笔"]
 series: ["课程", "历史"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

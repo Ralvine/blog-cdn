@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 建国以来意识形态思潮的历史演变与民族叙事的构建
 # subtitle: 副标题.
 date: 2016-11-06T20:20:40+08:00
 lastmod: 2023-11-27T20:25:40+08:00
-draft: false
 description: 左派只有把自己阵营中的资产阶级思想及资产阶级分子彻底清理，才能一步步走向成熟；其过程可能会伴随诸多痛苦，但这是我们必须要走的路。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAN891.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAN891.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["新左派", "傅士卓", "马前卒"]
 categories: ["札录"]
 series: ["阅览", "观点", "政治"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

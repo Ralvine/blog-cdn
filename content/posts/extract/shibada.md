@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 改革进入深水区：新历史节点的关键抉择
 subtitle: 记十八大以来的全面深化改革
 date: 2017-11-01T20:20:40+08:00
 lastmod: 2023-11-04T20:25:40+08:00
-draft: false
 description: 历届三中全会研究什么议题、作出什么决定、采取什么举措、释放什么信号，是人们判断新一届中央领导集体施政方针和工作重点的重要依据。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/31/pinlcqO.jpg"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/31/pinlcqO.jpg"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["习近平", "反腐", "十八大", "改革"]
 categories: ["札录"]
 series: ["阅览", "观点", "时政"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

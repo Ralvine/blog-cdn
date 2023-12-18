@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 救火队长王岐山
 # subtitle: 副标题.
 date: 2017-02-20T20:20:40+08:00
 lastmod: 2023-10-31T20:25:40+08:00
-draft: false
 description: 王岐山准备用五年时间坚决遏制腐败的势头，为党风的根本好转打下基础。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/11/04/piQQ8US.jpg"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/04/piQQ8US.jpg"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["王岐山", "反腐"]
 categories: ["札录"]
 series: ["阅览", "观点", "人物"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

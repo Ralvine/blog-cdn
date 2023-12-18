@@ -1,30 +1,15 @@
 ---
-authors: [Ralvine]
 title: 四月随想：与时舒卷
 # subtitle: 副标题.
 date: 2023-04-22T13:20:40+08:00
 lastmod: 2023-04-22T13:25:40+08:00
-draft: false
 description: 突然间，我意识到这样一件事实——自己是“非常需要进入状态”的一类人。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/11/03/piM2X0P.jpg"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/03/piM2X0P.jpg"
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["四月"]
 categories: ["生活"]
 series: ["复盘"]
-series_weight: 1
 password: test
+hiddenFromHomePage: true
 ---
 
 <!--more-->

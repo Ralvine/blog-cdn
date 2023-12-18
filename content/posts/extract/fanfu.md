@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 输不起的斗争
 subtitle: 十八大以来反腐败进程实录
 date: 2020-02-15T20:20:40+08:00
 lastmod: 2023-11-01T20:25:40+08:00
-draft: false
 description: 反腐败不是看人下菜的“势利店”，不是争权夺利的“纸牌屋”，也不是有头无尾的“烂尾楼”。我们不舒服一点、不自在一点，老百姓的舒适度就好一点、满意度就高一点，对我们的感觉就好一点。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piANV10.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piANV10.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["王岐山", "反腐", "十八大"]
 categories: ["札录"]
 series: ["阅览", "观点", "时政"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 多元文化政策、精英治理与选举民主的话语转轨
 # subtitle: 副标题.
 date: 2018-12-20T20:20:40+08:00
 lastmod: 2018-12-20T20:25:40+08:00
-draft: false
 description: （十八大）5年之后，现在的7个常委中的5个人都要退休，这种5年之内就有绝大多数政治局常委出现轮换的情况在改革以来是非常罕见的。这将直接给中国政策的连贯性带来挑战。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/11/04/piQnslq.jpg"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/04/piQnslq.jpg"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["炎黄春秋", "傅士卓", "选举", "精英"]
 categories: ["札录"]
 series: ["阅览", "观点", "政治"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

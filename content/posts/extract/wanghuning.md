@@ -1,31 +1,13 @@
 ---
-authors: [Ralvine]
 title: 王沪宁，与他政治的人生
 # subtitle: 副标题.
 date: 2017-02-20T20:20:40+08:00
 lastmod: 2023-10-31T20:25:40+08:00
-draft: false
 description: 在现代个人主义文化的弘扬过程中，个人获得了自由，但是却孤独了。如果中国的市场经济进一步发展，最后导致个人的自由领域的扩大，但是最后可能不是一种更加多的民主，而是弗洛姆所说的“逃避自由”。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piA3TgS.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piA3TgS.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["王沪宁", "政治", "复旦"]
 categories: ["札录"]
 series: ["阅览", "书籍", "人物"]
-series_weight: 1
 ---
 
 <!--more-->

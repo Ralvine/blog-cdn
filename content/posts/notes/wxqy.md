@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 时代、经典与她的叙事
 subtitle: 「当代文学前沿问题」发言记录
 date: 2021-03-30T20:20:40+08:00
 lastmod: 2021-03-30T20:25:40+08:00
-draft: false
 description: 20-21 春夏学期「当代文学前沿问题研究」课程学习笔记与讨论课发言记录。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["文学", "吴秀明", "陈力君", "通识"]
 categories: ["笔记"]
 series: ["课程", "文化"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

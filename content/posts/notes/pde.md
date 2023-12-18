@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 偏微分方程绪论
 #subtitle: 副标题.
 date: 2023-03-01T20:20:40+08:00
 lastmod: 2023-07-01T20:25:40+08:00
-draft: false
 description: 21-22 春夏学期「偏微分方程」课程导论学习笔记。
-#license: MI
-images: ["https://z1.ax1x.com/2023/10/23/piAW5eH.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["微分方程", "鲁汪涛", "孔德兴"]
 categories: ["笔记"]
 series: ["课程", "数学"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

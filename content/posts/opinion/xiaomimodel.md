@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 小米AIoT领域前瞻与她的生态盈利模式
 subtitle: 
 date: 2022-11-22T20:20:40+08:00
 lastmod: 2022-11-22T20:25:40+08:00
-draft: false
 description: 「商业模式」课程思考。
-#license: MIT
-images: 
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/12/03/piy01cd.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["商业", "品牌", "生态"]
 categories: ["随笔"]
 series: ["课程", "商业"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

@@ -1,30 +1,13 @@
 ---
-authors: [Ralvine]
 title: 火车开往破晓
 subtitle: 武汉小记
 date: 2023-05-04T20:20:40+08:00
 lastmod: 2023-11-24T20:25:40+08:00
-draft: false
 description: 昔人已乘黄鹤去，此地空余黄鹤楼。
-#license: MIT
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://pic.imgdb.cn/item/655c9426c458853aefc572c8.jpg"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["武汉", "热干面", "黄鹤楼"]
 categories: ["生活"]
 series: ["光影", "时刻"]
-series_weight: 1
 ---
 
 <!--more-->

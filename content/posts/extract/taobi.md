@@ -1,30 +1,13 @@
 ---
-authors: [Ralvine]
 title: 告别完美主义幻想
 # subtitle: 副标题.
 date: 2023-04-17T20:20:40+08:00
 lastmod: 2023-11-23T20:25:40+08:00
-draft: false
 description: 我们或许认为自己需要修复，但是通常试图修复的只是自己那些支离破碎的幻想、自我形象和造成痛苦的扭曲想法。我们不需要修复自己。我们唯有放下虚幻，才能体验真实；唯有找回自己在谎言中流失的活力，才能重新接受自我。
-#license: MIT
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/21/piaE5nJ.jpg"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["完美主义", "逃避"]
 categories: ["札录"]
 series: ["阅览","图书", "心理"]
-series_weight: 1
 ---
 
 <!--more-->

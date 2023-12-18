@@ -1,31 +1,14 @@
 ---
-authors: [Ralvine]
 title: 效率与资本
 subtitle: 「理解马克思」课程论文
 date: 2020-11-01T20:20:40+08:00
 lastmod: 2020-11-01T20:25:40+08:00
-draft: false
 description: 从阶级内因角度阐释对工会动议被否决所持的各方共同失败之核心观点，并对其指向的当代经济基础新变化背景以及中美劳资关系差异背后的阶级矛盾共性实质作出相应的评价。
-#license: MIT
-images: ["https://z1.ax1x.com/2023/10/24/piEyqgg.png"]
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/10/24/piEyqgg.png"
-hiddenFromHomePage: false
-hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["阶级", "矛盾"]
 categories: ["随笔"]
 series: ["课程", "政治"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->

@@ -1,29 +1,15 @@
 ---
-authors: [Ralvine]
 title: 分类问题中的 k 近邻法
 date: 2023-10-30T20:20:40+08:00
 lastmod: 2023-10-30T20:25:40+08:00
-draft: false
 description: kNN算法是一种基于特征向量空间的分类和回归算法，通过测量不同特征值之间的距离来进行预测。
-#license: MIT
-#seriesNavigation: 系列导航.
-featuredImage: 
 featuredImagePreview: "https://z1.ax1x.com/2023/11/01/piuKE6K.png"
 hiddenFromHomePage: false
 hiddenFromSearch: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: true
-enableLastMod: true
-enableWordCount: true
-enableReadingTime: true
 tags: ["统计学习", "分类", "算法"]
 categories: ["笔记"]
 series: ["课程", "数学"]
-series_weight: 1
+hiddenFromHomePage: true
 ---
 
 <!--more-->
